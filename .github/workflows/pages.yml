@@ -1,4 +1,8 @@
-name: Deploy to GitHub Pages
+name: Build & publish to gh-pages
+
+# 思路：Actions 只做「构建 + 把 site/ 推到 gh-pages 分支」，不调用 Pages API。
+# 早期用 actions/configure-pages 自动建站会失败（GITHUB_TOKEN 无权创建 Pages 站点：
+# "Resource not accessible by integration"）。改成推分支后，Pages 只需指向 gh-pages 的根目录。
 
 on:
   push:
@@ -6,42 +10,39 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: gh-pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
+
       - run: npm ci
       - run: npm run validate-data
       - run: npm run test
-      # 静态站点直接构建到 site/，由下面的 artifact 上传
       - run: npm run build
-      - uses: actions/configure-pages@v5
-        with:
-          # 首次运行时自动把仓库的 Pages 源切换为 GitHub Actions，省掉手工设置
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      # 把 site/ 的内容推到 gh-pages 分支根目录（不需要任何 Pages API 权限）
+      - name: Publish site/ to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          cd site
+          git init -q
+          git checkout -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "deploy: ${GITHUB_SHA:0:7}"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+          echo "已发布到 gh-pages：https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
