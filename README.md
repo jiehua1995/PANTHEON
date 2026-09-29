@@ -140,32 +140,38 @@ npm run analyze-answers -- --synthesize 12 --noise 0.7 --repeat 10   # 噪声敏
 
 ## GitHub Pages 部署
 
-构建产物默认输出到 `site/`（`npm run build`）。GitHub Pages 有两种接法：
+构建产物默认输出到 `site/`（`npm run build`）。仓库里带了一个 workflow：`.github/workflows/pages.yml`，推送到 `main` 时它会跑 `validate-data → test → build`，然后把 `site/` 的内容推到 **`gh-pages` 分支的根目录**。
 
-**A. GitHub Actions（推荐，`site/` 目录名不受限制）**
+> 为什么不用 `actions/configure-pages` 自动建站：用 GITHUB_TOKEN 创建 Pages 站点会被拒（`Resource not accessible by integration`）。推分支只需要 `contents: write`，权限干净、不会再撞这个限制。
 
-仓库里已带 `.github/workflows/pages.yml`：推送到 `main` 后自动跑 `validate-data` → `test` → `build`，并把 `site/` 发布为 Pages。仓库设置里把 Source 选成 **GitHub Actions** 即可。
+**仓库里需要设置的唯一一件事**（只需一次）：
 
-**B. 分支部署（不用 Actions）**
+> Settings → **Pages** → Build and deployment → Source 选 **Deploy from a branch** → Branch 选 **`gh-pages`** → 目录选 **`/ (root)`** → Save
 
-GitHub 的“Deploy from a branch”只允许选仓库根目录或 `/docs`，所以要走这条路时用：
+之后访问：`https://<user>.github.io/<repo>/`（本项目当前是 https://jiehua1995.github.io/PANTHEON/ ）。GitHub 的分支部署只允许「仓库根目录」或「/docs」，所以不要把 Source 指到 `main`——那样渲染的是源码树（页面会去请求 `/src/main.ts`，看起来是白屏）。
+
+**如果你更想用 `docs/` 而不是另开分支**：
 
 ```bash
 npm run build:pages        # 输出到 docs/
-git add docs && git commit -m "build" && git push
+git add docs && git commit -m "build: docs" && git push
 ```
 
-然后把 Pages 设为 `main` / `/docs`。
+再把 Pages source 设成 `main` / `/docs`，并删掉 `.github/workflows/pages.yml`（两者别同时用，否则会互相覆盖）。
 
-两种方式都成立的原因：`vite.config.ts` 用 `base: './'`，资源全部相对路径，因此 `https://<user>.github.io/<repo>/` 子路径无需额外配置；`public/.nojekyll` 随构建进入产物目录，避免 Pages 的 Jekyll 处理。
+本地验证构建产物：
+
+```bash
+npm run build && npm run preview     # http://localhost:4173
+```
 
 ## 目录
 
 ```
 data/         JSON 数据源：dimensions / metadata / relationships / deities / questions
 design/       设计文档（不要放进构建输出目录，会被 emptyOutDir 清空）
-site/         构建产物（npm run build），Actions 部署用这个目录
-docs/         可选：npm run build:pages 的产物，供「分支 + /docs」部署
+site/         构建产物（npm run build）；CI 会把它推到 gh-pages 分支
+docs/         可选：npm run build:pages 的产物，供「main + /docs」部署
 public/       直出资源（.nojekyll）
 scripts/      validate-data / simulate / analyze-answers / audit-content / show-report / review-sheet / test-cli
 src/schema/   TS 类型（types.ts）+ 数据加载器（load-data.ts）

@@ -35,7 +35,7 @@ Vue 3 + TypeScript + Vite + Tailwind CSS v4 + Vitest。ECharts（`echarts/core` 
 
 **设计文档放在 `design/`，不要放进构建输出目录**：`site/`（或 `docs/`）是 Vite 的输出目录且 `emptyOutDir: true`，每次 build 都会清空它，混放会被静默删除。
 
-**构建产物要不要提交，取决于部署方式**：用 GitHub Actions（`.github/workflows/pages.yml` 发布 `site/`）时不需要提交；用“Deploy from a branch → main → /docs”时必须提交 `docs/`。GitHub 只允许分支部署指向仓库根目录或 `/docs`，所以 Actions 路线用 `site/`，分支路线用 `npm run build:pages` 输出 `docs/`。
+**构建产物要不要提交，取决于部署方式**：当前流程由 CI 把 `site/` 推到 `gh-pages` 分支，`main` 里保留一份 `site/` 只是方便本地/离线打开；若改用「Deploy from a branch → main → /docs」，则需要提交 `docs/`（`npm run build:pages`）。GitHub 的分支部署只允许仓库根目录或 `/docs`。
 
 ## 4. 数据格式：JSON 而非 YAML
 
@@ -78,11 +78,10 @@ GitHub Pages 无 SPA fallback，因此使用 **hash 路由**（`/#/`、`/#/test`
 npm run validate-data   # 数据门禁
 npm run test            # 单测
 npm run build           # vue-tsc + vite build → site/
-npm run build:pages     # 同上，输出到 docs/（分支部署用）
-git add site && git commit -m "build" && git push
+npm run build:pages     # 同上，输出到 docs/（main + /docs 部署用）
 ```
 
-Pages 设置：Actions 路线选 `GitHub Actions`；分支路线选 `Deploy from a branch`，`main` + `/docs`。
+Pages 设置：`Deploy from a branch` → `gh-pages` + `/ (root)`（CI 会把 `site/` 推到该分支）；若改用 `main` + `/docs`，则用 `npm run build:pages` 并停用 workflow。
 
 ## 9. 运行环境
 
