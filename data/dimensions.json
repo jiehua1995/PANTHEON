@@ -1,0 +1,146 @@
+[
+  {
+    "id": "power",
+    "zh": "权力",
+    "en": "Power",
+    "core": true,
+    "negative": { "zh": "自主 / 去中心 / 抗控制", "en": "Autonomy" },
+    "positive": { "zh": "掌控 / 统御 / 集中权力", "en": "Dominion" },
+    "question": "你是否希望决定方向？"
+  },
+  {
+    "id": "order",
+    "zh": "秩序",
+    "en": "Order",
+    "core": false,
+    "negative": { "zh": "自发 / 混沌 / 开放", "en": "Spontaneity" },
+    "positive": { "zh": "结构 / 秩序 / 规则", "en": "Structure" },
+    "question": "世界需要被安排，还是需要被放手？"
+  },
+  {
+    "id": "reason",
+    "zh": "理性",
+    "en": "Reason",
+    "core": true,
+    "negative": { "zh": "直觉 / 感受 / 启示", "en": "Intuition" },
+    "positive": { "zh": "分析 / 逻辑 / 推演", "en": "Analysis" },
+    "question": "你更相信推演，还是更相信感知？"
+  },
+  {
+    "id": "creation",
+    "zh": "创造",
+    "en": "Creation",
+    "core": true,
+    "negative": { "zh": "守护 / 保存 / 延续", "en": "Preservation" },
+    "positive": { "zh": "发明 / 重构 / 创造", "en": "Invention" },
+    "question": "面对已有之物，你更想保住它还是重做它？"
+  },
+  {
+    "id": "social",
+    "zh": "联结",
+    "en": "Social",
+    "core": false,
+    "negative": { "zh": "独行 / 自足 / 疏离", "en": "Solitude" },
+    "positive": { "zh": "联结 / 社群 / 协作", "en": "Community" },
+    "question": "你的力量来自独自还是来自彼此？"
+  },
+  {
+    "id": "morality",
+    "zh": "道义",
+    "en": "Morality",
+    "core": false,
+    "negative": { "zh": "情境 / 结果主义", "en": "Situational" },
+    "positive": { "zh": "原则 / 道义主义", "en": "Principle" },
+    "question": "规则与结果冲突时，你站在哪一边？"
+  },
+  {
+    "id": "desire",
+    "zh": "欲望",
+    "en": "Desire",
+    "core": true,
+    "negative": { "zh": "克制 / 自律 / 节制", "en": "Restraint" },
+    "positive": { "zh": "欲望 / 体验 / 沉浸", "en": "Immersion" },
+    "question": "你与自己的欲望是同盟还是对手？"
+  },
+  {
+    "id": "conflict",
+    "zh": "冲突",
+    "en": "Conflict",
+    "core": false,
+    "negative": { "zh": "谋略 / 间接 / 博弈", "en": "Indirection" },
+    "positive": { "zh": "正面对抗 / 征服", "en": "Confrontation" },
+    "question": "你如何解决挡在路上的东西？"
+  },
+  {
+    "id": "world",
+    "zh": "世界",
+    "en": "World",
+    "core": true,
+    "negative": { "zh": "适应世界", "en": "Adapt" },
+    "positive": { "zh": "改造世界", "en": "Reshape" },
+    "question": "世界是给定的，还是待改的？"
+  },
+  {
+    "id": "identity",
+    "zh": "身份",
+    "en": "Identity",
+    "core": false,
+    "negative": { "zh": "流动 / 多面 / 变形", "en": "Fluid" },
+    "positive": { "zh": "稳定 / 连续 / 明确身份", "en": "Stable" },
+    "question": "“我是谁”对你是一个答案还是一个过程？"
+  },
+  {
+    "id": "time",
+    "zh": "时间",
+    "en": "Time",
+    "core": true,
+    "negative": { "zh": "即时 / 当下 / 爆发", "en": "Immediate" },
+    "positive": { "zh": "长期 / 延迟满足 / 布局", "en": "Long game" },
+    "question": "你为当下活着，还是为十年后布局？"
+  },
+  {
+    "id": "risk",
+    "zh": "风险",
+    "en": "Risk",
+    "core": true,
+    "negative": { "zh": "谨慎 / 安全", "en": "Caution" },
+    "positive": { "zh": "冒险 / 越界", "en": "Transgression" },
+    "question": "边界对你是保护还是挑衅？"
+  },
+  {
+    "id": "authority",
+    "zh": "权威",
+    "en": "Authority",
+    "core": true,
+    "negative": { "zh": "质疑 / 反权威", "en": "Questioning" },
+    "positive": { "zh": "合法性 / 制度 / 等级", "en": "Legitimacy" },
+    "question": "他人的权威需要被证明，还是应当被默认？"
+  },
+  {
+    "id": "empathy",
+    "zh": "共情",
+    "en": "Empathy",
+    "core": false,
+    "negative": { "zh": "抽离 / 客观 / 工具理性", "en": "Detachment" },
+    "positive": { "zh": "共情 / 关怀 / 情绪联结", "en": "Attunement" },
+    "question": "别人的情绪对你是信息还是噪音？"
+  },
+  {
+    "id": "sacrifice",
+    "zh": "牺牲",
+    "en": "Sacrifice",
+    "core": false,
+    "negative": { "zh": "自我保存", "en": "Self-preservation" },
+    "positive": { "zh": "为理念 / 他人 / 目标支付自身代价", "en": "Self-cost" },
+    "question": "你愿意为自己相信的事付出多少自己？"
+  },
+  {
+    "id": "transcendence",
+    "zh": "超越",
+    "en": "Transcendence",
+    "core": false,
+    "negative": { "zh": "现实 / 物质 / 实证", "en": "Immanent" },
+    "positive": { "zh": "超验 / 象征 / 神秘 / 精神意义", "en": "Transcendent" },
+    "question": "意义在你看来是可测量的，还是可感知的？"
+  }
+]

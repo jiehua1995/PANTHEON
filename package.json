@@ -1,0 +1,37 @@
+{
+  "name": "pantheon",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:pages": "vue-tsc --noEmit && PANTHEON_OUT=docs vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "validate-data": "node scripts/validate-data.ts",
+    "simulate": "node scripts/simulate.ts",
+    "analyze-answers": "node scripts/analyze-answers.ts",
+    "audit-content": "node scripts/audit-content.ts",
+    "show-report": "node scripts/show-report.ts",
+    "test-cli": "node scripts/test-cli.ts",
+    "review-sheet": "node scripts/review-sheet.ts"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}

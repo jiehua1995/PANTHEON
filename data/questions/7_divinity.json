@@ -1,0 +1,312 @@
+[
+  {
+    "id": "divinity-1",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "如果完全不存在金钱、责任和社会期待，你最希望怎样度过接下来几年？",
+    "options": [
+      {
+        "id": "a",
+        "text": "造一件从来没有人做过的东西。",
+        "weights": {
+          "creation": 1,
+          "world": 0.8,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "到处走，看一切，什么也不留下。",
+        "weights": {
+          "desire": 0.8,
+          "risk": 0.8,
+          "transcendence": 0.6,
+          "social": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "学完所有我一直想知道的东西。",
+        "weights": {
+          "reason": 0.9,
+          "transcendence": 0.7,
+          "social": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "完整地爱一些人，把日子过得满满的。",
+        "weights": {
+          "social": 0.9,
+          "empathy": 0.9,
+          "desire": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-2",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "夜里安静下来、没有人要求你扮演任何角色的时候，你脑子里最常出现的画面是什么？",
+    "options": [
+      {
+        "id": "a",
+        "text": "让某个具体的人付出代价。",
+        "weights": {
+          "conflict": 0.8,
+          "power": 0.6,
+          "empathy": -0.7
+        }
+      },
+      {
+        "id": "b",
+        "text": "一个我完全自由的世界。",
+        "weights": {
+          "authority": -0.9,
+          "world": 0.7,
+          "power": 0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "一个我终于安静下来的地方。",
+        "weights": {
+          "social": -0.8,
+          "transcendence": 0.7,
+          "desire": -0.5,
+          "world": -0.5,
+          "identity": 0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "一个所有人都认可我的场景。",
+        "weights": {
+          "power": 0.6,
+          "social": 0.7,
+          "identity": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-3",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "你身上有一种能力，但你从来没有认真使用过它。它是：",
+    "options": [
+      {
+        "id": "a",
+        "text": "说服和组织别人的能力。",
+        "weights": {
+          "power": 0.8,
+          "social": 0.7,
+          "authority": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "感知和照顾别人情绪的能力。",
+        "weights": {
+          "empathy": 0.9,
+          "social": 0.6,
+          "sacrifice": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "编造和想象的能力。",
+        "weights": {
+          "creation": 0.9,
+          "transcendence": 0.6,
+          "identity": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "破坏和终结的能力。",
+        "weights": {
+          "conflict": 0.9,
+          "power": 0.7,
+          "morality": -0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-4",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "你来到一个完全陌生的城市，没有人认识你。",
+    "options": [
+      {
+        "id": "a",
+        "text": "立刻按我最想成为的样子重新活。",
+        "weights": {
+          "identity": -0.9,
+          "world": 0.7,
+          "desire": 0.7
+        }
+      },
+      {
+        "id": "b",
+        "text": "先找到最像家的地方。",
+        "weights": {
+          "social": 0.6,
+          "order": 0.5,
+          "identity": 0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "研究这座城市是怎么运转的。",
+        "weights": {
+          "reason": 0.8,
+          "order": 0.5,
+          "social": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "做一件当地人不会做的事。",
+        "weights": {
+          "risk": 0.9,
+          "creation": 0.7,
+          "authority": -0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-5",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "如果命运愿意回答你一个问题，而且不许追问第二次，你会问什么？",
+    "options": [
+      {
+        "id": "a",
+        "text": "我能不能得到我想要的一切？",
+        "weights": {
+          "desire": 0.9,
+          "power": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "我这一生真正在追求什么？",
+        "weights": {
+          "transcendence": 0.9,
+          "reason": 0.5,
+          "identity": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "我伤害过的人后来怎么样了？",
+        "weights": {
+          "empathy": 0.9,
+          "morality": 0.6,
+          "sacrifice": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "我有没有走错路？",
+        "weights": {
+          "identity": 0.6,
+          "order": 0.5,
+          "time": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-6",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "如果只能向世界要一种自由，而且必须现在选，你要哪一种？",
+    "options": [
+      {
+        "id": "a",
+        "text": "不用向任何人解释自己。",
+        "weights": {
+          "identity": -0.7,
+          "authority": -0.6,
+          "social": -0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "想做什么就做什么。",
+        "weights": {
+          "desire": 0.9,
+          "order": -0.7,
+          "risk": 0.7
+        }
+      },
+      {
+        "id": "c",
+        "text": "有能力保护我想保护的人。",
+        "weights": {
+          "sacrifice": 0.8,
+          "empathy": 0.8,
+          "power": 0.6
+        }
+      },
+      {
+        "id": "d",
+        "text": "知道一切答案。",
+        "weights": {
+          "reason": 0.8,
+          "transcendence": 0.8,
+          "power": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "divinity-7",
+    "act": "divinity",
+    "profile": "hidden",
+    "text": "如果有一次机会，让所有人忘掉你做过的一切。",
+    "options": [
+      {
+        "id": "a",
+        "text": "要。然后重新开始。",
+        "weights": {
+          "identity": -0.9,
+          "creation": 0.7,
+          "world": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "不要。那是我的一部分。",
+        "weights": {
+          "identity": 0.9,
+          "order": 0.5,
+          "morality": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "要。我一直在为别人的记忆而活。",
+        "weights": {
+          "social": 0.5,
+          "desire": 0.6,
+          "power": -0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "只让一个人记得就够。",
+        "weights": {
+          "social": 0.7,
+          "empathy": 0.7,
+          "sacrifice": 0.5
+        }
+      }
+    ]
+  }
+]

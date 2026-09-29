@@ -1,0 +1,45 @@
+{
+  "scaleDivisor": 3.7,
+  "trimFraction": 0,
+  "signatureSoftness": 0.3,
+  "primary": {
+    "cosine": 0.68,
+    "euclidean": 0.16,
+    "signature": 0.25,
+    "consistency": 0.06,
+    "contradiction": 0.8,
+    "specificity": 0.26
+  },
+  "secondary": { "base": 0.6, "complementarity": 0.4 },
+  "shadow": { "excludePrimary": true, "excludeSecondary": true },
+  "hidden": { "minGap": 0.04 },
+  "closeMargin": 0.025,
+  "relations": {
+    "mirror": 0.9,
+    "affinity": 0.6,
+    "complement": 0.05,
+    "tension": -0.05,
+    "conflict": -0.4
+  },
+  "signatureThresholds": {
+    "very_high": 0.45,
+    "high": 0.3,
+    "mid": 0,
+    "low": -0.3,
+    "very_low": -0.45
+  },
+  "composition": {
+    "top": 6,
+    "base": 0.6,
+    "shadow": 0.25,
+    "hidden": 0.15
+  },
+  "awakening": {
+    "dormantPrimary": 0.42,
+    "shadowPressureMargin": 0.09,
+    "fallenShadowCapture": 0.05,
+    "fallenMinSimilarity": 0.45,
+    "fallenContradiction": 0.6
+  },
+  "simulation": { "users": 10000, "maxPrimaryShare": 0.15, "minPrimaryShare": 0.002 }
+}

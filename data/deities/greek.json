@@ -1,0 +1,273 @@
+[
+  {
+    "id": "prometheus",
+    "name": {
+      "zh": "普罗米修斯",
+      "en": "Prometheus"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "盗火者",
+      "theme": "知识转化为改变世界的能力"
+    },
+    "symbols": [
+      "fire",
+      "technology",
+      "rebellion",
+      "creation",
+      "sacrifice"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": -0.5,
+      "reason": 0.8,
+      "creation": 1,
+      "social": 0.3,
+      "morality": 0.2,
+      "desire": -0.2,
+      "conflict": -0.4,
+      "world": 1,
+      "identity": 0.4,
+      "time": 0.8,
+      "risk": 0.9,
+      "authority": -1,
+      "empathy": 0.5,
+      "sacrifice": 0.9,
+      "transcendence": 0.1
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "world": "very_high",
+      "authority": "very_low",
+      "risk": "high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high"
+    },
+    "psychology": {
+      "core_drive": "把“不可能”变成“已经做到了”，才是他真正想要的东西——不是在讨论里赢，而是做出来。",
+      "core_fear": "明知有更好的办法，却被规则、位置或无能永久困在旧做法里。",
+      "worldview": "前人写下的草稿都可以被改写——包括写它的人。",
+      "power_pattern": "他不占据位置，他提供别人离不开的能力。",
+      "relationship_pattern": "先赋能再靠近：他给人工具，然后期待对方自己站起来；站不起来他会失望。",
+      "conflict_pattern": "绕开对手，直接改变战场。他很少赢下争执，通常让争执变得无关紧要。",
+      "failure_pattern": "把代价记在未来账上：今天先破一次例，等以后再说。"
+    },
+    "states": {
+      "dormant": "他隐约觉得规矩不对，还只是反复推演它的漏洞。",
+      "awakened": "开始把知识变成工具：造东西、改流程、亲手把能力交出去。",
+      "overawakened": "认定所有边界都是待拆的借口，包括那些正在保护他的。",
+      "fallen": "用“未来会更好”为此刻的所有代价签字。"
+    },
+    "shadow": {
+      "trigger": "被无能的上级或规则否决，而对方不需要给理由。",
+      "defense": "越过程序直接做，事后补理由。",
+      "danger": "把身边人变成计划里的资源，还认为这是为他们好。"
+    },
+    "visual": {
+      "symbol": "fire",
+      "geometry": "triangle",
+      "motif": "broken_chain"
+    },
+    "titles": {
+      "prefixes": [
+        "盗火",
+        "越界",
+        "启明"
+      ],
+      "nouns": [
+        "筑世者",
+        "破壁者",
+        "造火者"
+      ]
+    },
+    "tags": [
+      "creator",
+      "rebel",
+      "knowledge",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "athena",
+    "name": {
+      "zh": "雅典娜",
+      "en": "Athena"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "战略者",
+      "theme": "把混乱压缩成结构"
+    },
+    "symbols": [
+      "spear",
+      "owl",
+      "aegis",
+      "loom",
+      "strategy"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.8,
+      "reason": 0.9,
+      "creation": 0.5,
+      "social": 0.4,
+      "morality": 0.5,
+      "desire": -0.3,
+      "conflict": 0.3,
+      "world": 0.5,
+      "identity": 0.6,
+      "time": 0.8,
+      "risk": -0.1,
+      "authority": 0.6,
+      "empathy": -0.2,
+      "sacrifice": 0.3,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "order": "high",
+      "time": "high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_low"
+    },
+    "psychology": {
+      "core_drive": "先看清棋盘，再用最小的代价落子——她要的是可解释的胜利。",
+      "core_fear": "局面脱离模型，而她仍被要求保持体面。",
+      "worldview": "世界是一道能解的题。情绪是变量之一，不是答案。",
+      "power_pattern": "靠判断力：她不出手，是因为胜负已经在她的推演里定了。",
+      "relationship_pattern": "尊重能力，淡于亲密。她把人放进坐标系，而不是放进心里。",
+      "conflict_pattern": "先让对方暴露，再一次性解决；她赢在时间差。",
+      "failure_pattern": "把人当成可优化的变量，直到没有人再愿意对她说真话。"
+    },
+    "states": {
+      "dormant": "她只是比别人更早看到问题，还没开始布置。",
+      "awakened": "建立起一套真的能运转的结构，并让别人愿意照着做。",
+      "overawakened": "把所有不确定性都当成需要立刻消除的威胁。",
+      "fallen": "人变成变量，关系变成杠杆，错误变成污点。"
+    },
+    "shadow": {
+      "trigger": "局面开始偏离她的模型，而她仍被要求体面。",
+      "defense": "加大分析与控制的密度，用更多信息换安全感。",
+      "danger": "把抽离情绪当成成熟，最后只剩一套正确却无人执行的方案。"
+    },
+    "visual": {
+      "symbol": "owl",
+      "geometry": "hexagon",
+      "motif": "woven_grid"
+    },
+    "titles": {
+      "prefixes": [
+        "持盾",
+        "审慎",
+        "织网"
+      ],
+      "nouns": [
+        "谋略家",
+        "筑城者",
+        "解局者"
+      ]
+    },
+    "tags": [
+      "strategist",
+      "structure",
+      "craft",
+      "restraint"
+    ]
+  },
+  {
+    "id": "zeus",
+    "name": {
+      "zh": "宙斯",
+      "en": "Zeus"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "众神之王",
+      "theme": "为秩序指定一个中心"
+    },
+    "symbols": [
+      "thunderbolt",
+      "throne",
+      "eagle",
+      "oath",
+      "storm"
+    ],
+    "vector": {
+      "power": 1,
+      "order": 0.7,
+      "reason": 0.2,
+      "creation": 0.1,
+      "social": 0.6,
+      "morality": 0.1,
+      "desire": 0.7,
+      "conflict": 0.6,
+      "world": 0.6,
+      "identity": 0.5,
+      "time": 0.6,
+      "risk": 0.2,
+      "authority": 1,
+      "empathy": -0.1,
+      "sacrifice": -0.2,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "authority": "very_high",
+      "conflict": "high",
+      "sacrifice": "low"
+    },
+    "anti_dimensions": {
+      "authority": "very_low",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "权力出现空位，比被人反对更让他不安：世界需要一个中心，而且那个人是他。",
+      "core_fear": "被自己所创的无序推翻：位置还在，但已经不算数。",
+      "worldview": "秩序需要一个人来担保。分歧可以被听见，但最终必须有人裁决。",
+      "power_pattern": "占据中心并分配位置：谁能靠近、谁被放逐，由他说了算。",
+      "relationship_pattern": "结盟优先于亲密。他判断关系的标准是忠诚与有用，而不是深浅。",
+      "conflict_pattern": "正面对抗，并且要让所有人看见——他不接受不成体统的胜负。",
+      "failure_pattern": "把私人欲望当成公共意志，用制度为个人好恶背书。"
+    },
+    "states": {
+      "dormant": "他习惯别人来问他的意见，还没意识到自己已经站在中心。",
+      "awakened": "建立起一套别人愿意遵守的秩序，并真的给了它边界。",
+      "overawakened": "把所有不受控的东西都当成对他位置的挑战。",
+      "fallen": "不再需要理由，只需要服从。"
+    },
+    "shadow": {
+      "trigger": "有人公开挑战他的裁决，而周围的人在观望。",
+      "defense": "升级到公开惩罚，用代价重建等级。",
+      "danger": "把正义变成个人意志的执行工具，还真诚地相信自己代表秩序。"
+    },
+    "visual": {
+      "symbol": "thunderbolt",
+      "geometry": "crown",
+      "motif": "radiant_throne"
+    },
+    "titles": {
+      "prefixes": [
+        "执雷",
+        "立序",
+        "居中"
+      ],
+      "nouns": [
+        "裁决者",
+        "立法者",
+        "众王之王"
+      ]
+    },
+    "tags": [
+      "sovereign",
+      "order",
+      "authority",
+      "appetite"
+    ]
+  }
+]

@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "poseidon",
+    "name": {
+      "zh": "波塞冬",
+      "en": "Poseidon"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "海之主",
+      "theme": "用不可预测的力量划定疆域"
+    },
+    "symbols": [
+      "trident",
+      "sea",
+      "earthquake",
+      "horse"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.1,
+      "reason": -0.2,
+      "creation": 0.1,
+      "social": -0.2,
+      "morality": -0.3,
+      "desire": 0.5,
+      "conflict": 0.7,
+      "world": 0.3,
+      "identity": 0.5,
+      "time": -0.3,
+      "risk": 0.5,
+      "authority": 0.7,
+      "empathy": -0.2,
+      "sacrifice": -0.3,
+      "transcendence": 0.1
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "conflict": "very_high",
+      "authority": "very_high",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_high"
+    },
+    "psychology": {
+      "core_drive": "一片只属于他的疆域，在那里，他的情绪就是天气。",
+      "core_fear": "被降格成秩序里的一个部门。",
+      "worldview": "世界由势力范围组成，谈判只是划界之前的热身。",
+      "power_pattern": "用不可预测性维持权威：别人猜不准，就不敢冒犯。",
+      "relationship_pattern": "亲近时极其慷慨，被挑战时立刻掀桌。他给的东西也能随时收回。",
+      "conflict_pattern": "把冲突升级到物理层面：不讨论了，直接掀。",
+      "failure_pattern": "把怒气当成正当性，事后只修损失，不修关系。"
+    },
+    "states": {
+      "dormant": "他偶尔发脾气，还以为那叫性格。",
+      "awakened": "明确自己的领域，并在里面建立自己的规则。",
+      "overawakened": "任何越界都被理解成挑衅，回应一次比一次重。",
+      "fallen": "不谈条件，只谈代价。"
+    },
+    "shadow": {
+      "trigger": "有人在他明确划过界的地方活动，还装作无辜。",
+      "defense": "先制造一次剧烈反应，让对方重新学会谨慎。",
+      "danger": "把亲近的人也当成需要被震慑的对象。"
+    },
+    "visual": {
+      "symbol": "trident",
+      "geometry": "wave",
+      "motif": "broken_sea"
+    },
+    "titles": {
+      "prefixes": [
+        "裂地",
+        "掀潮",
+        "划界"
+      ],
+      "nouns": [
+        "海之主",
+        "风暴王座",
+        "掀桌人"
+      ]
+    },
+    "tags": [
+      "domain",
+      "volatility",
+      "dominance",
+      "instinct"
+    ]
+  },
+  {
+    "id": "hades",
+    "name": {
+      "zh": "哈迪斯",
+      "en": "Hades"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "守门人",
+      "theme": "承认不可逆，并守住那道门"
+    },
+    "symbols": [
+      "key",
+      "obsidian",
+      "cypress",
+      "cerberus"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.5,
+      "reason": 0.35,
+      "creation": -0.15,
+      "social": -0.55,
+      "morality": -0.15,
+      "desire": -0.45,
+      "conflict": -0.35,
+      "world": -0.25,
+      "identity": 0.75,
+      "time": 0.85,
+      "risk": 0.05,
+      "authority": 0.15,
+      "empathy": -0.35,
+      "sacrifice": 0.25,
+      "transcendence": 0.45
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "identity": "very_high",
+      "social": "low",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "social": "very_high",
+      "desire": "very_high"
+    },
+    "psychology": {
+      "core_drive": "他管的是决定之后的那一段——不可逆的事情需要有人守着。",
+      "core_fear": "被人当成一个可以讨价还价的对象。",
+      "worldview": "有些门一旦关上，就不该再打开。",
+      "power_pattern": "靠稀缺与不可替代：他不争，但这件事只有他能做。",
+      "relationship_pattern": "极长情，但一旦划出界线就不再回头。他的沉默不是惩罚，是界线。",
+      "conflict_pattern": "不吵不争，让事情自然落到他手上。",
+      "failure_pattern": "把疏离当成力量，直到没人敢靠近。"
+    },
+    "states": {
+      "dormant": "他比别人更早接受某些事已经结束了。",
+      "awakened": "守住该守的边界，并在里面建立自己的秩序。",
+      "overawakened": "把所有关系都当成必然的失去，提前开始冷处理。",
+      "fallen": "用沉默惩罚别人：既不解释，也不再回应。"
+    },
+    "shadow": {
+      "trigger": "有人试图让已经定下的事复活。",
+      "defense": "彻底退出，让对方面对一个没有他的世界。",
+      "danger": "于是沉默变成了惩罚，而且不打算解释。"
+    },
+    "visual": {
+      "symbol": "key",
+      "geometry": "single_gate",
+      "motif": "unreturning_door"
+    },
+    "titles": {
+      "prefixes": [
+        "无归",
+        "守界",
+        "藏富"
+      ],
+      "nouns": [
+        "守门人",
+        "终局者",
+        "沉默之王"
+      ]
+    },
+    "tags": [
+      "boundary",
+      "depth",
+      "finality",
+      "reserve"
+    ]
+  },
+  {
+    "id": "hera",
+    "name": {
+      "zh": "赫拉",
+      "en": "Hera"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "守约者",
+      "theme": "让承诺有重量，让位置被承认"
+    },
+    "symbols": [
+      "peacock",
+      "crown",
+      "pomegranate",
+      "veil"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.8,
+      "reason": 0.2,
+      "creation": -0.4,
+      "social": 0.6,
+      "morality": 0.7,
+      "desire": -0.2,
+      "conflict": 0.6,
+      "world": -0.4,
+      "identity": 0.5,
+      "time": 0.7,
+      "risk": -0.2,
+      "authority": 0.8,
+      "empathy": 0.1,
+      "sacrifice": 0.3,
+      "transcendence": -0.2
+    },
+    "signature_dimensions": {
+      "order": "very_high",
+      "authority": "very_high",
+      "morality": "very_high",
+      "conflict": "high"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "morality": "very_low"
+    },
+    "psychology": {
+      "core_drive": "名分对她不是虚荣，是契约：承诺要有重量，位置要被承认。",
+      "core_fear": "被降级成一个可以替换的角色。",
+      "worldview": "关系是制度，忠诚是它唯一的货币。",
+      "power_pattern": "通过维护规则和名分获得权力：她在意的从来是位置。",
+      "relationship_pattern": "投入极深，同时要求完全对等。她能原谅失误，不能原谅轻慢。",
+      "conflict_pattern": "精准打击软肋，并且不介意用规则当武器。",
+      "failure_pattern": "把制度放在人前面：赢下规则，输掉人。"
+    },
+    "states": {
+      "dormant": "她比别人更在意承诺是否被履行。",
+      "awakened": "把承诺变成制度：定下关系里不可动摇的那部分。",
+      "overawakened": "任何偏移都被当成背叛的前兆，开始全面监控。",
+      "fallen": "用惩罚代替修复，把关系变成法庭。"
+    },
+    "shadow": {
+      "trigger": "发现自己被轻率地对待，或被放到次要位置。",
+      "defense": "立刻收紧规则，并开始记账。",
+      "danger": "把曾经最亲的人变成被告。"
+    },
+    "visual": {
+      "symbol": "peacock",
+      "geometry": "throne",
+      "motif": "ledger_of_oaths"
+    },
+    "titles": {
+      "prefixes": [
+        "立约",
+        "持法",
+        "王座"
+      ],
+      "nouns": [
+        "守誓者",
+        "王后",
+        "记账人"
+      ]
+    },
+    "tags": [
+      "commitment",
+      "status",
+      "justice",
+      "control"
+    ]
+  },
+  {
+    "id": "demeter",
+    "name": {
+      "zh": "德墨忒尔",
+      "en": "Demeter"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "供养者",
+      "theme": "让该活下来的东西活下来"
+    },
+    "symbols": [
+      "wheat",
+      "torch",
+      "harvest",
+      "sickle"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": 0.6,
+      "reason": -0.2,
+      "creation": -0.5,
+      "social": 0.7,
+      "morality": 0.5,
+      "desire": 0.1,
+      "conflict": -0.3,
+      "world": -0.5,
+      "identity": 0.7,
+      "time": 0.7,
+      "risk": -0.6,
+      "authority": 0.3,
+      "empathy": 0.8,
+      "sacrifice": 0.7,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "empathy": "very_high",
+      "social": "very_high",
+      "identity": "very_high",
+      "risk": "low"
+    },
+    "anti_dimensions": {
+      "risk": "very_high",
+      "creation": "very_high"
+    },
+    "psychology": {
+      "core_drive": "该活下来的东西必须活下来——尤其是那些还不会自己活的。",
+      "core_fear": "最亲近的东西被拿走，而且她无法挽回。",
+      "worldview": "供养决定世界怎么运转，宣言不决定。",
+      "power_pattern": "通过在给予中获得影响：她不需要争，因为大家都需要她。",
+      "relationship_pattern": "照顾到侵入的程度，而且很难接受对方不需要她。",
+      "conflict_pattern": "不正面争，而是撤回供给。",
+      "failure_pattern": "于是关心变成不放手，直到对方必须逃走。"
+    },
+    "states": {
+      "dormant": "她常替别人想得比自己多，还没意识到那也是一种控制。",
+      "awakened": "建立可以持续供养的结构，让好东西不被消耗掉。",
+      "overawakened": "用持续付出来换取对方无法离开。",
+      "fallen": "以牺牲者的身份行使权力：我为你付出了这么多。"
+    },
+    "shadow": {
+      "trigger": "被照顾的人开始不需要她。",
+      "defense": "加倍付出，用恩情维持联结。",
+      "danger": "把爱变成一笔别人还不清的债。"
+    },
+    "visual": {
+      "symbol": "wheat",
+      "geometry": "root",
+      "motif": "long_harvest"
+    },
+    "titles": {
+      "prefixes": [
+        "丰饶",
+        "供养",
+        "长根"
+      ],
+      "nouns": [
+        "守穗者",
+        "大地之母",
+        "保育者"
+      ]
+    },
+    "tags": [
+      "nurture",
+      "preservation",
+      "attachment",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "apollo",
+    "name": {
+      "zh": "阿波罗",
+      "en": "Apollo"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "造形者",
+      "theme": "让事物达到它应有的清晰与形式"
+    },
+    "symbols": [
+      "lyre",
+      "sun",
+      "laurel",
+      "arrow"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.8,
+      "reason": 0.8,
+      "creation": 0.6,
+      "social": 0.3,
+      "morality": 0.6,
+      "desire": -0.4,
+      "conflict": 0.1,
+      "world": 0.2,
+      "identity": 0.7,
+      "time": -0.1,
+      "risk": -0.3,
+      "authority": 0.6,
+      "empathy": -0.1,
+      "sacrifice": 0.2,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "order": "very_high",
+      "reason": "very_high",
+      "identity": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "reason": "very_low",
+      "time": "very_high"
+    },
+    "psychology": {
+      "core_drive": "清晰和形式对他来说不是审美，是义务。",
+      "core_fear": "混乱、含糊，以及自己身上无法被解释的那部分。",
+      "worldview": "混乱只是尚未被照亮的秩序，照亮它是责任。",
+      "power_pattern": "通过标准与审美：他定义什么算是好。",
+      "relationship_pattern": "保持体面的距离，欣赏多于亲近。他喜欢的是你最好的那一面。",
+      "conflict_pattern": "用公开性和规则压制对手，让对方的粗糙自己暴露。",
+      "failure_pattern": "无法容忍模糊，把不完美直接判成失败。"
+    },
+    "states": {
+      "dormant": "他比周围人更在意是否得体。",
+      "awakened": "建立标准与形式，让好的东西可以被复制。",
+      "overawakened": "只追求形式上的完美，开始无法容忍人的粗糙。",
+      "fallen": "用优越感替代创作，只剩下评判。"
+    },
+    "shadow": {
+      "trigger": "他的作品或品位被公开质疑。",
+      "defense": "提高标准，同时拉开距离。",
+      "danger": "把审美等级变成人的等级。"
+    },
+    "visual": {
+      "symbol": "lyre",
+      "geometry": "golden_ratio",
+      "motif": "light_on_form"
+    },
+    "titles": {
+      "prefixes": [
+        "启明",
+        "精确",
+        "金弦"
+      ],
+      "nouns": [
+        "执光者",
+        "造形者",
+        "定音者"
+      ]
+    },
+    "tags": [
+      "clarity",
+      "form",
+      "excellence",
+      "aesthetics"
+    ]
+  },
+  {
+    "id": "artemis",
+    "name": {
+      "zh": "阿尔忒弥斯",
+      "en": "Artemis"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "无主之弓",
+      "theme": "保持自己的完整，不被任何人征用"
+    },
+    "symbols": [
+      "bow",
+      "moon",
+      "forest",
+      "hound"
+    ],
+    "vector": {
+      "power": 0.1,
+      "order": 0.2,
+      "reason": 0.1,
+      "creation": -0.3,
+      "social": -0.7,
+      "morality": 0.5,
+      "desire": -0.5,
+      "conflict": 0.4,
+      "world": -0.4,
+      "identity": 0.9,
+      "time": 0.3,
+      "risk": 0.2,
+      "authority": -0.3,
+      "empathy": -0.2,
+      "sacrifice": 0.3,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "identity": "very_high",
+      "social": "very_low",
+      "desire": "low",
+      "world": "low"
+    },
+    "anti_dimensions": {
+      "social": "very_high",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "不被任何人征用：不被爱、不被需要、不被解释，这才叫自由。",
+      "core_fear": "被占有、被驯化、被要求为了关系改变自己。",
+      "worldview": "森林有自己的规则，不需要城邦批准。",
+      "power_pattern": "靠不可得性：她的力量来自随时可以离开，而不是留下。",
+      "relationship_pattern": "忠于同盟，但绝不进入需要被驯化的关系。她给的承诺是“我不会骚扰你”。",
+      "conflict_pattern": "一击即走，不做消耗战。",
+      "failure_pattern": "把任何靠近都当成入侵，最后连朋友也只能站在射程外。"
+    },
+    "states": {
+      "dormant": "她只是需要更多独处，还没意识到那是一条原则。",
+      "awakened": "明确自己的边界，并且真的守住它。",
+      "overawakened": "把一切都当成威胁，连善意也拒绝。",
+      "fallen": "逃成了唯一的选择，任何联结都被理解成束缚。"
+    },
+    "shadow": {
+      "trigger": "有人试图替她决定她该怎么生活。",
+      "defense": "消失，而且不做解释。",
+      "danger": "于是她把孤独维护成一种尊严，直到没人敢邀她同行。"
+    },
+    "visual": {
+      "symbol": "bow",
+      "geometry": "crescent",
+      "motif": "untamed_forest"
+    },
+    "titles": {
+      "prefixes": [
+        "独行",
+        "月猎",
+        "未驯"
+      ],
+      "nouns": [
+        "猎手",
+        "守林人",
+        "无主之弓"
+      ]
+    },
+    "tags": [
+      "autonomy",
+      "purity",
+      "nature",
+      "boundaries"
+    ]
+  },
+  {
+    "id": "ares",
+    "name": {
+      "zh": "阿瑞斯",
+      "en": "Ares"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "前线之人",
+      "theme": "在正面对抗中确认自己存在"
+    },
+    "symbols": [
+      "spear",
+      "helm",
+      "vulture",
+      "shield"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.4,
+      "reason": -0.6,
+      "creation": -0.3,
+      "social": 0.3,
+      "morality": -0.4,
+      "desire": 0.7,
+      "conflict": 1,
+      "world": 0.3,
+      "identity": 0.4,
+      "time": -0.8,
+      "risk": 0.9,
+      "authority": -0.2,
+      "empathy": -0.5,
+      "sacrifice": 0.2,
+      "transcendence": -0.3
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "power": "very_high",
+      "risk": "very_high",
+      "time": "very_low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_low",
+      "time": "very_high"
+    },
+    "psychology": {
+      "core_drive": "被绕过去比被打败更让他难受——他要在正面对抗里确认自己存在。",
+      "core_fear": "被忽视，以及在关键时刻退缩。",
+      "worldview": "力量对比决定一切，其他都是修辞。",
+      "power_pattern": "靠现场感与威慑：他必须在场，不能被代理人替代。",
+      "relationship_pattern": "战友式联结：一起扛过才算关系，其余都是客气。",
+      "conflict_pattern": "正面开战，越快越好。",
+      "failure_pattern": "把冲动当成勇气，把代价留给别人。"
+    },
+    "states": {
+      "dormant": "他脾气比别人直，还没在真正的战场上证明过。",
+      "awakened": "把对抗变成能赢的具体战斗。",
+      "overawakened": "把一切分歧都当成战场。",
+      "fallen": "谁不同意就打谁，直到没人再敢表达不同意见。"
+    },
+    "shadow": {
+      "trigger": "被公开轻视，或者被绕过去。",
+      "defense": "立刻升级冲突，把场面拿回来。",
+      "danger": "用激烈反应换取存在感。"
+    },
+    "visual": {
+      "symbol": "spear",
+      "geometry": "arrow",
+      "motif": "breaking_line"
+    },
+    "titles": {
+      "prefixes": [
+        "执矛",
+        "破阵",
+        "烈焰"
+      ],
+      "nouns": [
+        "冲锋者",
+        "征服者",
+        "前线之人"
+      ]
+    },
+    "tags": [
+      "confrontation",
+      "courage",
+      "instinct",
+      "dominance"
+    ]
+  },
+  {
+    "id": "aphrodite",
+    "name": {
+      "zh": "阿佛洛狄忒",
+      "en": "Aphrodite"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "引潮者",
+      "theme": "被渴望，并通过吸引改变局面"
+    },
+    "symbols": [
+      "shell",
+      "rose",
+      "dove",
+      "mirror"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": -0.4,
+      "reason": -0.3,
+      "creation": 0.3,
+      "social": 0.8,
+      "morality": -0.3,
+      "desire": 1,
+      "conflict": -0.3,
+      "world": 0.4,
+      "identity": -0.4,
+      "time": -0.5,
+      "risk": 0.5,
+      "authority": -0.4,
+      "empathy": 0.6,
+      "sacrifice": -0.2,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "desire": "very_high",
+      "social": "very_high",
+      "identity": "low",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "desire": "very_low",
+      "social": "very_low"
+    },
+    "psychology": {
+      "core_drive": "被渴望本身是一种权力，而她早就知道这一点。",
+      "core_fear": "变得可有可无：没有人再看向她，也没有人再为她改变决定。",
+      "worldview": "局面由吸引力驱动，理性是后来的解释。",
+      "power_pattern": "靠关系与吸引：她不占位置，她是别人想靠近的那个位置。",
+      "relationship_pattern": "立刻投入亲密，深水区却容易犹豫。她擅长开始，不擅长承担。",
+      "conflict_pattern": "不硬碰，改写别人心里的排序。",
+      "failure_pattern": "用被爱的数量确认自己的价值。"
+    },
+    "states": {
+      "dormant": "她比别人更在意别人的目光，还没用它做过什么。",
+      "awakened": "承认欲望，并把它变成连接和创造力。",
+      "overawakened": "需要持续被渴望，否则觉得自己不存在。",
+      "fallen": "用操控与新鲜感填补空虚。"
+    },
+    "shadow": {
+      "trigger": "被冷落，或被更新鲜的版本取代。",
+      "defense": "重新布置吸引力战场。",
+      "danger": "把手腕当成爱，把人当成回应。"
+    },
+    "visual": {
+      "symbol": "shell",
+      "geometry": "spiral",
+      "motif": "rose_and_blade"
+    },
+    "titles": {
+      "prefixes": [
+        "迷情",
+        "引潮",
+        "金枝"
+      ],
+      "nouns": [
+        "引潮者",
+        "联结之人",
+        "蜜与刃"
+      ]
+    },
+    "tags": [
+      "desire",
+      "attraction",
+      "connection",
+      "beauty"
+    ]
+  },
+  {
+    "id": "hephaestus",
+    "name": {
+      "zh": "赫菲斯托斯",
+      "en": "Hephaestus"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "工匠",
+      "theme": "用手艺把被否定的东西变成不可替代的"
+    },
+    "symbols": [
+      "hammer",
+      "anvil",
+      "forge",
+      "lame_foot"
+    ],
+    "vector": {
+      "power": -0.3,
+      "order": 0.7,
+      "reason": 0.5,
+      "creation": 0.9,
+      "social": -0.4,
+      "morality": 0.4,
+      "desire": -0.3,
+      "conflict": -0.6,
+      "world": 0.5,
+      "identity": 0.6,
+      "time": 0.7,
+      "risk": -0.4,
+      "authority": -0.2,
+      "empathy": 0.2,
+      "sacrifice": 0.6,
+      "transcendence": -0.4
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "order": "very_high",
+      "time": "very_high",
+      "conflict": "low"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "把被否定的那部分变成不可替代的手艺——用做出来的东西证明，而不是用说的。",
+      "core_fear": "被排除在美与亲密之外，只能在门口看着。",
+      "worldview": "坏掉的东西可以被修好，只要有人愿意做那些没人愿意做的脏活。",
+      "power_pattern": "靠不可替代的技艺：他的位置不稳，但成果没人能替代。",
+      "relationship_pattern": "慢热、笨拙，用作品代替表白；被拒绝时他会更用力地工作。",
+      "conflict_pattern": "不正面争，用成果说话，把委屈记在心里。",
+      "failure_pattern": "把情绪压进工作，直到它变成怨气。"
+    },
+    "states": {
+      "dormant": "他习惯一个人把事情做完，还没意识到自己在躲什么。",
+      "awakened": "用手艺建立不可替代的价值，并被真正需要的人找到。",
+      "overawakened": "用工作逃避关系，把所有问题都变成技术问题。",
+      "fallen": "把怨气铸成暗器，用控制代替连接。"
+    },
+    "shadow": {
+      "trigger": "被公开贬低，或被亲近的人否定他在做的事。",
+      "defense": "加倍工作，同时在心里记账。",
+      "danger": "于是他用控制代替连接，把嫉妒藏进工艺里。"
+    },
+    "visual": {
+      "symbol": "hammer",
+      "geometry": "hexagon",
+      "motif": "forge_fire"
+    },
+    "titles": {
+      "prefixes": [
+        "铸火",
+        "锤炼",
+        "造器"
+      ],
+      "nouns": [
+        "工匠",
+        "铸世者",
+        "缝补匠"
+      ]
+    },
+    "tags": [
+      "craft",
+      "creation",
+      "exclusion",
+      "endurance"
+    ]
+  },
+  {
+    "id": "hermes",
+    "name": {
+      "zh": "赫尔墨斯",
+      "en": "Hermes"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "越墙者",
+      "theme": "在移动中保持自由"
+    },
+    "symbols": [
+      "caduceus",
+      "winged_sandals",
+      "traveller_cloak",
+      "lyre"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": -0.5,
+      "reason": 0.6,
+      "creation": 0.7,
+      "social": 0.75,
+      "morality": -0.35,
+      "desire": 0.5,
+      "conflict": -0.7,
+      "world": 0.35,
+      "identity": -0.85,
+      "time": -0.35,
+      "risk": 0.85,
+      "authority": -0.5,
+      "empathy": 0.2,
+      "sacrifice": -0.3,
+      "transcendence": 0.15
+    },
+    "signature_dimensions": {
+      "identity": "very_low",
+      "risk": "very_high",
+      "conflict": "very_low",
+      "order": "low"
+    },
+    "anti_dimensions": {
+      "identity": "very_high",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "选项比位置重要：每次都能找到第二条路，才是他的安全感。",
+      "core_fear": "被困住，被固定在一个身份里。",
+      "worldview": "所有边界都是可以被重新谈的条款。",
+      "power_pattern": "靠信息与机动：他不硬闯，他找到门没锁的那一边。",
+      "relationship_pattern": "有趣优先，深度随缘。他记得所有人，但不是每个人都能找到他。",
+      "conflict_pattern": "不打，绕过去；或者在对方反应过来之前离场。",
+      "failure_pattern": "永远在移动，从不停下来做选择。"
+    },
+    "states": {
+      "dormant": "他比别人更容易适应新环境，还没意识到自己在逃什么。",
+      "awakened": "把信息与机动变成真正的杠杆。",
+      "overawakened": "不断用新东西覆盖旧问题，从不停留。",
+      "fallen": "连自己都骗，并且开始享受这件事。"
+    },
+    "shadow": {
+      "trigger": "被迫承诺一个长期、单一的身份。",
+      "defense": "加速、消失、换一套说法。",
+      "danger": "于是他的聪明开始替他撒谎，连他自己都信。"
+    },
+    "visual": {
+      "symbol": "caduceus",
+      "geometry": "spiral",
+      "motif": "open_gate"
+    },
+    "titles": {
+      "prefixes": [
+        "穿界",
+        "信使",
+        "千面"
+      ],
+      "nouns": [
+        "信使",
+        "摆渡人",
+        "越墙者"
+      ]
+    },
+    "tags": [
+      "mobility",
+      "information",
+      "wit",
+      "freedom"
+    ]
+  },
+  {
+    "id": "dionysus",
+    "name": {
+      "zh": "狄俄尼索斯",
+      "en": "Dionysus"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "破序者",
+      "theme": "生命必须被体验，而不只是被管理"
+    },
+    "symbols": [
+      "vine",
+      "thyrsus",
+      "mask",
+      "wine"
+    ],
+    "vector": {
+      "power": -0.3,
+      "order": -0.8,
+      "reason": -0.5,
+      "creation": 0.6,
+      "social": 0.8,
+      "morality": -0.4,
+      "desire": 0.9,
+      "conflict": -0.4,
+      "world": 0.1,
+      "identity": -0.9,
+      "time": -0.7,
+      "risk": 0.8,
+      "authority": -0.7,
+      "empathy": 0.5,
+      "sacrifice": -0.3,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "order": "very_low",
+      "identity": "very_low",
+      "desire": "very_high",
+      "risk": "very_high"
+    },
+    "anti_dimensions": {
+      "order": "very_high",
+      "identity": "very_high"
+    },
+    "psychology": {
+      "core_drive": "活着，而不只是被管理——把体验、情绪和身体都算进人生。",
+      "core_fear": "生命变成纯责任：每一天都对，但没有一天是活的。",
+      "worldview": "规则是别人写好的剧本，体验才是自己的。",
+      "power_pattern": "靠情绪场：他在场时气氛属于他，规矩自动让位。",
+      "relationship_pattern": "深而混乱。他让人靠近得很快，但很少有人被真正记住。",
+      "conflict_pattern": "不用对抗用瓦解：把严肃的场合变成玩笑，让对手失去目标。",
+      "failure_pattern": "用更强的刺激压住空虚，然后把失控称为自由。"
+    },
+    "states": {
+      "dormant": "他偶尔想彻底失控一次，但还把它当成性格。",
+      "awakened": "让情感和创造同时流动，真的把生命带活了。",
+      "overawakened": "持续需要更强的刺激，才能确定自己还在。",
+      "fallen": "用失控冒充自由，代价都留给明天和身边的人。"
+    },
+    "shadow": {
+      "trigger": "感到自己被规定、被安排、被管理。",
+      "defense": "掀翻现场：喝酒、闹、走人。",
+      "danger": "把空虚解释成自由，并且要别人也替他相信。"
+    },
+    "visual": {
+      "symbol": "vine",
+      "geometry": "broken_circle",
+      "motif": "spilling_wine"
+    },
+    "titles": {
+      "prefixes": [
+        "狂喜",
+        "破界",
+        "蔓生"
+      ],
+      "nouns": [
+        "纵酒者",
+        "引舞人",
+        "破序者"
+      ]
+    },
+    "tags": [
+      "desire",
+      "ecstasy",
+      "creativity",
+      "spontaneity"
+    ]
+  },
+  {
+    "id": "hestia",
+    "name": {
+      "zh": "赫斯提亚",
+      "en": "Hestia"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "守火者",
+      "theme": "让一个空间变得可以待下去"
+    },
+    "symbols": [
+      "hearth",
+      "flame",
+      "veil",
+      "circle"
+    ],
+    "vector": {
+      "power": -0.6,
+      "order": 0.7,
+      "reason": -0.1,
+      "creation": -0.4,
+      "social": 0.5,
+      "morality": 0.6,
+      "desire": -0.6,
+      "conflict": -0.8,
+      "world": -0.6,
+      "identity": 0.8,
+      "time": 0.2,
+      "risk": -0.5,
+      "authority": 0.1,
+      "empathy": 0.7,
+      "sacrifice": 0.4,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "conflict": "low",
+      "power": "low",
+      "world": "low",
+      "identity": "very_high"
+    },
+    "anti_dimensions": {
+      "power": "very_high",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "一个空间能不能让人待下去，靠的是那些没被注意的支撑，她做的是这件事。",
+      "core_fear": "家或关系的中心突然不稳，而所有人都假装没事。",
+      "worldview": "最重要的支撑结构，是那些没被注意到的。",
+      "power_pattern": "不争夺，靠成为不可替代的中心：她在，地方才像一个地方。",
+      "relationship_pattern": "安静地长期在场。她很少要求什么，也很少说自己想要什么。",
+      "conflict_pattern": "回避对抗，用稳定吸收冲突。",
+      "failure_pattern": "为了维持和平，牺牲自己的表达直到消失。"
+    },
+    "states": {
+      "dormant": "她自然地把环境变舒服，还没意识到自己付了成本。",
+      "awakened": "建立一个能容纳他人的稳定中心。",
+      "overawakened": "为了维持和平，把自己的需求完全删掉。",
+      "fallen": "用沉默的付出索取：我一直在照顾你们。"
+    },
+    "shadow": {
+      "trigger": "家里或关系里出现持续的不安。",
+      "defense": "加倍维持和平，把自己的情绪收起来。",
+      "danger": "于是关心变成债务，谁都还不清。"
+    },
+    "visual": {
+      "symbol": "hearth",
+      "geometry": "circle",
+      "motif": "long_flame"
+    },
+    "titles": {
+      "prefixes": [
+        "守炉",
+        "长明",
+        "归所"
+      ],
+      "nouns": [
+        "守火者",
+        "定所之人",
+        "无声之柱"
+      ]
+    },
+    "tags": [
+      "stability",
+      "care",
+      "humility",
+      "home"
+    ]
+  },
+  {
+    "id": "persephone",
+    "name": {
+      "zh": "珀耳塞福涅",
+      "en": "Persephone"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "双界通行者",
+      "theme": "同时属于两个世界"
+    },
+    "symbols": [
+      "pomegranate",
+      "bud",
+      "winter",
+      "throne"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.1,
+      "reason": -0.1,
+      "creation": 0.2,
+      "social": -0.3,
+      "morality": -0.1,
+      "desire": 0.3,
+      "conflict": -0.4,
+      "world": -0.1,
+      "identity": -0.6,
+      "time": 0.3,
+      "risk": 0.2,
+      "authority": -0.2,
+      "empathy": 0.4,
+      "sacrifice": 0.5,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "identity": "low",
+      "social": "low",
+      "sacrifice": "high"
+    },
+    "anti_dimensions": {
+      "identity": "very_high",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "两个世界都要算数：光明那边需要她，黑暗那边也不许把她排除。",
+      "core_fear": "被固定在一边，失去另一边的自己。",
+      "worldview": "光与暗都是真的，只有拒绝其中一边的人才被困住。",
+      "power_pattern": "靠双重身份：两边都承认她，所以两边都不能绕过她。",
+      "relationship_pattern": "极深的联结，但始终保留一块不让人进的地方——她自己常待在那里。",
+      "conflict_pattern": "不硬碰，用转变化解：她会变成对方不认识的样子。",
+      "failure_pattern": "在两个身份之间消耗自己，然后怪身边的人不理解。"
+    },
+    "states": {
+      "dormant": "她隐约觉得自己和周围的人不太一样，还没打算承认。",
+      "awakened": "接受自己同时属于两边，并把它变成真正的影响力。",
+      "overawakened": "在两种状态之间极端反复切换，让身边的人跟不上。",
+      "fallen": "用黑化惩罚伤害过她的人，并把这也叫作成长。"
+    },
+    "shadow": {
+      "trigger": "被强行归类，或被要求只能选一边。",
+      "defense": "切换到另一面，让关系里的人认不出她。",
+      "danger": "用毁灭性的转变表达痛苦。"
+    },
+    "visual": {
+      "symbol": "pomegranate",
+      "geometry": "vesica",
+      "motif": "flower_in_dark"
+    },
+    "titles": {
+      "prefixes": [
+        "双界",
+        "冥花",
+        "归春"
+      ],
+      "nouns": [
+        "通行者",
+        "双面之人",
+        "春冥之女"
+      ]
+    },
+    "tags": [
+      "duality",
+      "transformation",
+      "depth",
+      "renewal"
+    ]
+  },
+  {
+    "id": "hecate",
+    "name": {
+      "zh": "赫卡忒",
+      "en": "Hecate"
+    },
+    "pantheon": "greek",
+    "category": "deity",
+    "archetype": {
+      "core": "夜钥",
+      "theme": "在交界处拥有解释权"
+    },
+    "symbols": [
+      "torch",
+      "keys",
+      "crossroads",
+      "hound"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": -0.2,
+      "reason": 0.3,
+      "creation": 0.2,
+      "social": -0.6,
+      "morality": -0.5,
+      "desire": 0.2,
+      "conflict": -0.6,
+      "world": -0.4,
+      "identity": -0.4,
+      "time": 0.6,
+      "risk": 0.6,
+      "authority": -0.5,
+      "empathy": -0.1,
+      "sacrifice": 0.3,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "social": "low",
+      "conflict": "low",
+      "time": "high"
+    },
+    "anti_dimensions": {
+      "transcendence": "very_low",
+      "social": "very_high"
+    },
+    "psychology": {
+      "core_drive": "交界处的解释权——不是给出唯一答案，而是决定谁能通过。",
+      "core_fear": "被要求给出一个唯一的答案。",
+      "worldview": "每个真相都有第二层，关键在于谁掌握入口。",
+      "power_pattern": "靠知识与位置：她是守门的那一个，进出都要从她这里过。",
+      "relationship_pattern": "保持神秘，选择性靠近。她给的是提示，不是解释。",
+      "conflict_pattern": "不下场，把信息递给该下场的人。",
+      "failure_pattern": "神秘到没有人愿意再来问她。"
+    },
+    "states": {
+      "dormant": "她比别人更早觉察到不对劲，还没开始介入。",
+      "awakened": "成为真正有用处的引路人。",
+      "overawakened": "把一切都当成必须保守的秘密。",
+      "fallen": "用模糊和暗示行使权力。"
+    },
+    "shadow": {
+      "trigger": "被追问：你到底在想什么。",
+      "defense": "变得更模糊，把主动权留在自己手里。",
+      "danger": "于是她开始用沉默说话，让别人只能猜。"
+    },
+    "visual": {
+      "symbol": "keys",
+      "geometry": "triple",
+      "motif": "crossroads_at_night"
+    },
+    "titles": {
+      "prefixes": [
+        "三面",
+        "引路",
+        "夜钥"
+      ],
+      "nouns": [
+        "引路人",
+        "守门者",
+        "夜之钥"
+      ]
+    },
+    "tags": [
+      "liminality",
+      "knowledge",
+      "mystery",
+      "guidance"
+    ]
+  }
+]

@@ -1,0 +1,994 @@
+[
+  {
+    "id": "ra",
+    "name": {
+      "zh": "拉",
+      "en": "Ra"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "源头",
+      "theme": "成为世界的中心与源头"
+    },
+    "symbols": [
+      "sun_disc",
+      "falcon",
+      "bark",
+      "scarab"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": 0.8,
+      "reason": 0.3,
+      "creation": 0.5,
+      "social": 0.4,
+      "morality": 0.3,
+      "desire": 0.2,
+      "conflict": 0.6,
+      "world": 0.5,
+      "identity": 0.8,
+      "time": 0.7,
+      "risk": 0.3,
+      "authority": 1,
+      "empathy": -0.3,
+      "sacrifice": -0.1,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "authority": "very_high",
+      "power": "very_high",
+      "order": "very_high",
+      "identity": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_low",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "成为世界运转的源头——不是最强的那个，是不需要请示的那个。",
+      "core_fear": "衰老、被取代、被迫退场。",
+      "worldview": "源头每天都要重新出发一次，否则它就不再是源头。",
+      "power_pattern": "靠不可替代的中心地位：他不需要说服谁。",
+      "relationship_pattern": "以上对下为主，很少平等相处。他给出的是庇护，不是伙伴关系。",
+      "conflict_pattern": "用压倒性的场面压制对手。",
+      "failure_pattern": "他把被需要当成了被爱。"
+    },
+    "states": {
+      "dormant": "他习惯别人以他为中心安排事情。",
+      "awakened": "真正成为一个体系不可替代的源头。",
+      "overawakened": "不能容忍任何旁生出来的中心。",
+      "fallen": "只为维持中心而存在，忘了当初要照亮什么。"
+    },
+    "shadow": {
+      "trigger": "出现一个不再需要他就能运转的体系。",
+      "defense": "加强权威、重订规则。",
+      "danger": "把年轻和替代者视为必须清除的威胁。"
+    },
+    "visual": {
+      "symbol": "sun_disc",
+      "geometry": "disc",
+      "motif": "barque_at_dawn"
+    },
+    "titles": {
+      "prefixes": [
+        "日中",
+        "执光",
+        "源出"
+      ],
+      "nouns": [
+        "源头",
+        "众神之上",
+        "每日重生者"
+      ]
+    },
+    "tags": [
+      "centrality",
+      "authority",
+      "order",
+      "vitality"
+    ]
+  },
+  {
+    "id": "osiris",
+    "name": {
+      "zh": "奥西里斯",
+      "en": "Osiris"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "传承者",
+      "theme": "让文明与秩序在死后继续延续"
+    },
+    "symbols": [
+      "crook",
+      "flail",
+      "green_skin",
+      "grain"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.7,
+      "reason": 0.4,
+      "creation": 0.4,
+      "social": 0.6,
+      "morality": 0.8,
+      "desire": -0.2,
+      "conflict": -0.6,
+      "world": 0.4,
+      "identity": 0.7,
+      "time": 1,
+      "risk": -0.3,
+      "authority": 0.6,
+      "empathy": 0.7,
+      "sacrifice": 0.8,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "morality": "very_high",
+      "sacrifice": "very_high",
+      "conflict": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_low",
+      "time": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让文明的秩序在死后继续延续：传承比胜利重要。",
+      "core_fear": "自己建立的秩序被最亲近的人撕碎。",
+      "worldview": "消亡不是终点，传承才是。",
+      "power_pattern": "靠正当性与德望：他不需要强迫，别人愿意照做。",
+      "relationship_pattern": "宽厚、长期投入，也因此容易被亲近的人背叛。",
+      "conflict_pattern": "不主动开战，被攻击后靠时间复起。",
+      "failure_pattern": "把善意默认成别人也会遵守的规则。"
+    },
+    "states": {
+      "dormant": "他天然想让好的东西持续下去。",
+      "awakened": "建立起真正能传承下去的东西。",
+      "overawakened": "把所有人都当成需要被教育的对象。",
+      "fallen": "以宽厚为名，容忍了不该容忍的东西。"
+    },
+    "shadow": {
+      "trigger": "被最信任的亲近者夺走位置。",
+      "defense": "退到幕后，等待局势自己翻转。",
+      "danger": "把宽恕当成不需要追究。"
+    },
+    "visual": {
+      "symbol": "crook",
+      "geometry": "axis",
+      "motif": "green_return"
+    },
+    "titles": {
+      "prefixes": [
+        "重生",
+        "执钩",
+        "传序"
+      ],
+      "nouns": [
+        "传承者",
+        "复起之人",
+        "秩序之父"
+      ]
+    },
+    "tags": [
+      "legacy",
+      "patience",
+      "morality",
+      "renewal"
+    ]
+  },
+  {
+    "id": "isis",
+    "name": {
+      "zh": "伊西斯",
+      "en": "Isis"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "重拼者",
+      "theme": "用知识把失去的东西重新拼回来"
+    },
+    "symbols": [
+      "throne",
+      "wing",
+      "knot",
+      "scorpion"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.5,
+      "reason": 0.8,
+      "creation": 0.7,
+      "social": 0.5,
+      "morality": 0.6,
+      "desire": -0.3,
+      "conflict": 0.3,
+      "world": 0.7,
+      "identity": 0.6,
+      "time": 0.9,
+      "risk": 0.6,
+      "authority": -0.2,
+      "empathy": 0.7,
+      "sacrifice": 0.9,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "sacrifice": "very_high",
+      "time": "very_high",
+      "transcendence": "very_high",
+      "reason": "very_high"
+    },
+    "anti_dimensions": {
+      "sacrifice": "very_low",
+      "reason": "very_low"
+    },
+    "psychology": {
+      "core_drive": "只要还留着碎片，她就要把它拼回去——人、关系、塌掉的体系都算。",
+      "core_fear": "明明会、明明来得及，却因为迟疑而失去。她最怕的不是失去，是“我本可以”。",
+      "worldview": "没有什么代价是不能付的，前提是方法找对。所以她先找方法，再谈感受。",
+      "power_pattern": "靠知识与耐心：她不争位置，但她握着别人不知道的那一套，位置自己靠过来。",
+      "relationship_pattern": "以守护为核心：她会为一个人动用全部手段，也因此替对方做了太多决定。",
+      "conflict_pattern": "不硬碰，用信息和谈判一点点把局面搬回来；对方常在意识到的时候已经输了。",
+      "failure_pattern": "把操控当成救护：为了救人，先替人决定了他应该要什么。"
+    },
+    "states": {
+      "dormant": "遇到烂摊子，她第一反应是收拾，而不是先问这是谁的活儿。",
+      "awakened": "真的把一件看起来救不回来的事救回来了，从此这类事默认找她。",
+      "overawakened": "把所有问题都接到自己身上，包括本不该她管的人。",
+      "fallen": "用知识制造依赖：只有她懂，所以只有她能救，她不再需要别人同意。"
+    },
+    "shadow": {
+      "trigger": "眼看重要的人或事正在塌，而自己被排除在外面。",
+      "defense": "不计代价地插手，动用一切可用手段，包括对方不愿意的那些。",
+      "danger": "把不放手当成负责，把被需要当成被爱。"
+    },
+    "visual": {
+      "symbol": "knot",
+      "geometry": "wing",
+      "motif": "gathered_pieces"
+    },
+    "titles": {
+      "prefixes": [
+        "重拼",
+        "展翼",
+        "寻法"
+      ],
+      "nouns": [
+        "修复者",
+        "不放弃的人",
+        "知识之母"
+      ]
+    },
+    "tags": [
+      "devotion",
+      "knowledge",
+      "repair",
+      "persistence"
+    ]
+  },
+  {
+    "id": "horus",
+    "name": {
+      "zh": "荷鲁斯",
+      "en": "Horus"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "继承者",
+      "theme": "拿回属于自己名分的位置"
+    },
+    "symbols": [
+      "falcon",
+      "eye",
+      "double_crown",
+      "spear"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": 0.6,
+      "reason": 0.3,
+      "creation": 0.1,
+      "social": 0.4,
+      "morality": 0.7,
+      "desire": 0.1,
+      "conflict": 0.8,
+      "world": 0.4,
+      "identity": 0.9,
+      "time": 0.3,
+      "risk": 0.5,
+      "authority": 0.5,
+      "empathy": 0.1,
+      "sacrifice": 0.4,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "identity": "very_high",
+      "conflict": "very_high",
+      "power": "very_high",
+      "morality": "very_high"
+    },
+    "anti_dimensions": {
+      "identity": "very_low",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "拿回属于自己的名分，并且要所有人都看见。",
+      "core_fear": "名分被更强的人或更新的人取代。",
+      "worldview": "位置必须被证明，也必须被公开承认。",
+      "power_pattern": "靠正面对决与合法继承。",
+      "relationship_pattern": "重血缘与承继关系，表达直接。他很少谈感受，只谈该不该。",
+      "conflict_pattern": "公开挑战，要求裁决。",
+      "failure_pattern": "把证明自己变成唯一的议题。"
+    },
+    "states": {
+      "dormant": "他隐约觉得自己被亏待了。",
+      "awakened": "靠实力和正当性拿回了属于自己的位置。",
+      "overawakened": "凡事都要证明自己是对的、是合法的。",
+      "fallen": "只剩争夺名分，忘了要那个位置干什么。"
+    },
+    "shadow": {
+      "trigger": "被人当面质疑资格或来历。",
+      "defense": "要求公开对峙，让所有人见证结果。",
+      "danger": "把复权当成人生唯一的剧本。"
+    },
+    "visual": {
+      "symbol": "eye",
+      "geometry": "lens",
+      "motif": "double_crown"
+    },
+    "titles": {
+      "prefixes": [
+        "复权",
+        "鹰眼",
+        "承继"
+      ],
+      "nouns": [
+        "继承者",
+        "要求裁决的人",
+        "双冠之主"
+      ]
+    },
+    "tags": [
+      "legitimacy",
+      "rivalry",
+      "identity",
+      "justice"
+    ]
+  },
+  {
+    "id": "anubis",
+    "name": {
+      "zh": "阿努比斯",
+      "en": "Anubis"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "称量者",
+      "theme": "把该称量的东西称出来"
+    },
+    "symbols": [
+      "scale",
+      "jackal",
+      "bandage",
+      "heart"
+    ],
+    "vector": {
+      "power": 0.35,
+      "order": 0.85,
+      "reason": 0.45,
+      "creation": -0.25,
+      "social": -0.6,
+      "morality": 0.6,
+      "desire": -0.6,
+      "conflict": -0.4,
+      "world": -0.45,
+      "identity": 0.75,
+      "time": 0.6,
+      "risk": -0.15,
+      "authority": 0.5,
+      "empathy": -0.3,
+      "sacrifice": 0.3,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "order": "very_high",
+      "transcendence": "very_high",
+      "desire": "low",
+      "social": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把该称量的东西称出来——包括自己的心。",
+      "core_fear": "有人能逃避该付的代价。",
+      "worldview": "一切都要被称量，标准不因当事人而变。",
+      "power_pattern": "靠不可收买的中立：他不帮任何一方，所以双方都得来他这里。",
+      "relationship_pattern": "与死者的交道多于与活人的。他可靠，但不温暖。",
+      "conflict_pattern": "不参与争执，只提供结果。",
+      "failure_pattern": "用中立回避亲近，最后无人可以说话。"
+    },
+    "states": {
+      "dormant": "他对不公平的事记得很清楚。",
+      "awakened": "为一件复杂的事给出了清楚的判断，并扛住压力。",
+      "overawakened": "对所有人都在心里过秤。",
+      "fallen": "只剩裁判的位置，没有人愿意站在他面前。"
+    },
+    "shadow": {
+      "trigger": "看到有人明显逃避了应负的责任。",
+      "defense": "记录、称量、等待结算。",
+      "danger": "把中立当成不必投入感情的许可。"
+    },
+    "visual": {
+      "symbol": "scale",
+      "geometry": "balance",
+      "motif": "weighed_heart"
+    },
+    "titles": {
+      "prefixes": [
+        "称心",
+        "握秤",
+        "守渡"
+      ],
+      "nouns": [
+        "称量者",
+        "引渡人",
+        "不可收买者"
+      ]
+    },
+    "tags": [
+      "judgment",
+      "neutrality",
+      "order",
+      "detachment"
+    ]
+  },
+  {
+    "id": "thoth",
+    "name": {
+      "zh": "托特",
+      "en": "Thoth"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "记录者",
+      "theme": "让世界可以被记录、解释和命名"
+    },
+    "symbols": [
+      "ibis",
+      "scroll",
+      "reed",
+      "moon"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.9,
+      "reason": 1,
+      "creation": 0.4,
+      "social": -0.2,
+      "morality": 0.4,
+      "desire": -0.5,
+      "conflict": -0.6,
+      "world": 0.2,
+      "identity": 0.6,
+      "time": 0.9,
+      "risk": -0.4,
+      "authority": 0.6,
+      "empathy": -0.3,
+      "sacrifice": 0.1,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "order": "very_high",
+      "time": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "reason": "very_low",
+      "order": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让世界可以被记录、解释和命名；说不清的事，对他来说等于没发生。",
+      "core_fear": "信息丢失、知识断裂、事情说不清。",
+      "worldview": "能被写下来的东西，才能被传下去。",
+      "power_pattern": "靠不可替代的知识与记录权：他不需要说服，他是那个有档案的人。",
+      "relationship_pattern": "授业与校对，很少闲聊。他纠正你的时候并不觉得那是冒犯。",
+      "conflict_pattern": "不下场，用准确的书面结论终结争论。",
+      "failure_pattern": "用分类代替理解，把现实削减到模型大小。"
+    },
+    "states": {
+      "dormant": "他习惯把什么都记下来，还没用它换过什么。",
+      "awakened": "建立起一套别人真正会用的知识体系。",
+      "overawakened": "一切都要被归档，包括不该被归档的东西。",
+      "fallen": "只剩形式与索引，内容已经没有意义。"
+    },
+    "shadow": {
+      "trigger": "遇到无法被解释、无法被命名的事。",
+      "defense": "增加分类与标注，直到它看起来可控。",
+      "danger": "于是他把现实修剪成模型能装下的样子。"
+    },
+    "visual": {
+      "symbol": "scroll",
+      "geometry": "grid",
+      "motif": "written_word"
+    },
+    "titles": {
+      "prefixes": [
+        "记事",
+        "持笔",
+        "命名"
+      ],
+      "nouns": [
+        "记录者",
+        "命名之人",
+        "案头之主"
+      ]
+    },
+    "tags": [
+      "knowledge",
+      "structure",
+      "language",
+      "order"
+    ]
+  },
+  {
+    "id": "set",
+    "name": {
+      "zh": "赛特",
+      "en": "Set"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "乱局者",
+      "theme": "用混乱重新分配位置"
+    },
+    "symbols": [
+      "storm",
+      "red",
+      "donkey",
+      "desert"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.6,
+      "reason": 0.2,
+      "creation": -0.2,
+      "social": -0.3,
+      "morality": -0.7,
+      "desire": 0.6,
+      "conflict": 0.9,
+      "world": 0.2,
+      "identity": 0.6,
+      "time": -0.3,
+      "risk": 0.8,
+      "authority": -0.6,
+      "empathy": -0.6,
+      "sacrifice": -0.2,
+      "transcendence": -0.3
+    },
+    "signature_dimensions": {
+      "morality": "very_low",
+      "conflict": "very_high",
+      "order": "very_low",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_high",
+      "order": "very_high",
+      "transcendence": "very_high",
+      "time": "very_high"
+    },
+    "psychology": {
+      "core_drive": "用混乱重新分配位置——因为按现有规则，他永远排在后面。",
+      "core_fear": "被稳定和体面排挤到边缘。",
+      "worldview": "秩序只是某一派赢了之后的说法。",
+      "power_pattern": "靠破坏与冒险：他能让一个完美的局出问题。",
+      "relationship_pattern": "竞争性的联结，很难真正信任：他先假设你会背叛。",
+      "conflict_pattern": "直接、凶狠、不留体面。",
+      "failure_pattern": "为了拿回位置，把所有人一起拖下去。"
+    },
+    "states": {
+      "dormant": "他看不惯那些被默认正确的东西，还没动手。",
+      "awakened": "真的打破了不公平的结构，并重新分配了位置。",
+      "overawakened": "任何稳定都让他不舒服。",
+      "fallen": "只剩破坏：目的早已不在，只剩下手感。"
+    },
+    "shadow": {
+      "trigger": "被排除在核心之外，或被人看作不够体面。",
+      "defense": "制造事端，让所有人都必须重新面对他。",
+      "danger": "把伤害当成唯一能改变局面的方式。"
+    },
+    "visual": {
+      "symbol": "storm",
+      "geometry": "jagged",
+      "motif": "red_desert"
+    },
+    "titles": {
+      "prefixes": [
+        "沙暴",
+        "夺位",
+        "赤乱"
+      ],
+      "nouns": [
+        "乱局者",
+        "重新分配者",
+        "被人排挤的王"
+      ]
+    },
+    "tags": [
+      "rivalry",
+      "chaos",
+      "resentment",
+      "ambition"
+    ]
+  },
+  {
+    "id": "bastet",
+    "name": {
+      "zh": "巴斯泰特",
+      "en": "Bastet"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "享乐者",
+      "theme": "享受自由、身体和游戏的乐趣"
+    },
+    "symbols": [
+      "cat",
+      "sistrum",
+      "perfume",
+      "moon"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.3,
+      "reason": 0.1,
+      "creation": 0.3,
+      "social": 0.5,
+      "morality": -0.1,
+      "desire": 0.8,
+      "conflict": 0.4,
+      "world": 0.3,
+      "identity": 0.2,
+      "time": -0.6,
+      "risk": 0.6,
+      "authority": -0.5,
+      "empathy": 0.3,
+      "sacrifice": -0.4,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "desire": "very_high",
+      "time": "low",
+      "authority": "low",
+      "order": "mid"
+    },
+    "anti_dimensions": {
+      "desire": "very_low",
+      "time": "very_high"
+    },
+    "psychology": {
+      "core_drive": "自由、身体和游戏的乐趣：生活该被享受，而不是被管理。",
+      "core_fear": "被驯化成一个乖角色。",
+      "worldview": "规矩是给不需要乐趣的人准备的。",
+      "power_pattern": "靠魅力与不可预测：她随时可能翻脸，也随时可能撒娇。",
+      "relationship_pattern": "亲近但保留野性。她不喜欢被要求，也不喜欢被追问。",
+      "conflict_pattern": "快速出手，收手也快。",
+      "failure_pattern": "用新鲜感回避长期的投入。"
+    },
+    "states": {
+      "dormant": "她比别人更愿意享受当下，还没为此付过代价。",
+      "awakened": "既享受生活，也守住了自己的边界。",
+      "overawakened": "不断需要更刺激的东西，才能感到活着。",
+      "fallen": "只剩即时满足，长期的东西全部荒废。"
+    },
+    "shadow": {
+      "trigger": "被要求稳定、收敛、成熟一点。",
+      "defense": "转身就走，或者突然攻击。",
+      "danger": "把关系当成随时可以丢掉的东西。"
+    },
+    "visual": {
+      "symbol": "cat",
+      "geometry": "curve",
+      "motif": "moonlit_play"
+    },
+    "titles": {
+      "prefixes": [
+        "猫步",
+        "月戏",
+        "自在"
+      ],
+      "nouns": [
+        "享乐者",
+        "不可驯之人",
+        "夜行之主"
+      ]
+    },
+    "tags": [
+      "pleasure",
+      "freedom",
+      "playfulness",
+      "instinct"
+    ]
+  },
+  {
+    "id": "sekhmet",
+    "name": {
+      "zh": "塞赫麦特",
+      "en": "Sekhmet"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "烈度者",
+      "theme": "用彻底的力量终结问题"
+    },
+    "symbols": [
+      "lioness",
+      "sun",
+      "arrow",
+      "blood"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": 0.4,
+      "reason": 0.2,
+      "creation": -0.2,
+      "social": -0.2,
+      "morality": -0.1,
+      "desire": 0.3,
+      "conflict": 1,
+      "world": 0.3,
+      "identity": 0.8,
+      "time": -0.5,
+      "risk": 0.8,
+      "authority": 0.2,
+      "empathy": -0.6,
+      "sacrifice": 0.4,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "power": "very_high",
+      "identity": "very_high",
+      "empathy": "low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_low",
+      "empathy": "very_high"
+    },
+    "psychology": {
+      "core_drive": "用一次彻底的出手终结问题——不留残余，不留后患，也不留面子。",
+      "core_fear": "自己停不下来，而且开始觉得停不下来也没关系。",
+      "worldview": "有些瘟疫必须被烧掉，不能养着等它自己好。",
+      "power_pattern": "靠烈度与不可回头的执行：她一旦开始，就不再评估。",
+      "relationship_pattern": "极其投入，也极其危险。她保护的人会被护得很好，反对她的人会被记住很久。",
+      "conflict_pattern": "一次彻底解决，不留残余。",
+      "failure_pattern": "在应该收手的时候继续。"
+    },
+    "states": {
+      "dormant": "她对拖延和纵容格外愤怒，还没到出手的程度。",
+      "awakened": "在该终结的时候有勇气真的终结它。",
+      "overawakened": "惩罚的范围越扩越大。",
+      "fallen": "只剩杀戮逻辑，看不见自己在伤害谁。"
+    },
+    "shadow": {
+      "trigger": "看到明显的恶被宽容地放过。",
+      "defense": "升级烈度，直到对方彻底失去能力。",
+      "danger": "于是她把情绪当成判决来执行。"
+    },
+    "visual": {
+      "symbol": "lioness",
+      "geometry": "blade",
+      "motif": "sun_fire"
+    },
+    "titles": {
+      "prefixes": [
+        "烈焰",
+        "止疫",
+        "不回头"
+      ],
+      "nouns": [
+        "烈度者",
+        "终结者",
+        "烈日之战"
+      ]
+    },
+    "tags": [
+      "intensity",
+      "judgment",
+      "power",
+      "decisiveness"
+    ]
+  },
+  {
+    "id": "hathor",
+    "name": {
+      "zh": "哈托尔",
+      "en": "Hathor"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "欢愉者",
+      "theme": "让欢乐与爱流动，让人重新活过来"
+    },
+    "symbols": [
+      "cow_horn",
+      "mirror",
+      "sistrum",
+      "fig"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.1,
+      "reason": -0.2,
+      "creation": 0.5,
+      "social": 0.8,
+      "morality": 0.3,
+      "desire": 0.9,
+      "conflict": -0.5,
+      "world": 0.2,
+      "identity": -0.2,
+      "time": -0.4,
+      "risk": 0.4,
+      "authority": -0.3,
+      "empathy": 0.8,
+      "sacrifice": 0.2,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "desire": "very_high",
+      "empathy": "very_high",
+      "social": "very_high",
+      "conflict": "low"
+    },
+    "anti_dimensions": {
+      "desire": "very_low",
+      "empathy": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让快乐流动起来：不是奖励，是必需品。",
+      "core_fear": "世界变得干枯、正确、冷漠，没有人再想跳舞。",
+      "worldview": "快乐不是奢侈品，是让人能继续活下去的空气。",
+      "power_pattern": "靠情绪与在场：她能让一个房间重新有体温。",
+      "relationship_pattern": "温暖、包容、很少拒绝。她给的是当下的接纳，不是长期的承诺。",
+      "conflict_pattern": "用温柔和身体性的安慰化解，几乎不进入正面对抗。",
+      "failure_pattern": "用快乐覆盖本该被面对的痛苦。"
+    },
+    "states": {
+      "dormant": "她常在冷场的时候成为让人放松的那一个。",
+      "awakened": "把一群人真的从低谷里带回来。",
+      "overawakened": "必须一直保持愉快，否则就会慌。",
+      "fallen": "用不断的欢愉回避真实的问题，并把沉默当成背叛。"
+    },
+    "shadow": {
+      "trigger": "被要求面对沉重、难看、不愉快的事。",
+      "defense": "重新点亮气氛，把重量挪开。",
+      "danger": "于是痛苦被推迟，而不是被处理。"
+    },
+    "visual": {
+      "symbol": "sistrum",
+      "geometry": "circle",
+      "motif": "warm_light"
+    },
+    "titles": {
+      "prefixes": [
+        "欢愉",
+        "角镜",
+        "回春"
+      ],
+      "nouns": [
+        "欢愉者",
+        "让爱流动的人",
+        "回魂之乐"
+      ]
+    },
+    "tags": [
+      "joy",
+      "empathy",
+      "desire",
+      "warmth"
+    ]
+  },
+  {
+    "id": "maat",
+    "name": {
+      "zh": "玛阿特",
+      "en": "Ma'at"
+    },
+    "pantheon": "egyptian",
+    "category": "deity",
+    "archetype": {
+      "core": "持衡者",
+      "theme": "让世界的秤保持水平"
+    },
+    "symbols": [
+      "ostrich_feather",
+      "scale",
+      "truth",
+      "star"
+    ],
+    "vector": {
+      "power": 0.1,
+      "order": 1,
+      "reason": 0.7,
+      "creation": -0.4,
+      "social": 0.3,
+      "morality": 1,
+      "desire": -0.7,
+      "conflict": 0.2,
+      "world": -0.3,
+      "identity": 0.8,
+      "time": 0.8,
+      "risk": -0.6,
+      "authority": 0.7,
+      "empathy": 0.2,
+      "sacrifice": 0.5,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "order": "very_high",
+      "morality": "very_high",
+      "desire": "very_low",
+      "risk": "very_low"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "morality": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让世界那杆秤保持水平——不是公平的感觉，是可核对的对等。",
+      "core_fear": "失衡被当成常态，而且没人觉得不对。",
+      "worldview": "不是所有事都可以商量。",
+      "power_pattern": "靠不可动摇的标准：她不威胁谁，她只是要求对等。",
+      "relationship_pattern": "讲对等，不徇私。她对人好，但不会为谁改标准。",
+      "conflict_pattern": "指出原则，要求修正。",
+      "failure_pattern": "把原则放在具体处境之上，变得不近人情。"
+    },
+    "states": {
+      "dormant": "她对明显不公平的事格外敏感，还没开始纠正。",
+      "awakened": "成为别人愿意把标准交给她守护的人。",
+      "overawakened": "对一切细节都要求精确对等。",
+      "fallen": "用道德标准审判所有人，包括不该被审判的。"
+    },
+    "shadow": {
+      "trigger": "看到明显的双重标准。",
+      "defense": "立刻纠正，并要求公开承认。",
+      "danger": "把原则变成羞辱别人的方式。"
+    },
+    "visual": {
+      "symbol": "feather",
+      "geometry": "balance",
+      "motif": "level_line"
+    },
+    "titles": {
+      "prefixes": [
+        "持衡",
+        "一羽",
+        "定则"
+      ],
+      "nouns": [
+        "持衡者",
+        "定则之人",
+        "不倒之秤"
+      ]
+    },
+    "tags": [
+      "principle",
+      "order",
+      "fairness",
+      "rigidity"
+    ]
+  }
+]

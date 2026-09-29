@@ -1,0 +1,723 @@
+[
+  {
+    "id": "amaterasu",
+    "name": {
+      "zh": "天照大神",
+      "en": "Amaterasu"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "光源",
+      "theme": "成为世界的中心，并让秩序持续发光"
+    },
+    "symbols": [
+      "mirror",
+      "sun",
+      "cave",
+      "rice"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.8,
+      "reason": 0.3,
+      "creation": 0.2,
+      "social": 0.7,
+      "morality": 0.6,
+      "desire": -0.3,
+      "conflict": -0.2,
+      "world": 0.2,
+      "identity": 0.8,
+      "time": 0.6,
+      "risk": -0.4,
+      "authority": 0.8,
+      "empathy": 0.4,
+      "sacrifice": 0.4,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "order": "very_high",
+      "identity": "very_high",
+      "authority": "very_high",
+      "social": "very_high"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "authority": "very_low"
+    },
+    "psychology": {
+      "core_drive": "成为世界的中心，并让秩序持续发光。",
+      "core_fear": "自己的光消失，一切陷入黑暗。",
+      "worldview": "世界的秩序需要一个稳定的光源。",
+      "power_pattern": "靠合法性与在场的温暖：她在，大家的做事方式就定了。",
+      "relationship_pattern": "以庇护和期待为主，很少直接索取——但被辜负时她会撤回全部。",
+      "conflict_pattern": "不硬碰，退回自己的地方，让世界知道她不在会怎样。",
+      "failure_pattern": "为了让所有人满意，把自己关进洞里。"
+    },
+    "states": {
+      "dormant": "她自然地成为一群人里的中心。",
+      "awakened": "承担起照亮一个体系的责任。",
+      "overawakened": "把自己当成唯一的光源，无法允许别人不看向她。",
+      "fallen": "用撤回自己的方式惩罚世界。"
+    },
+    "shadow": {
+      "trigger": "被亲近的人公开伤害，而所有人都在看。",
+      "defense": "退回暗处，不再出现。",
+      "danger": "把自我隐藏当成一种惩罚手段。"
+    },
+    "visual": {
+      "symbol": "mirror",
+      "geometry": "sun_disc",
+      "motif": "light_from_cave"
+    },
+    "titles": {
+      "prefixes": [
+        "天照",
+        "持镜",
+        "出洞"
+      ],
+      "nouns": [
+        "光源",
+        "照世之人",
+        "秩序之母"
+      ]
+    },
+    "tags": [
+      "centrality",
+      "order",
+      "warmth",
+      "dignity"
+    ]
+  },
+  {
+    "id": "tsukuyomi",
+    "name": {
+      "zh": "月读命",
+      "en": "Tsukuyomi"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "度衡者",
+      "theme": "保持距离，按照规则衡量一切"
+    },
+    "symbols": [
+      "moon",
+      "mirror",
+      "tide",
+      "silence"
+    ],
+    "vector": {
+      "power": 0.25,
+      "order": 0.55,
+      "reason": 0.75,
+      "creation": -0.3,
+      "social": -0.75,
+      "morality": 0.35,
+      "desire": -0.55,
+      "conflict": -0.6,
+      "world": -0.5,
+      "identity": 0.5,
+      "time": 0.75,
+      "risk": -0.5,
+      "authority": 0.3,
+      "empathy": -0.55,
+      "sacrifice": 0.1,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "social": "very_low",
+      "empathy": "low",
+      "reason": "very_high",
+      "transcendence": "very_high"
+    },
+    "anti_dimensions": {
+      "social": "very_high",
+      "empathy": "very_high"
+    },
+    "psychology": {
+      "core_drive": "保持距离，并按规则衡量一切——包括衡量自己。",
+      "core_fear": "被卷入无法衡量的人情。",
+      "worldview": "只有保持距离，才看得清楚。",
+      "power_pattern": "靠冷静与标准：他不生气，他只是判定了。",
+      "relationship_pattern": "从远处善意，极少靠近。他记得你的事，但不会为你破例。",
+      "conflict_pattern": "不吵，直接判定并切断。",
+      "failure_pattern": "用冷静处理所有事，最后没有人可以靠近。"
+    },
+    "states": {
+      "dormant": "他比别人更少表达情绪，还没把距离变成原则。",
+      "awakened": "在需要判断的时候给出干净、准确的结论。",
+      "overawakened": "把所有人际问题都变成需要裁决的事。",
+      "fallen": "只剩衡量：连自己也被排除在外。"
+    },
+    "shadow": {
+      "trigger": "被要求参与一件无法用规则处理的人情事。",
+      "defense": "退到观察者的位置，不下场。",
+      "danger": "于是他把距离当成清白，把不参与当成不负责。"
+    },
+    "visual": {
+      "symbol": "moon",
+      "geometry": "crescent",
+      "motif": "still_water"
+    },
+    "titles": {
+      "prefixes": [
+        "夜读",
+        "持镜",
+        "冷月"
+      ],
+      "nouns": [
+        "度衡者",
+        "远观之人",
+        "不问情之人"
+      ]
+    },
+    "tags": [
+      "reason",
+      "distance",
+      "judgment",
+      "reserve"
+    ]
+  },
+  {
+    "id": "susanoo",
+    "name": {
+      "zh": "须佐之男",
+      "en": "Susanoo"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "斩蛇者",
+      "theme": "用行动表达情绪，并保护真正在乎的人"
+    },
+    "symbols": [
+      "sword",
+      "storm",
+      "sea",
+      "serpent"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": -0.35,
+      "reason": -0.35,
+      "creation": 0.25,
+      "social": 0.55,
+      "morality": 0.25,
+      "desire": 0.4,
+      "conflict": 0.85,
+      "world": 0.25,
+      "identity": 0.5,
+      "time": -0.55,
+      "risk": 0.85,
+      "authority": -0.75,
+      "empathy": 0.6,
+      "sacrifice": 0.5,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "power": "very_high",
+      "authority": "low",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_high",
+      "conflict": "very_low"
+    },
+    "psychology": {
+      "core_drive": "用行动表达情绪，并且护住真正在乎的人。",
+      "core_fear": "被当成不能承担的人。",
+      "worldview": "先动手，再解释——顺序不能反。",
+      "power_pattern": "靠爆发力和护短：他不温和，但他会来。",
+      "relationship_pattern": "表达笨拙，行动可靠。他道歉的方式是帮你把事办了。",
+      "conflict_pattern": "先打，打完了再看还能不能讲。",
+      "failure_pattern": "情绪先行，然后花很长时间修补被砸坏的东西。"
+    },
+    "states": {
+      "dormant": "他的情绪来得比语言快，还没惹过大事。",
+      "awakened": "把爆发力用在该保护的人身上。",
+      "overawakened": "到处开战，把生活变成连续的战场。",
+      "fallen": "只剩怒气，而保护对象已经不在了。"
+    },
+    "shadow": {
+      "trigger": "在乎的人被伤害或被轻视。",
+      "defense": "立刻动手，用暴力解决问题。",
+      "danger": "于是他砸坏的东西比保护下来的还多。"
+    },
+    "visual": {
+      "symbol": "sword",
+      "geometry": "cut",
+      "motif": "storm_over_sea"
+    },
+    "titles": {
+      "prefixes": [
+        "斩蛇",
+        "兴风",
+        "护短"
+      ],
+      "nouns": [
+        "斩蛇者",
+        "暴风之子",
+        "来撑场的人"
+      ]
+    },
+    "tags": [
+      "action",
+      "temper",
+      "protection",
+      "honesty"
+    ]
+  },
+  {
+    "id": "izanagi",
+    "name": {
+      "zh": "伊邪那岐",
+      "en": "Izanagi"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "开创者",
+      "theme": "从混乱中造出世界并给它定规矩"
+    },
+    "symbols": [
+      "spear",
+      "bridge",
+      "sword",
+      "rope"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.7,
+      "reason": 0.3,
+      "creation": 0.8,
+      "social": 0.4,
+      "morality": 0.3,
+      "desire": 0.1,
+      "conflict": 0.4,
+      "world": 0.8,
+      "identity": 0.6,
+      "time": 0.5,
+      "risk": 0.4,
+      "authority": 0.5,
+      "empathy": 0.1,
+      "sacrifice": 0.5,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "world": "very_high",
+      "order": "very_high",
+      "power": "very_high"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "world": "very_low"
+    },
+    "psychology": {
+      "core_drive": "在混乱里造出能住人的东西——制度、公司、家都算——然后给它定规则。",
+      "core_fear": "自己亲手搭起来的东西失控，而他只能看着。",
+      "worldview": "建立先于抱怨：先动手的人拿走定义权。",
+      "power_pattern": "靠开创与立规：他先迈那一步，别人跟在后面按他画的地图走。",
+      "relationship_pattern": "并肩作战型。能一起干事的才算亲近，不能共事的他很快失去兴趣。",
+      "conflict_pattern": "用决断切断修不好的部分，然后继续往前。",
+      "failure_pattern": "为了继续向前，把该哀悼、该道歉的部分直接跳过去。"
+    },
+    "states": {
+      "dormant": "他天然想把乱的东西整理成能住的，但还没真正开过一局。",
+      "awakened": "建立起一个能运转、别人也愿意在里面生活的系统。",
+      "overawakened": "不断开新局，旧的还没长好就丢下。",
+      "fallen": "只想建立，不愿承担维护里那些琐碎又没有荣耀的部分。"
+    },
+    "shadow": {
+      "trigger": "自己建立的东西出现失控或失败。",
+      "defense": "切断、封门、宣布下一件事开始。",
+      "danger": "把丧失当成一段需要被跳过的流程。"
+    },
+    "visual": {
+      "symbol": "spear",
+      "geometry": "axis",
+      "motif": "stirred_sea"
+    },
+    "titles": {
+      "prefixes": [
+        "开辟",
+        "搅拌",
+        "立界"
+      ],
+      "nouns": [
+        "开创者",
+        "立规之人",
+        "建世者"
+      ]
+    },
+    "tags": [
+      "creation",
+      "order",
+      "decisions",
+      "initiative"
+    ]
+  },
+  {
+    "id": "izanami",
+    "name": {
+      "zh": "伊邪那美",
+      "en": "Izanami"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "代价者",
+      "theme": "让被夺走的东西有代价"
+    },
+    "symbols": [
+      "comb",
+      "yomi",
+      "shadow",
+      "peach"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.5,
+      "reason": 0.1,
+      "creation": 0.4,
+      "social": -0.4,
+      "morality": -0.2,
+      "desire": 0.2,
+      "conflict": 0.3,
+      "world": -0.3,
+      "identity": 0.4,
+      "time": 0.8,
+      "risk": 0.3,
+      "authority": 0.2,
+      "empathy": -0.4,
+      "sacrifice": 0.6,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "time": "very_high",
+      "sacrifice": "high",
+      "empathy": "low"
+    },
+    "anti_dimensions": {
+      "transcendence": "very_low",
+      "social": "very_high"
+    },
+    "psychology": {
+      "core_drive": "让被夺走的东西有代价：不是报复，是结算。",
+      "core_fear": "自己的付出被抹去，像从没发生过。",
+      "worldview": "死亡不是失败，是另一种要求。",
+      "power_pattern": "靠不再回头的确定性：她说不，就没有第二次商量。",
+      "relationship_pattern": "爱得极深，被背叛后决绝得彻底。她不恨你，只是把你从名册上划掉。",
+      "conflict_pattern": "不再商量，直接关上所有的门。",
+      "failure_pattern": "把私人的痛变成对所有人的判决。"
+    },
+    "states": {
+      "dormant": "她对失去的东西记得特别久，还没开始结算。",
+      "awakened": "把失去变成自己的位置与力量。",
+      "overawakened": "用代价的逻辑处理所有关系。",
+      "fallen": "让所有人一起承担她一个人失去的。"
+    },
+    "shadow": {
+      "trigger": "被所爱之人辜负或遗弃。",
+      "defense": "彻底关门，不再给任何解释的机会。",
+      "danger": "把公平变成报复的分配。"
+    },
+    "visual": {
+      "symbol": "comb",
+      "geometry": "descent",
+      "motif": "closed_stone_door"
+    },
+    "titles": {
+      "prefixes": [
+        "黄泉",
+        "不复",
+        "索偿"
+      ],
+      "nouns": [
+        "代价者",
+        "不回头的爱",
+        "冥界之母"
+      ]
+    },
+    "tags": [
+      "loss",
+      "grief",
+      "boundary",
+      "severity"
+    ]
+  },
+  {
+    "id": "inari",
+    "name": {
+      "zh": "稻荷神",
+      "en": "Inari"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "流通者",
+      "theme": "让丰盛流动起来"
+    },
+    "symbols": [
+      "fox",
+      "rice",
+      "gate",
+      "key"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.6,
+      "reason": 0.2,
+      "creation": 0.5,
+      "social": 0.8,
+      "morality": 0.2,
+      "desire": 0.5,
+      "conflict": -0.3,
+      "world": 0.4,
+      "identity": -0.3,
+      "time": 0.6,
+      "risk": 0.2,
+      "authority": 0.2,
+      "empathy": 0.5,
+      "sacrifice": -0.1,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "social": "very_high",
+      "transcendence": "high",
+      "conflict": "low",
+      "identity": "low"
+    },
+    "anti_dimensions": {
+      "social": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把人、机会和消息接起来，让它们流动，然后从中获益。",
+      "core_fear": "流通停止——没有人再需要她转手。",
+      "worldview": "世界靠交换运转，门开着才有生意，也才有朋友。",
+      "power_pattern": "靠通路：重要的不是她拥有什么，而是别人必须经过她。",
+      "relationship_pattern": "广泛、灵活、不失分寸。她记得每个人的偏好，也记得每个人的价码。",
+      "conflict_pattern": "用迂回和交换化解，很少正面拆台。",
+      "failure_pattern": "对所有人都有回应，结果谁也没真正得到她。"
+    },
+    "states": {
+      "dormant": "她天生擅长把人和机会接在一起，还没开始有意经营。",
+      "awakened": "成为一条真正在流动的通路，两头都受益。",
+      "overawakened": "不断扩张关系网，自己的位置却越来越模糊。",
+      "fallen": "只剩流通的形式，没有内容：认识所有人，没有人认识她。"
+    },
+    "shadow": {
+      "trigger": "被要求选边、表态、排他。",
+      "defense": "转变身份和说法，让局面重新流动起来。",
+      "danger": "用灵活回避承诺，最后没人敢把重要的事交给她。"
+    },
+    "visual": {
+      "symbol": "fox",
+      "geometry": "gate_arch",
+      "motif": "endless_torii"
+    },
+    "titles": {
+      "prefixes": [
+        "稻穗",
+        "千门",
+        "灵狐"
+      ],
+      "nouns": [
+        "流通者",
+        "开门之人",
+        "丰盛之使"
+      ]
+    },
+    "tags": [
+      "network",
+      "exchange",
+      "flexibility",
+      "generosity"
+    ]
+  },
+  {
+    "id": "okuninushi",
+    "name": {
+      "zh": "大国主",
+      "en": "Ōkuninushi"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "建国者",
+      "theme": "把散的连成一个能住人的地方"
+    },
+    "symbols": [
+      "clay",
+      "white_hare",
+      "cedar",
+      "pestle"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.4,
+      "reason": 0.2,
+      "creation": 0.6,
+      "social": 0.8,
+      "morality": 0.5,
+      "desire": 0.2,
+      "conflict": -0.8,
+      "world": 0.6,
+      "identity": 0.2,
+      "time": 0.6,
+      "risk": 0.1,
+      "authority": -0.4,
+      "empathy": 0.8,
+      "sacrifice": 0.6,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "conflict": "very_low",
+      "social": "very_high",
+      "empathy": "very_high",
+      "creation": "high"
+    },
+    "anti_dimensions": {
+      "conflict": "very_high",
+      "empathy": "very_low",
+      "transcendence": "very_high"
+    },
+    "psychology": {
+      "core_drive": "把散的东西连成一个能住人的地方。",
+      "core_fear": "因为自己的退让失去所爱。",
+      "worldview": "世界可以靠协商和让步建成。",
+      "power_pattern": "靠人望：他不是最强的，但大家都愿意跟他走。",
+      "relationship_pattern": "温和、耐心、容易被亲近的人影响。他很少拒绝别人。",
+      "conflict_pattern": "让、躲、绕，直到冲突自己消失。",
+      "failure_pattern": "退让太多，最后连该守的也守不住。"
+    },
+    "states": {
+      "dormant": "他常被动地成为大家的连接点。",
+      "awakened": "把一群散的人真的连成了共同体。",
+      "overawakened": "为了避免冲突，把所有分歧都藏起来。",
+      "fallen": "用牺牲自己的方式维持表面的和平。"
+    },
+    "shadow": {
+      "trigger": "被要求为了大局放弃自己想要的。",
+      "defense": "答应下来，然后把损失留给自己。",
+      "danger": "把退让当成唯一的德性。"
+    },
+    "visual": {
+      "symbol": "clay",
+      "geometry": "ring",
+      "motif": "built_ground"
+    },
+    "titles": {
+      "prefixes": [
+        "建国",
+        "让贤",
+        "结土"
+      ],
+      "nouns": [
+        "建国者",
+        "让人之人",
+        "温和之主"
+      ]
+    },
+    "tags": [
+      "community",
+      "conciliation",
+      "creation",
+      "gentleness"
+    ]
+  },
+  {
+    "id": "ame_no_uzume",
+    "name": {
+      "zh": "天钿女命",
+      "en": "Ame-no-Uzume"
+    },
+    "pantheon": "japanese",
+    "category": "deity",
+    "archetype": {
+      "core": "破僵者",
+      "theme": "用笑和表演把僵局打开"
+    },
+    "symbols": [
+      "sleeve",
+      "drum",
+      "mirror",
+      "dance"
+    ],
+    "vector": {
+      "power": -0.1,
+      "order": -0.4,
+      "reason": -0.3,
+      "creation": 0.6,
+      "social": 0.8,
+      "morality": -0.2,
+      "desire": 0.7,
+      "conflict": -0.8,
+      "world": 0.3,
+      "identity": -0.6,
+      "time": -0.7,
+      "risk": 0.7,
+      "authority": -0.6,
+      "empathy": 0.6,
+      "sacrifice": 0.3,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "conflict": "very_low",
+      "social": "very_high",
+      "desire": "very_high",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_high",
+      "social": "very_low"
+    },
+    "psychology": {
+      "core_drive": "用笑和表演把僵局打开——世界靠有人愿意先出丑才能继续转动。",
+      "core_fear": "场面彻底冷掉，谁也不肯先动。",
+      "worldview": "严肃的场合最需要有人先疯一下。",
+      "power_pattern": "靠情绪与表演：她能改变一个房间的温度。",
+      "relationship_pattern": "热络、直接、让人放松；但说起自己的事，她会立刻换成玩笑。",
+      "conflict_pattern": "不用对抗，用荒谬把冲突的重量拆掉。",
+      "failure_pattern": "永远在调节气氛，自己的事没人知道。"
+    },
+    "states": {
+      "dormant": "她在冷场时忍不住开个玩笑，还没意识到那是本事。",
+      "awakened": "在最僵的时刻说出那句话，事情真的转动了。",
+      "overawakened": "不断表演，因为安静让她慌。",
+      "fallen": "只剩热闹，没有人真的靠近。"
+    },
+    "shadow": {
+      "trigger": "被要求严肃地面对沉重的事。",
+      "defense": "开玩笑、转移话题，让气氛重新变轻。",
+      "danger": "用幽默回避真实的痛苦。"
+    },
+    "visual": {
+      "symbol": "drum",
+      "geometry": "circle",
+      "motif": "dance_before_cave"
+    },
+    "titles": {
+      "prefixes": [
+        "起舞",
+        "开颜",
+        "执鼓"
+      ],
+      "nouns": [
+        "破僵者",
+        "引笑之人",
+        "先动的人"
+      ]
+    },
+    "tags": [
+      "playfulness",
+      "emotion",
+      "connection",
+      "courage"
+    ]
+  }
+]

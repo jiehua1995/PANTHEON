@@ -1,0 +1,375 @@
+[
+  {
+    "id": "will-1",
+    "act": "will",
+    "profile": "overall",
+    "text": "你被交给一个没有任何先例、也没有人能告诉你怎么做的项目。",
+    "options": [
+      {
+        "id": "a",
+        "text": "先看别人怎么做，再照着优化。",
+        "weights": {
+          "creation": -0.5,
+          "risk": -0.5,
+          "order": 0.4,
+          "time": 0.2
+        }
+      },
+      {
+        "id": "b",
+        "text": "直接开始做，边做边想。",
+        "weights": {
+          "creation": 0.7,
+          "risk": 0.6,
+          "time": -0.5,
+          "reason": -0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "先想清楚结构再动手。",
+        "weights": {
+          "creation": 0.4,
+          "reason": 0.7,
+          "time": 0.5,
+          "risk": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "先找一个人一起做，边讨论边定。",
+        "weights": {
+          "social": 0.8,
+          "creation": 0.3,
+          "reason": -0.4,
+          "time": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-2",
+    "act": "will",
+    "profile": "overall",
+    "text": "你相信一个想法，但身边的人都说不现实。",
+    "options": [
+      {
+        "id": "a",
+        "text": "先自己做出一个能跑的最小版本。",
+        "weights": {
+          "world": 0.7,
+          "creation": 0.7,
+          "conflict": -0.3,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "换一套更有说服力的说法，继续讲。",
+        "weights": {
+          "social": 0.5,
+          "identity": -0.5,
+          "creation": 0.3,
+          "power": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "放下它。也许他们是对的。",
+        "weights": {
+          "power": -0.7,
+          "world": -0.9,
+          "authority": 0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "坚持到他们不得不承认。",
+        "weights": {
+          "conflict": 0.8,
+          "power": 0.7,
+          "world": 0.5,
+          "risk": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-3",
+    "act": "will",
+    "profile": "overall",
+    "text": "一个位置空缺了。你有能力坐上去，但需要你主动争取。",
+    "options": [
+      {
+        "id": "a",
+        "text": "直接说：我要这个位置。",
+        "weights": {
+          "power": 0.8,
+          "conflict": 0.6,
+          "social": 0.2
+        }
+      },
+      {
+        "id": "b",
+        "text": "让别人先来提我的名字。",
+        "weights": {
+          "power": -0.4,
+          "social": 0.6,
+          "authority": 0.3,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "用结果证明，位置自然会来。",
+        "weights": {
+          "power": -0.2,
+          "world": 0.5,
+          "time": 0.7,
+          "creation": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "不争，那个位置不值得这个过程。",
+        "weights": {
+          "power": -0.7,
+          "desire": -0.5,
+          "social": -0.5,
+          "sacrifice": -0.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-4",
+    "act": "will",
+    "profile": "overall",
+    "text": "你最在意的一件事最终交给别人执行，方向被改了。",
+    "options": [
+      {
+        "id": "a",
+        "text": "要么由我主导，要么我退出。",
+        "weights": {
+          "power": 0.9,
+          "conflict": 0.6,
+          "authority": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "继续给方案，尽量影响每一个细节。",
+        "weights": {
+          "power": 0.5,
+          "order": 0.6,
+          "creation": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "支持他们，把自己挪到更有用的位置。",
+        "weights": {
+          "social": 0.7,
+          "power": -0.4,
+          "sacrifice": 0.5,
+          "identity": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "记住，以后自己建一个。",
+        "weights": {
+          "creation": 0.8,
+          "world": 0.6,
+          "conflict": -0.4,
+          "time": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-5",
+    "act": "will",
+    "profile": "overall",
+    "text": "一个机会现在就能拿到，但会打断你正在做的三年计划。",
+    "options": [
+      {
+        "id": "a",
+        "text": "拿。机会比计划准。",
+        "weights": {
+          "time": -0.9,
+          "risk": 0.7,
+          "desire": 0.6,
+          "sacrifice": -0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "不拿。计划更重要。",
+        "weights": {
+          "time": 0.9,
+          "desire": -0.5,
+          "risk": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "看它能不能被塞进计划里。",
+        "weights": {
+          "time": 0.5,
+          "reason": 0.6,
+          "order": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "拿，但立刻把计划改成两条线并行。",
+        "weights": {
+          "time": 0.4,
+          "creation": 0.5,
+          "power": 0.4,
+          "risk": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-6",
+    "act": "will",
+    "profile": "overall",
+    "text": "你的成果被当成了集体成果，没有人提到你。",
+    "options": [
+      {
+        "id": "a",
+        "text": "当面把归属说清楚。",
+        "weights": {
+          "conflict": 0.7,
+          "identity": 0.6,
+          "power": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "不解释，下一次做到不容忽视。",
+        "weights": {
+          "identity": 0.5,
+          "time": 0.6,
+          "conflict": -0.4,
+          "power": 0.2
+        }
+      },
+      {
+        "id": "c",
+        "text": "私下把话递到能影响评价的人那里。",
+        "weights": {
+          "power": 0.5,
+          "conflict": -0.4,
+          "social": 0.2,
+          "morality": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "无所谓，只要事情成了。",
+        "weights": {
+          "sacrifice": 0.7,
+          "identity": -0.6,
+          "power": -0.5,
+          "social": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-7",
+    "act": "will",
+    "profile": "overall",
+    "text": "你想改掉自己身上一个拖了很多年的毛病。",
+    "options": [
+      {
+        "id": "a",
+        "text": "设一套反悔成本很高的机制。",
+        "weights": {
+          "order": 0.7,
+          "power": 0.4,
+          "reason": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "把它想通，动机自然会变。",
+        "weights": {
+          "reason": 0.5,
+          "transcendence": 0.5,
+          "time": 0.4,
+          "order": -0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "一次次硬扛，靠意志压过去。",
+        "weights": {
+          "power": 0.8,
+          "desire": -0.6,
+          "conflict": 0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "接受它就是自己的一部分。",
+        "weights": {
+          "identity": 0.6,
+          "creation": -0.6,
+          "world": -0.8,
+          "desire": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "will-8",
+    "act": "will",
+    "profile": "overall",
+    "text": "一个你信任的人正在做一个明显错误的选择。",
+    "options": [
+      {
+        "id": "a",
+        "text": "直接说，哪怕伤感情。",
+        "weights": {
+          "conflict": 0.7,
+          "morality": 0.5,
+          "empathy": -0.3
+        }
+      },
+      {
+        "id": "b",
+        "text": "把判断需要的信息放到他能看到的地方。",
+        "weights": {
+          "reason": 0.5,
+          "empathy": 0.6,
+          "conflict": -0.4,
+          "social": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "陪他走一遍，等他自己发现。",
+        "weights": {
+          "empathy": 0.7,
+          "time": 0.6,
+          "sacrifice": 0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "不干涉。别人的人生不需要我批准。",
+        "weights": {
+          "social": -0.5,
+          "morality": -0.6,
+          "authority": -0.5,
+          "identity": 0.3
+        }
+      }
+    ]
+  }
+]

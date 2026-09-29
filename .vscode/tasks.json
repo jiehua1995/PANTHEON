@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1 · 数据门禁（先跑这个）",
+      "type": "shell",
+      "command": "npm run validate-data",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "2 · 单元测试",
+      "type": "shell",
+      "command": "npm run test",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "3 · 启动网页版（开发服务器）",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "4 · 生成文案审查清单",
+      "type": "shell",
+      "command": "npm run review-sheet",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "5 · 读一份报告（默认 lugh，可改参数）",
+      "type": "shell",
+      "command": "npm run show-report -- --deity lugh",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "6 · 分布模拟（10000 人）",
+      "type": "shell",
+      "command": "npm run simulate",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "7 · 内容审计（通用度 / Barnum）",
+      "type": "shell",
+      "command": "npm run audit-content",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "8 · 构建 + 预览产物（部署前）",
+      "type": "shell",
+      "command": "npm run build && npm run preview",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    }
+  ]
+}

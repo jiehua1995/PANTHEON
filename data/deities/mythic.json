@@ -1,0 +1,182 @@
+[
+  {
+    "id": "gilgamesh",
+    "name": {
+      "zh": "吉尔伽美什",
+      "en": "Gilgamesh"
+    },
+    "pantheon": "mesopotamian",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "超越者",
+      "theme": "用不可能的事证明自己不可替代"
+    },
+    "symbols": [
+      "city_wall",
+      "lion",
+      "axe",
+      "tablet"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": 0.5,
+      "reason": 0.3,
+      "creation": 0.5,
+      "social": 0.3,
+      "morality": -0.3,
+      "desire": 0.8,
+      "conflict": 0.7,
+      "world": 0.8,
+      "identity": 0.7,
+      "time": 0.5,
+      "risk": 0.7,
+      "authority": 0.3,
+      "empathy": -0.2,
+      "sacrifice": 0.2,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "desire": "very_high",
+      "world": "very_high",
+      "conflict": "very_high"
+    },
+    "anti_dimensions": {
+      "power": "very_low",
+      "desire": "very_low"
+    },
+    "psychology": {
+      "core_drive": "在一件事上做到没人做到过——不是为了赢，是为了证明自己不是随便哪一个。",
+      "core_fear": "自己终究只是一个会死的人，而且很快就会没人记得。",
+      "worldview": "世界是留下名字的地方，别人的想法只是背景音。",
+      "power_pattern": "靠压倒性的产能与意志：他先做到，再让规则来适应他。",
+      "relationship_pattern": "只有一个位置留得下平等的人。那个人失去之后，他开始跟死亡较劲。",
+      "conflict_pattern": "正面对抗，并且享受对手值得打这件事。",
+      "failure_pattern": "用更大的成就盖住更深的恐惧，越成功越不敢停下来。"
+    },
+    "states": {
+      "dormant": "他做什么都想做到最大，还没意识到那和恐惧有关。",
+      "awakened": "真的做成了一件后人会记住的事。",
+      "overawakened": "所有事都变成必须超越的对象，包括亲近的人。",
+      "fallen": "为了不被忘记，开始亲手拆掉自己建过的东西。"
+    },
+    "shadow": {
+      "trigger": "面对无法战胜的东西：时间、衰老、死亡。",
+      "defense": "加速、加大、加倍投入，用行动盖住这件事。",
+      "danger": "把身边的人当成通往不朽的工具。"
+    },
+    "visual": {
+      "symbol": "city_wall",
+      "geometry": "fortress",
+      "motif": "great_wall"
+    },
+    "titles": {
+      "prefixes": [
+        "筑城",
+        "屠天",
+        "求不死"
+      ],
+      "nouns": [
+        "超越者",
+        "第一人",
+        "不甘者"
+      ]
+    },
+    "tags": [
+      "ambition",
+      "mortality",
+      "power",
+      "appetite"
+    ]
+  },
+  {
+    "id": "odysseus",
+    "name": {
+      "zh": "奥德修斯",
+      "en": "Odysseus"
+    },
+    "pantheon": "greek",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "归返者",
+      "theme": "用脑子穿过别人设下的困境，回到自己的生活"
+    },
+    "symbols": [
+      "bow",
+      "ship",
+      "horse",
+      "scar"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": 0.2,
+      "reason": 0.9,
+      "creation": 0.5,
+      "social": 0.5,
+      "morality": -0.3,
+      "desire": 0.4,
+      "conflict": -0.6,
+      "world": 0.2,
+      "identity": -0.4,
+      "time": 0.9,
+      "risk": 0.6,
+      "authority": -0.5,
+      "empathy": 0.1,
+      "sacrifice": 0.4,
+      "transcendence": -0.2
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "time": "very_high",
+      "conflict": "low",
+      "transcendence": "low"
+    },
+    "anti_dimensions": {
+      "reason": "very_low",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "回到自己说了算的生活：不是当英雄，是回家。",
+      "core_fear": "被困在别人的规则里，一年一年替别人的目的打工。",
+      "worldview": "世界是一连串别人设计的关卡。硬闯不如看懂规则，然后穿过它。",
+      "power_pattern": "靠信息差与耐心：他不抢先，他等对方先把自己的破口露出来。",
+      "relationship_pattern": "长期忠诚，但路上保留一部分真话不说，他称之为“没必要让人担心”。",
+      "conflict_pattern": "绕、等、骗、拖，几乎不正面；赢的时候对方甚至不知道已经打过。",
+      "failure_pattern": "习惯性保留，把本该坦白的人也一起算进棋局。"
+    },
+    "states": {
+      "dormant": "他比别人更会绕开麻烦，但还说不清自己到底想去哪。",
+      "awakened": "用一套算计把自己从最不该出来的地方带了出来，而且没有变坏。",
+      "overawakened": "对所有人都只给一半真话，包括愿意帮他的人。",
+      "fallen": "只剩手段：目标已经模糊，算计却改不掉。"
+    },
+    "shadow": {
+      "trigger": "被一股远比自己大的力量正面按住。",
+      "defense": "退一步，编一个过得去的身份，先活下来。",
+      "danger": "对最亲近的人也开始演，然后忘了自己原本想回哪里。"
+    },
+    "visual": {
+      "symbol": "bow",
+      "geometry": "path",
+      "motif": "long_voyage"
+    },
+    "titles": {
+      "prefixes": [
+        "归返",
+        "多谋",
+        "渡难"
+      ],
+      "nouns": [
+        "归返者",
+        "多谋之人",
+        "人间之智"
+      ]
+    },
+    "tags": [
+      "strategy",
+      "endurance",
+      "homecoming",
+      "craftiness"
+    ]
+  }
+]

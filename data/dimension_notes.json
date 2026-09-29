@@ -1,0 +1,152 @@
+[
+  {
+    "id": "power-high-authority-low",
+    "when": { "power": { "min": 0.45 }, "authority": { "max": -0.4 } },
+    "text": "你要的不是遵守规则，而是自己决定规则。别人对你行使正当程序的时候，你第一反应是评估他凭什么。"
+  },
+  {
+    "id": "power-low-authority-high",
+    "when": { "power": { "max": -0.35 }, "authority": { "min": 0.4 } },
+    "text": "你更愿意在有明确授权的位置上发力。不是不敢负责，而是不想在没有名分的地方硬扛。"
+  },
+  {
+    "id": "order-high-conflict-low",
+    "when": { "order": { "min": 0.45 }, "conflict": { "max": -0.35 } },
+    "text": "你把冲突当成系统故障：先修结构，而不是先赢。这让你少树敌，也让该翻脸的时候来得太晚。"
+  },
+  {
+    "id": "order-low-reason-high",
+    "when": { "order": { "max": -0.35 }, "reason": { "min": 0.45 } },
+    "text": "你的逻辑是流动的：先做判断，再补结构。别人看你像没规矩，其实你在算另一套账。"
+  },
+  {
+    "id": "reason-high-empathy-low",
+    "when": { "reason": { "min": 0.45 }, "empathy": { "max": -0.35 } },
+    "text": "你能把情绪当成变量处理。这笔账有两个代价：你做决定很快，但别人会觉得跟你说话像在走流程。"
+  },
+  {
+    "id": "reason-low-empathy-high",
+    "when": { "reason": { "max": -0.35 }, "empathy": { "min": 0.45 } },
+    "text": "你靠感受读人，判断比解释来得快。这让你很准，也让你在被追问理由的时候很难自证不是在凭感觉。"
+  },
+  {
+    "id": "creation-high-time-high",
+    "when": { "creation": { "min": 0.45 }, "time": { "min": 0.45 } },
+    "text": "你愿意为一件很久以后才看得见结果的事下注。好处是你能造出别人造不出的东西，代价是中途没人能给你确认。"
+  },
+  {
+    "id": "creation-low-order-high",
+    "when": { "creation": { "max": -0.3 }, "order": { "min": 0.45 } },
+    "text": "你更愿意保护已经在运转的东西。这不是保守，是算过折腾成本之后的选择。"
+  },
+  {
+    "id": "risk-high-morality-low",
+    "when": { "risk": { "min": 0.45 }, "morality": { "max": -0.35 } },
+    "text": "你愿意为了结果越过规则，而且不太为此失眠。真正要盯住的不是那一次越界，而是越界有没有变成习惯。"
+  },
+  {
+    "id": "risk-low-sacrifice-high",
+    "when": { "risk": { "max": -0.35 }, "sacrifice": { "min": 0.45 } },
+    "text": "你不赌，但肯付出自己。这组合少见：你的代价都记账在自身，而不是押在赌注上。"
+  },
+  {
+    "id": "desire-high-identity-low",
+    "when": { "desire": { "min": 0.45 }, "identity": { "max": -0.35 } },
+    "text": "你的自我是流动的，欲望是具体的。你很容易进入一段体验，也不难离开对它的解释。"
+  },
+  {
+    "id": "desire-low-identity-high",
+    "when": { "desire": { "max": -0.35 }, "identity": { "min": 0.45 } },
+    "text": "你用克制维持一个稳定的自己。这让你可靠，也让你对“想要”这件事本身保持警惕。"
+  },
+  {
+    "id": "social-low-empathy-high",
+    "when": { "social": { "max": -0.35 }, "empathy": { "min": 0.45 } },
+    "text": "你能感到别人的情绪，但不打算因此改变自己的安排。你关心，不代表你会留下。"
+  },
+  {
+    "id": "social-high-conflict-low",
+    "when": { "social": { "min": 0.45 }, "conflict": { "max": -0.35 } },
+    "text": "你宁可绕开冲突也要保住关系。这是你的资源，也是你最容易被消耗的地方。"
+  },
+  {
+    "id": "conflict-high-reason-high",
+    "when": { "conflict": { "min": 0.45 }, "reason": { "min": 0.45 } },
+    "text": "你的对抗是算过的：先看胜率再动手。你不是脾气大，是不接受含糊的输赢。"
+  },
+  {
+    "id": "conflict-low-power-high",
+    "when": { "conflict": { "max": -0.35 }, "power": { "min": 0.45 } },
+    "text": "你不靠开战来控制局面，而是靠把选项收窄。等别人发现的时候，能走的只剩一条路。"
+  },
+  {
+    "id": "world-high-authority-low",
+    "when": { "world": { "min": 0.45 }, "authority": { "max": -0.35 } },
+    "text": "你倾向于不申请许可，先做出来再说。许可往往是事后补的手续。"
+  },
+  {
+    "id": "world-low-order-high",
+    "when": { "world": { "max": -0.3 }, "order": { "min": 0.45 } },
+    "text": "你认为世界不需要被改造，需要被照料。你更相信维护，而不是推倒重来。"
+  },
+  {
+    "id": "time-low-risk-high",
+    "when": { "time": { "max": -0.35 }, "risk": { "min": 0.45 } },
+    "text": "你相信判断要在当下做出才准，等太久机会就变味了。"
+  },
+  {
+    "id": "time-high-risk-low",
+    "when": { "time": { "min": 0.45 }, "risk": { "max": -0.25 } },
+    "text": "你把安全感建立在提前布局上：宁可慢，也不要措手不及。"
+  },
+  {
+    "id": "morality-high-power-high",
+    "when": { "morality": { "min": 0.4 }, "power": { "min": 0.45 } },
+    "text": "你用原则要求自己，也用它要求位置。这两件事混在一起的时候，你的正义会变得很有攻击性。"
+  },
+  {
+    "id": "morality-low-sacrifice-high",
+    "when": { "morality": { "max": -0.3 }, "sacrifice": { "min": 0.45 } },
+    "text": "你不讲条款，但很愿意付自己的代价。你的伦理是行动式的：看谁承担了，而不是看规则怎么写。"
+  },
+  {
+    "id": "identity-high-sacrifice-low",
+    "when": { "identity": { "min": 0.45 }, "sacrifice": { "max": -0.3 } },
+    "text": "你守得住自己，也不打算为谁改变。这不冷漠，是你知道改了之后核心会散。"
+  },
+  {
+    "id": "identity-low-transcendence-high",
+    "when": { "identity": { "max": -0.35 }, "transcendence": { "min": 0.45 } },
+    "text": "你的自我像容器，可以装不同的东西。你不缺意义，缺的是给自己一个固定的名字。"
+  },
+  {
+    "id": "transcendence-low-reason-high",
+    "when": { "transcendence": { "max": -0.3 }, "reason": { "min": 0.45 } },
+    "text": "除了可验证的东西，你不太买账。这让你的判断很硬，也让你错过一些无法证明但真实的东西。"
+  },
+  {
+    "id": "transcendence-high-creation-low",
+    "when": { "transcendence": { "min": 0.45 }, "creation": { "max": -0.25 } },
+    "text": "你在意象征和意义，不太在意造新东西。你需要世界有解释，甚于需要它多一个产品。"
+  },
+  {
+    "id": "sacrifice-high-power-low",
+    "when": { "sacrifice": { "min": 0.45 }, "power": { "max": -0.3 } },
+    "text": "你付出的方式是不争。危险在于：付出得越多，你越不好意思要求回报。"
+  },
+  {
+    "id": "empathy-low-sacrifice-high",
+    "when": { "empathy": { "max": -0.35 }, "sacrifice": { "min": 0.45 } },
+    "text": "你不太被情绪影响，但愿意承担。这是一种冷静的忠诚，别人经常看不懂。"
+  },
+  {
+    "id": "order-high-morality-high",
+    "when": { "order": { "min": 0.45 }, "morality": { "min": 0.45 } },
+    "text": "你把秩序和原则当成同一件事。别人坏了规矩的时候，你的愤怒里有一部分是替世界感到被冒犯。"
+  },
+  {
+    "id": "desire-high-conflict-low",
+    "when": { "desire": { "min": 0.45 }, "conflict": { "max": -0.35 } },
+    "text": "你想把生活过满，但不想为此开战。你更愿意绕开阻力，把想要的东西拿到手。"
+  }
+]

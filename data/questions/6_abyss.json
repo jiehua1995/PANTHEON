@@ -1,0 +1,319 @@
+[
+  {
+    "id": "abyss-1",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你投入多年构建的东西被另一个人夺走了功劳。你的第一反应最接近？",
+    "options": [
+      {
+        "id": "a",
+        "text": "让他为此付出代价。",
+        "weights": {
+          "conflict": 0.9,
+          "power": 0.8,
+          "empathy": -0.6,
+          "morality": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "立刻建一个更大的东西，让他变成过渡品。",
+        "weights": {
+          "creation": 0.9,
+          "world": 0.7,
+          "time": 0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "抽离，不再往任何东西里投入。",
+        "weights": {
+          "social": -0.8,
+          "empathy": -0.6,
+          "desire": -0.7,
+          "transcendence": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "用规则和证据把归属拿回来。",
+        "weights": {
+          "order": 0.8,
+          "authority": 0.6,
+          "reason": 0.6,
+          "time": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-2",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你发现自己被最信任的人骗了，而且对方已经准备好继续编下去。",
+    "options": [
+      {
+        "id": "a",
+        "text": "从此不再完全信任任何人。",
+        "weights": {
+          "social": -0.8,
+          "empathy": -0.7,
+          "order": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "先弄清全部事实，再决定怎么清算。",
+        "weights": {
+          "reason": 0.8,
+          "time": 0.6,
+          "conflict": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "开始怀疑是不是自己太天真。",
+        "weights": {
+          "identity": -0.6,
+          "power": -0.5,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "升级自己的控制，让这种事不可能再发生。",
+        "weights": {
+          "power": 0.9,
+          "order": 0.7,
+          "authority": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-3",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你当众失败了，屏幕上的数字所有人都看到了，而场面还没结束。",
+    "options": [
+      {
+        "id": "a",
+        "text": "承认失败，把过程讲清楚。",
+        "weights": {
+          "morality": 0.7,
+          "identity": 0.5,
+          "social": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "立刻再试一次，不留任何空隙。",
+        "weights": {
+          "power": 0.8,
+          "conflict": 0.6,
+          "risk": 0.7
+        }
+      },
+      {
+        "id": "c",
+        "text": "消失一段时间。",
+        "weights": {
+          "social": -0.9,
+          "time": 0.3,
+          "desire": -0.4,
+          "world": -0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "把这次失败解释成另一种意义。",
+        "weights": {
+          "transcendence": 0.7,
+          "creation": 0.4,
+          "identity": -0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-4",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你被逼到一个位置：妥协，否则失去已经拥有的一切。",
+    "options": [
+      {
+        "id": "a",
+        "text": "妥协。先活下来。",
+        "weights": {
+          "risk": -0.8,
+          "power": -0.6,
+          "time": 0.6,
+          "authority": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "不妥协。宁可失去。",
+        "weights": {
+          "sacrifice": 0.9,
+          "identity": 0.9,
+          "morality": 0.6,
+          "risk": 0.7
+        }
+      },
+      {
+        "id": "c",
+        "text": "表面妥协，暗地里准备。",
+        "weights": {
+          "conflict": -0.5,
+          "power": 0.7,
+          "time": 0.7,
+          "morality": -0.6
+        }
+      },
+      {
+        "id": "d",
+        "text": "把选择交给别人，让他们决定。",
+        "weights": {
+          "power": -0.8,
+          "social": 0.4,
+          "empathy": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-5",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你的情绪在很长一段时间里完全找不到出口。",
+    "options": [
+      {
+        "id": "a",
+        "text": "用更多工作把它填满。",
+        "weights": {
+          "time": 0.6,
+          "power": 0.4,
+          "desire": -0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "突然做一件很极端的事。",
+        "weights": {
+          "risk": 0.9,
+          "desire": 0.8,
+          "order": -0.9
+        }
+      },
+      {
+        "id": "c",
+        "text": "找一个能全部说出来的人。",
+        "weights": {
+          "social": 0.8,
+          "empathy": 0.8,
+          "sacrifice": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "让自己彻底麻木，等它过去。",
+        "weights": {
+          "empathy": -0.6,
+          "identity": -0.5,
+          "desire": -0.8,
+          "transcendence": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-6",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "你发现自己一直在为一件早就不想做的事投入。",
+    "options": [
+      {
+        "id": "a",
+        "text": "立刻停，承认那些已经沉没的成本。",
+        "weights": {
+          "reason": 0.8,
+          "identity": 0.5,
+          "time": -0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "继续做完。不能半途而废。",
+        "weights": {
+          "order": 0.7,
+          "sacrifice": 0.6,
+          "identity": 0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "偷偷开始做真正想做的事。",
+        "weights": {
+          "creation": 0.6,
+          "world": 0.5,
+          "morality": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "用更狠的方式逼自己认可它。",
+        "weights": {
+          "power": 0.7,
+          "desire": -0.7,
+          "conflict": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "abyss-7",
+    "act": "abyss",
+    "profile": "shadow",
+    "text": "有人对你说：“你不像你以为的那样。”",
+    "options": [
+      {
+        "id": "a",
+        "text": "立刻反驳。我知道自己是谁。",
+        "weights": {
+          "identity": 0.9,
+          "power": 0.6,
+          "conflict": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "认真查一查，也许他说对了。",
+        "weights": {
+          "reason": 0.7,
+          "identity": -0.5,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "不在意。别人的评价定义不了我。",
+        "weights": {
+          "identity": 0.5,
+          "social": -0.6,
+          "authority": -0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "感到被侵入，开始防御。",
+        "weights": {
+          "conflict": 0.6,
+          "power": 0.5,
+          "identity": -0.3,
+          "empathy": -0.4
+        }
+      }
+    ]
+  }
+]

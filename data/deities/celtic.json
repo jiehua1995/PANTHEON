@@ -1,0 +1,543 @@
+[
+  {
+    "id": "morrigan",
+    "name": {
+      "zh": "莫瑞甘",
+      "en": "The Morrigan"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "预兆者",
+      "theme": "在转折点上决定谁留下"
+    },
+    "symbols": [
+      "crow",
+      "battle",
+      "prophecy",
+      "river"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": -0.3,
+      "reason": 0.2,
+      "creation": -0.3,
+      "social": -0.5,
+      "morality": -0.5,
+      "desire": 0.2,
+      "conflict": 0.8,
+      "world": -0.2,
+      "identity": -0.2,
+      "time": 0.6,
+      "risk": 0.7,
+      "authority": -0.5,
+      "empathy": -0.4,
+      "sacrifice": 0.6,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "transcendence": "very_high",
+      "risk": "very_high",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_high",
+      "conflict": "very_low"
+    },
+    "psychology": {
+      "core_drive": "在转折点上做那个决定谁留下、谁走开的人。",
+      "core_fear": "被忽视，以及变化不再由她宣告。",
+      "worldview": "结局是必然的，重要的是谁在旁边宣告它。",
+      "power_pattern": "靠预兆与在场的威压：她出现本身就是一个信号。",
+      "relationship_pattern": "深海式联结，带毁灭性——她要的是全给或全不给。",
+      "conflict_pattern": "抢先决定结果，然后让所有人接受它。",
+      "failure_pattern": "用混乱证明自己重要。"
+    },
+    "states": {
+      "dormant": "她常比别人更早知道一段关系要结束，还没说出口。",
+      "awakened": "在关键时刻做出决定性的判断，并且承担它。",
+      "overawakened": "不断预告灾难，直到别人只把她当成不祥。",
+      "fallen": "为了让预言成立，亲手推动崩塌。"
+    },
+    "shadow": {
+      "trigger": "被当成局外人，或者自己的判断被无视。",
+      "defense": "抽身，并让局势按她预告的方式变坏。",
+      "danger": "用破坏证明自己看对了。"
+    },
+    "visual": {
+      "symbol": "crow",
+      "geometry": "triangle",
+      "motif": "wings_over_battle"
+    },
+    "titles": {
+      "prefixes": [
+        "鸦羽",
+        "预兆",
+        "战场"
+      ],
+      "nouns": [
+        "宣告者",
+        "转折之人",
+        "战前之影"
+      ]
+    },
+    "tags": [
+      "foresight",
+      "conflict",
+      "transformation",
+      "intensity"
+    ]
+  },
+  {
+    "id": "brigid",
+    "name": {
+      "zh": "布里吉德",
+      "en": "Brigid"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "炉火之匠",
+      "theme": "让技艺、治疗与知识同时发光"
+    },
+    "symbols": [
+      "flame",
+      "well",
+      "forge",
+      "cross"
+    ],
+    "vector": {
+      "power": 0.1,
+      "order": 0.5,
+      "reason": 0.4,
+      "creation": 0.8,
+      "social": 0.6,
+      "morality": 0.5,
+      "desire": -0.2,
+      "conflict": -0.5,
+      "world": 0.5,
+      "identity": 0.4,
+      "time": 0.4,
+      "risk": -0.2,
+      "authority": -0.2,
+      "empathy": 0.7,
+      "sacrifice": 0.6,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "empathy": "very_high",
+      "conflict": "low",
+      "world": "high"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "conflict": "very_high",
+      "desire": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让技艺、治疗与知识同时发光，并且把火分给别人。",
+      "core_fear": "创造变成纯工作，火熄掉，只剩义务。",
+      "worldview": "世界靠创造与照料变得可以住人。",
+      "power_pattern": "通过给予能力获得影响：她给的是方法，让人能自己站起来。",
+      "relationship_pattern": "温暖开放，愿意教；但她很少说自己的需要，别人也常忘了问。",
+      "conflict_pattern": "用创造绕开冲突，不正面碰。",
+      "failure_pattern": "过度承担，直到把自己烧成别人的燃料。"
+    },
+    "states": {
+      "dormant": "她天然喜欢做东西、修东西，还没把它当成责任。",
+      "awakened": "把创造、治疗与知识连成一件持续在做的事。",
+      "overawakened": "把自己烧成别人的燃料，还觉得不够。",
+      "fallen": "只剩付出，不再有创造。"
+    },
+    "shadow": {
+      "trigger": "自己的付出被当成理所应当。",
+      "defense": "继续给，但开始感到冷。",
+      "danger": "用耗尽自己来证明自己的价值。"
+    },
+    "visual": {
+      "symbol": "flame",
+      "geometry": "cross",
+      "motif": "unquenched_fire"
+    },
+    "titles": {
+      "prefixes": [
+        "不熄",
+        "锻疗",
+        "双语"
+      ],
+      "nouns": [
+        "炉火之匠",
+        "治愈者",
+        "持火的人"
+      ]
+    },
+    "tags": [
+      "creation",
+      "healing",
+      "generosity",
+      "craft"
+    ]
+  },
+  {
+    "id": "lugh",
+    "name": {
+      "zh": "鲁格",
+      "en": "Lugh"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "全能者",
+      "theme": "用全能证明没有他做不到的事"
+    },
+    "symbols": [
+      "spear",
+      "slingshot",
+      "raven",
+      "sun"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.4,
+      "reason": 0.7,
+      "creation": 0.6,
+      "social": 0.4,
+      "morality": 0.4,
+      "desire": -0.1,
+      "conflict": 0.7,
+      "world": 0.6,
+      "identity": 0.5,
+      "time": 0.3,
+      "risk": 0.5,
+      "authority": -0.2,
+      "empathy": 0.1,
+      "sacrifice": 0.3,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "conflict": "very_high",
+      "world": "high",
+      "creation": "high"
+    },
+    "anti_dimensions": {
+      "reason": "very_low",
+      "world": "very_low"
+    },
+    "psychology": {
+      "core_drive": "不是赢，是“没有他不会的那一项”：别人卡住的地方，他要立刻补上——最好在别人开口之前。",
+      "core_fear": "在关键场合被判定为不够。他可以输给更强的对手，不能输给一句“你原来不会这个”。",
+      "worldview": "位置由能力说话，出身和关系都是事后解释。所以他把时间花在补技能上，而不是补人情上。",
+      "power_pattern": "靠不可替代性：所有关键环节都有他的一份，于是没人敢把他排除在决策之外。",
+      "relationship_pattern": "以能力相认。他尊重能一起解题的人，对“只是关系好”的人保持礼貌的距离。",
+      "conflict_pattern": "正面决胜，不接受拖成消耗战；宁可一次把牌全摊开。",
+      "failure_pattern": "因为不肯露短，把该分出去的事拖到最后一刻，然后自己熬夜做完。"
+    },
+    "states": {
+      "dormant": "还没意识到自己什么都会——只是习惯顺手把别人的活接过去。",
+      "awakened": "在关键节点把几面能力合成一次胜负手，然后被所有人记住。",
+      "overawakened": "什么都自己扛，连短板都不允许存在，开始用能力挤掉别人的位置。",
+      "fallen": "用碾压证明价值，把合作当成无能的证明。"
+    },
+    "shadow": {
+      "trigger": "当着别人承认自己不会、不如别人。",
+      "defense": "立刻把那件事接下来，用结果把这句话撤回。",
+      "danger": "越是短板的地方越用全能去遮，最后没人敢跟他一起做事。"
+    },
+    "visual": {
+      "symbol": "spear",
+      "geometry": "ray",
+      "motif": "single_throw"
+    },
+    "titles": {
+      "prefixes": [
+        "全能",
+        "长臂",
+        "破晓"
+      ],
+      "nouns": [
+        "决胜者",
+        "多面之人",
+        "执矛之王"
+      ]
+    },
+    "tags": [
+      "competence",
+      "mastery",
+      "pride",
+      "decisiveness"
+    ]
+  },
+  {
+    "id": "cernunnos",
+    "name": {
+      "zh": "科尔努诺斯",
+      "en": "Cernunnos"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "林中者",
+      "theme": "活在与自然同步的循环里"
+    },
+    "symbols": [
+      "antlers",
+      "torc",
+      "serpent",
+      "stag"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": -0.1,
+      "reason": -0.3,
+      "creation": 0.3,
+      "social": -0.3,
+      "morality": -0.2,
+      "desire": 0.7,
+      "conflict": -0.2,
+      "world": -0.6,
+      "identity": -0.3,
+      "time": 0.2,
+      "risk": 0.5,
+      "authority": -0.6,
+      "empathy": 0.5,
+      "sacrifice": 0.2,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "desire": "very_high",
+      "world": "very_low",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "transcendence": "very_low",
+      "world": "very_high"
+    },
+    "psychology": {
+      "core_drive": "按自己的节奏活着：和季节同频，不和日程表同频。",
+      "core_fear": "被文明驯化——变成一个有礼貌、有产出、没有野性的人。",
+      "worldview": "这是循环，不是进度条。",
+      "power_pattern": "靠不争夺：他不抢位置，也不参与竞争，于是没人能真正支配他。",
+      "relationship_pattern": "与土地、动物、季节的联结多于与人。他给的是陪伴，不是承诺。",
+      "conflict_pattern": "用不参与解决冲突：转身回到自己的地方。",
+      "failure_pattern": "完全退出人类世界，把逃避当成觉醒。"
+    },
+    "states": {
+      "dormant": "他需要在户外待着才觉得活着，还没意识到那是立场。",
+      "awakened": "按自己的节奏生活，并且真的过得好。",
+      "overawakened": "对人类的事越来越没兴趣，包括在乎他的人。",
+      "fallen": "彻底退出，把所有责任都交给别人扛。"
+    },
+    "shadow": {
+      "trigger": "被要求进入竞争性的、城市式的世界。",
+      "defense": "退回属于自己的地方，不解释。",
+      "danger": "用自然的名义放弃责任。"
+    },
+    "visual": {
+      "symbol": "antlers",
+      "geometry": "spiral_branch",
+      "motif": "forest_cycle"
+    },
+    "titles": {
+      "prefixes": [
+        "鹿角",
+        "林中",
+        "循环"
+      ],
+      "nouns": [
+        "林中者",
+        "不争之人",
+        "野性之王"
+      ]
+    },
+    "tags": [
+      "nature",
+      "instinct",
+      "freedom",
+      "transcendence"
+    ]
+  },
+  {
+    "id": "merlin",
+    "name": {
+      "zh": "梅林",
+      "en": "Merlin"
+    },
+    "pantheon": "european",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "引导者",
+      "theme": "让未来按必要的版本发生"
+    },
+    "symbols": [
+      "staff",
+      "hawk",
+      "cave",
+      "crystal"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": -0.2,
+      "reason": 0.8,
+      "creation": 0.7,
+      "social": -0.5,
+      "morality": -0.3,
+      "desire": -0.5,
+      "conflict": -0.6,
+      "world": 0.7,
+      "identity": -0.8,
+      "time": 1,
+      "risk": 0.5,
+      "authority": -0.7,
+      "empathy": -0.2,
+      "sacrifice": 0.7,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "transcendence": "very_high",
+      "identity": "very_low",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "time": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让未来按他看到的那个必要版本发生，哪怕要花几十年。",
+      "core_fear": "时间不够：他看得见该怎么走，却来不及把人放到位置上。",
+      "worldview": "历史可以被知识和耐心引导，前提是有人愿意等。",
+      "power_pattern": "靠预判与教育：他不当国王，他决定谁会成为国王。",
+      "relationship_pattern": "指导者而非同伴。他培养人，也使用人，这两件事在他眼里是同一件。",
+      "conflict_pattern": "不下场，通过布局和别人的手解决。",
+      "failure_pattern": "为了那个必要的未来，接受眼前具体的人被牺牲。"
+    },
+    "states": {
+      "dormant": "他常比别人更早想到十年后的事，还没开始布置。",
+      "awakened": "把长期布局变成现实，并培养出能接着走下去的人。",
+      "overawakened": "把身边所有人都当成布局中的棋子。",
+      "fallen": "为了那个未来，愿意支付任何当下的代价。"
+    },
+    "shadow": {
+      "trigger": "计划被短视的人打乱。",
+      "defense": "收回信息，重新布置，不再多说。",
+      "danger": "用更大的目的，为具体的人被牺牲做解释。"
+    },
+    "visual": {
+      "symbol": "staff",
+      "geometry": "spiral",
+      "motif": "long_road"
+    },
+    "titles": {
+      "prefixes": [
+        "远期",
+        "持杖",
+        "布局"
+      ],
+      "nouns": [
+        "引导者",
+        "看远的人",
+        "时间之友"
+      ]
+    },
+    "tags": [
+      "foresight",
+      "guidance",
+      "strategy",
+      "detachment"
+    ]
+  },
+  {
+    "id": "morgan_le_fay",
+    "name": {
+      "zh": "摩根勒菲",
+      "en": "Morgan le Fay"
+    },
+    "pantheon": "european",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "改写者",
+      "theme": "拿回被剥夺的位置，包括讲述权"
+    },
+    "symbols": [
+      "raven",
+      "island",
+      "crown",
+      "spell"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": -0.2,
+      "reason": 0.3,
+      "creation": 0.4,
+      "social": -0.4,
+      "morality": -0.4,
+      "desire": 0.4,
+      "conflict": 0.5,
+      "world": 0.4,
+      "identity": -0.4,
+      "time": 0.7,
+      "risk": 0.6,
+      "authority": -0.6,
+      "empathy": -0.3,
+      "sacrifice": 0.3,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "transcendence": "very_high",
+      "authority": "low",
+      "time": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "拿回被剥夺的位置，包括讲述自己故事的权利。",
+      "core_fear": "被写进别人的故事里当一个反派，而且无从反驳。",
+      "worldview": "说法就是权力，谁写故事谁定结局。她学了所有不让她学的东西。",
+      "power_pattern": "靠知识与长线算计：她不急着赢一场，她改写规则里的一句话。",
+      "relationship_pattern": "记仇，也记得极深的偏爱。给过她的人，她会护很久。",
+      "conflict_pattern": "用时间和布局，等对方在自己写的故事里失脚。",
+      "failure_pattern": "把复仇当成使命，代价是永远活在别人给她的定义里。"
+    },
+    "states": {
+      "dormant": "她隐约觉得自己被安排了一个不公平的角色。",
+      "awakened": "拿回叙述权，按自己的版本讲发生过的事。",
+      "overawakened": "把一切关系都读成权力斗争。",
+      "fallen": "为了让旧账结清，愿意让所有人一起付出代价。"
+    },
+    "shadow": {
+      "trigger": "自己的版本被别人改写或抹掉。",
+      "defense": "记下来，等一个更合适的时机。",
+      "danger": "用复仇代替表达，越算越深。"
+    },
+    "visual": {
+      "symbol": "raven",
+      "geometry": "crown_broken",
+      "motif": "island_mist"
+    },
+    "titles": {
+      "prefixes": [
+        "改写",
+        "鸦冠",
+        "记仇"
+      ],
+      "nouns": [
+        "叙述者",
+        "不服从者",
+        "王座之外的人"
+      ]
+    },
+    "tags": [
+      "power",
+      "resentment",
+      "narrative",
+      "autonomy"
+    ]
+  }
+]

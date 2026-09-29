@@ -1,0 +1,363 @@
+[
+  {
+    "id": "boundary-1",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "一边是稳定但看得到尽头的工作，一边是高风险但可能更有意思的选择。",
+    "options": [
+      {
+        "id": "a",
+        "text": "稳定。我需要在确定里积累。",
+        "weights": {
+          "risk": -0.8,
+          "time": 0.6,
+          "order": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "冒险。舒服会让我腐烂。",
+        "weights": {
+          "risk": 0.9,
+          "desire": 0.5,
+          "world": 0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "先保住稳定，同时私下试风险那一边。",
+        "weights": {
+          "risk": -0.2,
+          "time": 0.5,
+          "reason": 0.5,
+          "creation": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "两个都不要，我要做自己想做的事。",
+        "weights": {
+          "world": 0.8,
+          "authority": -0.6,
+          "power": 0.6,
+          "risk": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-2",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "一段重要关系里，对方希望你“永远不要变”。",
+    "options": [
+      {
+        "id": "a",
+        "text": "接受。稳定本身就是一种承诺。",
+        "weights": {
+          "identity": 0.8,
+          "order": 0.5,
+          "desire": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "拒绝。人本来就该变。",
+        "weights": {
+          "identity": -0.9,
+          "desire": 0.6,
+          "authority": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "答应，但留一块不解释的空间。",
+        "weights": {
+          "identity": -0.4,
+          "power": 0.4,
+          "social": 0.3,
+          "morality": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "重新谈这段关系的条件。",
+        "weights": {
+          "reason": 0.5,
+          "conflict": 0.4,
+          "social": 0.5,
+          "morality": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-3",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "一场几十人的聚会，你只认识其中一个人，而他已经和别人聊上了。",
+    "options": [
+      {
+        "id": "a",
+        "text": "全程跟着他。",
+        "weights": {
+          "social": 0.6,
+          "risk": -0.5,
+          "identity": -0.2
+        }
+      },
+      {
+        "id": "b",
+        "text": "自己去找人说话。",
+        "weights": {
+          "social": 0.8,
+          "risk": 0.6,
+          "power": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "待在角落，观察整场。",
+        "weights": {
+          "social": -0.8,
+          "reason": 0.5,
+          "creation": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "待二十分钟就走。",
+        "weights": {
+          "social": -0.6,
+          "desire": -0.4,
+          "time": -0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-4",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "你可以匿名做一件事，没有任何后果，也不会有人知道。",
+    "options": [
+      {
+        "id": "a",
+        "text": "说出平时不敢说的那些话。",
+        "weights": {
+          "conflict": 0.6,
+          "authority": -0.7,
+          "morality": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "去做一件一直想做的事。",
+        "weights": {
+          "desire": 0.8,
+          "risk": 0.7,
+          "creation": 0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "什么都不做。没有代价的考验没有意义。",
+        "weights": {
+          "morality": 0.8,
+          "power": 0.3,
+          "desire": -0.6
+        }
+      },
+      {
+        "id": "d",
+        "text": "用它去影响一个我讨厌的人。",
+        "weights": {
+          "conflict": 0.5,
+          "power": 0.7,
+          "empathy": -0.8,
+          "morality": -0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-5",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "你进入一个新群体，他们对你的期待和真实的你不一样。",
+    "options": [
+      {
+        "id": "a",
+        "text": "按期待来，融入更快。",
+        "weights": {
+          "identity": -0.7,
+          "social": 0.7,
+          "authority": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "直接做自己，合不来就算了。",
+        "weights": {
+          "identity": 0.8,
+          "social": -0.4,
+          "authority": -0.6,
+          "conflict": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "先观察，再决定露出多少。",
+        "weights": {
+          "reason": 0.6,
+          "identity": -0.3,
+          "social": 0.3,
+          "time": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "把差异说出来，看对方怎么反应。",
+        "weights": {
+          "conflict": 0.4,
+          "identity": 0.6,
+          "empathy": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-6",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "有人越过了你明确说过的界线，然后像什么都没发生一样继续和你说话。",
+    "options": [
+      {
+        "id": "a",
+        "text": "立刻升级，把界线重新钉死。",
+        "weights": {
+          "conflict": 0.8,
+          "power": 0.7,
+          "morality": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "先弄清是有意还是误解。",
+        "weights": {
+          "reason": 0.6,
+          "empathy": 0.5,
+          "conflict": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "不动声色把他移出核心圈。",
+        "weights": {
+          "conflict": -0.5,
+          "power": 0.5,
+          "social": -0.3,
+          "morality": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "干脆把界线划得更远，看它能到哪。",
+        "weights": {
+          "identity": -0.4,
+          "risk": 0.6,
+          "world": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-7",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "你正在做一件没人知道的事，它可能会失败。",
+    "options": [
+      {
+        "id": "a",
+        "text": "谁都不说，失败了自己扛。",
+        "weights": {
+          "social": -0.7,
+          "power": 0.3,
+          "sacrifice": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "只告诉一个人，让自己不能后退。",
+        "weights": {
+          "social": 0.6,
+          "time": 0.5,
+          "power": 0.2
+        }
+      },
+      {
+        "id": "c",
+        "text": "公开它，用压力逼自己走完。",
+        "weights": {
+          "risk": 0.7,
+          "conflict": 0.5,
+          "social": 0.5,
+          "power": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "先想清楚失败之后怎么办。",
+        "weights": {
+          "risk": -0.5,
+          "reason": 0.7,
+          "time": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "boundary-8",
+    "act": "boundary",
+    "profile": "overall",
+    "text": "有一个规则确实在保护你，同时也在限制你，而你必须在两者之间选一个。",
+    "options": [
+      {
+        "id": "a",
+        "text": "选安全。限制可以忍。",
+        "weights": {
+          "order": 0.7,
+          "risk": -0.7,
+          "authority": 0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "选自由。代价我自己付。",
+        "weights": {
+          "risk": 0.8,
+          "authority": -0.8,
+          "power": 0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "找出能同时保留两者的办法。",
+        "weights": {
+          "reason": 0.6,
+          "creation": 0.5,
+          "conflict": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "短期忍着，攒够资源再走。",
+        "weights": {
+          "time": 0.8,
+          "power": 0.4,
+          "desire": -0.4
+        }
+      }
+    ]
+  }
+]

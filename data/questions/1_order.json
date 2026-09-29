@@ -1,0 +1,378 @@
+[
+  {
+    "id": "order-1",
+    "act": "order",
+    "profile": "overall",
+    "text": "一个你长期参与的组织制定了一项你认为严重错误的新规则。规则通过了合法程序，也得到了多数人的支持。",
+    "options": [
+      {
+        "id": "a",
+        "text": "先接受规则，再寻找内部修正的机会。",
+        "weights": {
+          "order": 0.6,
+          "authority": 0.7,
+          "conflict": -0.5,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "合法不等于正确。如果代价足够严重，我会直接反对。",
+        "weights": {
+          "authority": -0.8,
+          "morality": 0.5,
+          "conflict": 0.6,
+          "risk": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "我会先判断谁真正有能力改变它，再决定行动。",
+        "weights": {
+          "reason": 0.7,
+          "power": 0.3,
+          "time": 0.5,
+          "empathy": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "如果一个系统已经无法被修改，那更值得建立一个新的体系。",
+        "weights": {
+          "creation": 0.8,
+          "world": 0.8,
+          "authority": -0.4,
+          "time": 0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-2",
+    "act": "order",
+    "profile": "overall",
+    "text": "你负责的一套流程已经能稳定运转，但其中一处你一直觉得丑陋、不合理。",
+    "options": [
+      {
+        "id": "a",
+        "text": "能跑就别动它，改动带来的风险不值得。",
+        "weights": {
+          "order": 0.5,
+          "risk": -0.6,
+          "creation": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "先只把那处丑陋修掉，其他不动。",
+        "weights": {
+          "creation": 0.6,
+          "reason": 0.4,
+          "risk": 0.3,
+          "order": -0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "整个流程重写，哪怕要重新教所有人。",
+        "weights": {
+          "creation": 0.9,
+          "world": 0.6,
+          "risk": 0.6,
+          "authority": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "记下来，等它真的开始妨碍结果再说。",
+        "weights": {
+          "time": 0.7,
+          "order": 0.4,
+          "creation": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-3",
+    "act": "order",
+    "profile": "overall",
+    "text": "一场决策会必须在今晚给出结论，但关键信息还缺一块。",
+    "options": [
+      {
+        "id": "a",
+        "text": "先把数据补齐，缺的那块我连夜补。",
+        "weights": {
+          "reason": 0.8,
+          "risk": -0.4,
+          "time": 0.3,
+          "transcendence": -0.7
+        }
+      },
+      {
+        "id": "b",
+        "text": "凭对场面的直觉先定，错了再改。",
+        "weights": {
+          "reason": -0.7,
+          "risk": 0.5,
+          "time": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "谁承担后果，谁拍板。",
+        "weights": {
+          "power": 0.5,
+          "authority": -0.4,
+          "morality": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "先定一个可以撤回的最小决定。",
+        "weights": {
+          "risk": -0.5,
+          "order": 0.5,
+          "reason": 0.3,
+          "time": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-4",
+    "act": "order",
+    "profile": "overall",
+    "text": "你的环境要求你遵守一套礼节，而你认为它没有意义。",
+    "options": [
+      {
+        "id": "a",
+        "text": "照做。礼节是让事情变顺的润滑剂。",
+        "weights": {
+          "order": 0.6,
+          "social": 0.6,
+          "authority": 0.4,
+          "identity": -0.2
+        }
+      },
+      {
+        "id": "b",
+        "text": "照做，但我会记住这件事。",
+        "weights": {
+          "order": 0.2,
+          "authority": -0.3,
+          "time": 0.4,
+          "empathy": -0.2,
+          "identity": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "明确说出我不认同，并接受后果。",
+        "weights": {
+          "authority": -0.7,
+          "conflict": 0.6,
+          "risk": 0.4,
+          "morality": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "用玩笑绕过去，不正面碰它。",
+        "weights": {
+          "identity": -0.5,
+          "conflict": -0.6,
+          "social": 0.4,
+          "creation": 0.3,
+          "order": -0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-5",
+    "act": "order",
+    "profile": "overall",
+    "text": "你发现整个体系运行的行业标准是错的，而所有人都在按它做无用功。",
+    "options": [
+      {
+        "id": "a",
+        "text": "写一份扎实的证据材料，让标准自己站不住。",
+        "weights": {
+          "reason": 0.8,
+          "time": 0.6,
+          "conflict": -0.4,
+          "order": 0.3
+        }
+      },
+      {
+        "id": "b",
+        "text": "直接告诉决策者：这是错的。",
+        "weights": {
+          "conflict": 0.8,
+          "reason": 0.3,
+          "risk": 0.4,
+          "authority": -0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "先按自己的方式做出结果，再让结果说话。",
+        "weights": {
+          "world": 0.7,
+          "authority": -0.4,
+          "conflict": -0.2,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "挤进制定标准的环节，从内部改。",
+        "weights": {
+          "power": 0.6,
+          "authority": 0.5,
+          "world": 0.4,
+          "time": 0.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-6",
+    "act": "order",
+    "profile": "overall",
+    "text": "一位同事因为家里出事违反了流程，造成了不大但真实的损失。",
+    "options": [
+      {
+        "id": "a",
+        "text": "规则就是规则，先按流程处理。",
+        "weights": {
+          "order": 0.8,
+          "morality": 0.8,
+          "empathy": -0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "损失能承受，这次放过他。",
+        "weights": {
+          "morality": -0.7,
+          "empathy": 0.7,
+          "order": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "处理，但替他把更大的后果挡下来。",
+        "weights": {
+          "empathy": 0.6,
+          "sacrifice": 0.6,
+          "authority": -0.2
+        }
+      },
+      {
+        "id": "d",
+        "text": "改流程，让下一次不会被同样的事卡住。",
+        "weights": {
+          "creation": 0.5,
+          "world": 0.6,
+          "order": 0.2,
+          "empathy": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-7",
+    "act": "order",
+    "profile": "overall",
+    "text": "两个部门长期互相扯皮，最后把你拉进中间，两边都希望你先站在自己这边。",
+    "options": [
+      {
+        "id": "a",
+        "text": "先把边界和流程定义清楚，争吵自然会少。",
+        "weights": {
+          "order": 0.8,
+          "reason": 0.5,
+          "conflict": -0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "找出双方真正的利益，谈一个交换。",
+        "weights": {
+          "conflict": -0.5,
+          "reason": 0.4,
+          "empathy": 0.4,
+          "power": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "让更强的一方快速赢，省下所有人的时间。",
+        "weights": {
+          "conflict": 0.7,
+          "power": 0.7,
+          "empathy": -0.5,
+          "time": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "不参与，直到我获得正式授权。",
+        "weights": {
+          "authority": 0.7,
+          "social": -0.5,
+          "power": -0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "order-8",
+    "act": "order",
+    "profile": "overall",
+    "text": "你坚持了很多年的一项习惯，被证明效率更低。",
+    "options": [
+      {
+        "id": "a",
+        "text": "立刻改，效率本身就是理由。",
+        "weights": {
+          "reason": 0.6,
+          "order": 0.3,
+          "creation": 0.4,
+          "identity": -0.3
+        }
+      },
+      {
+        "id": "b",
+        "text": "保留它。它对我的意义不是效率。",
+        "weights": {
+          "identity": 0.7,
+          "transcendence": 0.5,
+          "reason": -0.5,
+          "world": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "先弄清它当初为什么被建立。",
+        "weights": {
+          "reason": 0.7,
+          "time": 0.5,
+          "order": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "放下它，但记住它曾经解决过什么。",
+        "weights": {
+          "time": 0.6,
+          "reason": 0.5,
+          "identity": 0.3,
+          "creation": -0.2
+        }
+      }
+    ]
+  }
+]

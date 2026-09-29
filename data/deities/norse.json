@@ -1,0 +1,993 @@
+[
+  {
+    "id": "odin",
+    "name": {
+      "zh": "奥丁",
+      "en": "Odin"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "窥知者",
+      "theme": "真理值得付出代价"
+    },
+    "symbols": [
+      "raven",
+      "spear",
+      "gallows",
+      "one_eye"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.3,
+      "reason": 0.7,
+      "creation": -0.2,
+      "social": -0.4,
+      "morality": -0.5,
+      "desire": -0.4,
+      "conflict": -0.4,
+      "world": 0.4,
+      "identity": -0.3,
+      "time": 1,
+      "risk": 0.7,
+      "authority": 0.2,
+      "empathy": -0.6,
+      "sacrifice": 0.8,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "sacrifice": "very_high",
+      "empathy": "low",
+      "reason": "very_high"
+    },
+    "anti_dimensions": {
+      "time": "very_low",
+      "empathy": "very_high"
+    },
+    "psychology": {
+      "core_drive": "用代价换真知：知道别人不知道的事，才是他真正的安全感。",
+      "core_fear": "无知，以及被自己看不见的东西支配。",
+      "worldview": "信息是最贵的资源，知识必须用自己的一部分去换。",
+      "power_pattern": "靠信息不对称与长期布局：他不争一时，他提前知道会发生什么。",
+      "relationship_pattern": "训练而非陪伴。他在意的是对方能长成什么，而不是对方今天开不开心。",
+      "conflict_pattern": "提前布局，让对手在准备不足的时候倒下。",
+      "failure_pattern": "认为目的足以合理化代价。"
+    },
+    "states": {
+      "dormant": "他比别人更早知道一些不该知道的事，还没开始利用。",
+      "awakened": "用长期布局与洞察改变了未来的走向。",
+      "overawakened": "开始控制信息，把所有关系都当成筹码。",
+      "fallen": "以更高的目的为名，合理化一切具体代价。"
+    },
+    "shadow": {
+      "trigger": "发现自己被蒙在鼓里，或局势脱离预料。",
+      "defense": "回收信息、加快布局、减少解释。",
+      "danger": "为了看见全貌，愿意让具体的人成为代价。"
+    },
+    "visual": {
+      "symbol": "raven",
+      "geometry": "two_ravens",
+      "motif": "hanging_tree"
+    },
+    "titles": {
+      "prefixes": [
+        "独眼",
+        "悬树",
+        "持秘"
+      ],
+      "nouns": [
+        "窥知者",
+        "布局者",
+        "持秘人"
+      ]
+    },
+    "tags": [
+      "insight",
+      "sacrifice",
+      "strategy",
+      "secrecy"
+    ]
+  },
+  {
+    "id": "thor",
+    "name": {
+      "zh": "托尔",
+      "en": "Thor"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "护持者",
+      "theme": "用直接的力量守住该守的东西"
+    },
+    "symbols": [
+      "hammer",
+      "thunder",
+      "goats",
+      "gauntlet"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": 0.2,
+      "reason": -0.5,
+      "creation": -0.2,
+      "social": 0.6,
+      "morality": 0.5,
+      "desire": 0.4,
+      "conflict": 0.9,
+      "world": 0.3,
+      "identity": 0.7,
+      "time": -0.4,
+      "risk": 0.7,
+      "authority": 0.1,
+      "empathy": 0.3,
+      "sacrifice": 0.4,
+      "transcendence": -0.4
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "conflict": "very_high",
+      "reason": "low",
+      "transcendence": "low"
+    },
+    "anti_dimensions": {
+      "reason": "very_high",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "用直接的力量守住该守的东西，不绕弯，也不等许可。",
+      "core_fear": "在乎的人受伤时，他不在场。",
+      "worldview": "承诺比聪明重要，能到场的人才算数。",
+      "power_pattern": "靠在场与可靠：他在，事情就不会塌。",
+      "relationship_pattern": "忠诚、直接、护短。他不擅长安慰，但会立刻赶到。",
+      "conflict_pattern": "正面出手，先把威胁打掉，再讨论对错。",
+      "failure_pattern": "把力量当成所有问题的解，包括那些需要耐心的问题。"
+    },
+    "states": {
+      "dormant": "他遇到不公平就忍不住想动手，还没把它用在正事上。",
+      "awakened": "把力量用在真正的守护上，并且被信赖。",
+      "overawakened": "凡事都想靠力量一次解决。",
+      "fallen": "只认得出敌人，认不出代价。"
+    },
+    "shadow": {
+      "trigger": "在乎的人受到伤害或被轻视。",
+      "defense": "立刻用力反击，不留余地。",
+      "danger": "于是他保护的对象和摧毁的东西开始重叠。"
+    },
+    "visual": {
+      "symbol": "hammer",
+      "geometry": "cross",
+      "motif": "thunder_strike"
+    },
+    "titles": {
+      "prefixes": [
+        "执雷",
+        "护持",
+        "直击"
+      ],
+      "nouns": [
+        "守护者",
+        "雷神之锤",
+        "前线之人"
+      ]
+    },
+    "tags": [
+      "strength",
+      "loyalty",
+      "protection",
+      "directness"
+    ]
+  },
+  {
+    "id": "loki",
+    "name": {
+      "zh": "洛基",
+      "en": "Loki"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "破序者",
+      "theme": "打破既定秩序，看它能塌到哪"
+    },
+    "symbols": [
+      "flame",
+      "shapeshift",
+      "needle",
+      "wolf_brood"
+    ],
+    "vector": {
+      "power": 0.15,
+      "order": -0.85,
+      "reason": 0.5,
+      "creation": 0.65,
+      "social": 0.35,
+      "morality": -0.9,
+      "desire": 0.65,
+      "conflict": -0.35,
+      "world": 0.1,
+      "identity": -1,
+      "time": -0.2,
+      "risk": 0.95,
+      "authority": -0.85,
+      "empathy": -0.45,
+      "sacrifice": -0.5,
+      "transcendence": 0.1
+    },
+    "signature_dimensions": {
+      "identity": "very_low",
+      "morality": "very_low",
+      "authority": "very_low",
+      "risk": "very_high"
+    },
+    "anti_dimensions": {
+      "morality": "very_high",
+      "identity": "very_high"
+    },
+    "psychology": {
+      "core_drive": "这套规矩到底能塌到哪一步——而且最好由他来拆第一块。",
+      "core_fear": "被当成无害的，被礼貌地排除在外。",
+      "worldview": "规则是别人定的，所以也可以是别人破的。",
+      "power_pattern": "靠不可预测：你算不到他下一步，所以他手上永远还有牌。",
+      "relationship_pattern": "亲密但不完全可靠，随时留一条退路。他称之为“留一句真话不说”。",
+      "conflict_pattern": "用混乱和误导，让对方自己踩空。",
+      "failure_pattern": "玩笑开过头，然后只修自己那部分。"
+    },
+    "states": {
+      "dormant": "他说话比别人不留情，还没真拆过什么。",
+      "awakened": "把破坏力用在真正僵死的地方，并且重建了什么。",
+      "overawakened": "无法忍受任何稳定的东西，连好的也要拆。",
+      "fallen": "用混乱填满所有空隙，没有目的，只有下一个破口。"
+    },
+    "shadow": {
+      "trigger": "被排除在外，或被要求绝对服从。",
+      "defense": "制造混乱，让自己重新变成必要的人。",
+      "danger": "把所有人的信任当成一次实验。"
+    },
+    "visual": {
+      "symbol": "flame",
+      "geometry": "knot",
+      "motif": "shifting_mask"
+    },
+    "titles": {
+      "prefixes": [
+        "无常",
+        "破序",
+        "千面"
+      ],
+      "nouns": [
+        "搅局者",
+        "控火人",
+        "两面之门"
+      ]
+    },
+    "tags": [
+      "trickster",
+      "chaos",
+      "wit",
+      "freedom"
+    ]
+  },
+  {
+    "id": "tyr",
+    "name": {
+      "zh": "提尔",
+      "en": "Tyr"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "守誓者",
+      "theme": "用自我代价维持契约的可信"
+    },
+    "symbols": [
+      "sword",
+      "hand",
+      "scales",
+      "chain"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.85,
+      "reason": 0.4,
+      "creation": -0.2,
+      "social": 0.6,
+      "morality": 0.9,
+      "desire": -0.5,
+      "conflict": 0.45,
+      "world": -0.2,
+      "identity": 0.85,
+      "time": 0.3,
+      "risk": 0.5,
+      "authority": 0.7,
+      "empathy": 0.1,
+      "sacrifice": 0.9,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "morality": "very_high",
+      "sacrifice": "very_high",
+      "identity": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_low",
+      "sacrifice": "very_low"
+    },
+    "psychology": {
+      "core_drive": "用自己的损失，让“说好的事”继续保持可信。",
+      "core_fear": "自己的承诺失去意义——那句话还在，但没人再当它数。",
+      "worldview": "秩序靠有人愿意承担损失才能维持。",
+      "power_pattern": "靠可信度与付过的代价：他不喊，他兑现。",
+      "relationship_pattern": "重承诺，轻表达。他不常说“我信你”，但会在关键时刻站在你这边。",
+      "conflict_pattern": "正面承担，不躲，也不解释。",
+      "failure_pattern": "把牺牲当成唯一手段。"
+    },
+    "states": {
+      "dormant": "他比周围人更守规矩，说不清为什么。",
+      "awakened": "用承担换来了别人可以依赖的秩序。",
+      "overawakened": "持续把自己的代价当成维持一切的必要条件。",
+      "fallen": "用牺牲要求回报，变成一笔道德债权。"
+    },
+    "shadow": {
+      "trigger": "有人想绕过已经说好的规则。",
+      "defense": "自己先付代价，逼所有人无法回避。",
+      "danger": "把牺牲变成对他人的判决。"
+    },
+    "visual": {
+      "symbol": "sword",
+      "geometry": "balance",
+      "motif": "bound_hand"
+    },
+    "titles": {
+      "prefixes": [
+        "立誓",
+        "断腕",
+        "执法"
+      ],
+      "nouns": [
+        "守约者",
+        "执秤人",
+        "肯付代价的人"
+      ]
+    },
+    "tags": [
+      "honor",
+      "sacrifice",
+      "order",
+      "integrity"
+    ]
+  },
+  {
+    "id": "freyja",
+    "name": {
+      "zh": "弗蕾亚",
+      "en": "Freyja"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "择取者",
+      "theme": "拿回自己选择的权利，并享受这个世界"
+    },
+    "symbols": [
+      "falcon_cloak",
+      "gold_tears",
+      "cats",
+      "brisingamen"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": -0.2,
+      "reason": 0.1,
+      "creation": 0.4,
+      "social": 0.7,
+      "morality": -0.2,
+      "desire": 0.9,
+      "conflict": 0.4,
+      "world": 0.4,
+      "identity": -0.3,
+      "time": -0.3,
+      "risk": 0.6,
+      "authority": -0.3,
+      "empathy": 0.5,
+      "sacrifice": 0.3,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "desire": "very_high",
+      "social": "very_high",
+      "risk": "high",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "desire": "very_low",
+      "social": "very_low"
+    },
+    "psychology": {
+      "core_drive": "自己挑选的权利：喜欢就去拿，不喜欢就转身，不需要谁批准。",
+      "core_fear": "被当成一份资源——被交换、被安排、被谁“留着用”。",
+      "worldview": "欲望是正当的力量来源，不是需要被纠正的缺点。",
+      "power_pattern": "靠魅力与胆量：她敢先说出想要什么，别人反而不敢轻视她。",
+      "relationship_pattern": "主动投入，同时保留随时离开的能力。她对“被占有”的反应比对方预想的激烈得多。",
+      "conflict_pattern": "直接但有策略，力气只花在能赢的地方。",
+      "failure_pattern": "用情绪的强度代替判断，把“我很用力”当成“我没错”。"
+    },
+    "states": {
+      "dormant": "她清楚自己不要什么，还没清楚要什么。",
+      "awakened": "把想要的东西真的拿到手，而且没有为它变小。",
+      "overawakened": "需要不断被渴望，才能确认自己还有力量。",
+      "fallen": "情绪优先于一切，代价由身边的人承担。"
+    },
+    "shadow": {
+      "trigger": "被当成可以交换的筹码。",
+      "defense": "先夺回主动权，再谈关系。",
+      "danger": "用强度代替真实，最后没人敢对她说实话。"
+    },
+    "visual": {
+      "symbol": "falcon_cloak",
+      "geometry": "spiral",
+      "motif": "golden_tears"
+    },
+    "titles": {
+      "prefixes": [
+        "择取",
+        "鹰羽",
+        "金泪"
+      ],
+      "nouns": [
+        "择取者",
+        "引潮之人",
+        "享受权力的人"
+      ]
+    },
+    "tags": [
+      "desire",
+      "autonomy",
+      "vitality",
+      "power"
+    ]
+  },
+  {
+    "id": "frigg",
+    "name": {
+      "zh": "弗丽嘉",
+      "en": "Frigg"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "预置者",
+      "theme": "提前把伤害挡在门外"
+    },
+    "symbols": [
+      "spindle",
+      "mist",
+      "keys",
+      "heron"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.8,
+      "reason": 0.4,
+      "creation": -0.3,
+      "social": 0.6,
+      "morality": 0.7,
+      "desire": -0.4,
+      "conflict": -0.6,
+      "world": -0.4,
+      "identity": 0.7,
+      "time": 0.9,
+      "risk": -0.7,
+      "authority": 0.6,
+      "empathy": 0.6,
+      "sacrifice": 0.7,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "order": "very_high",
+      "risk": "very_low",
+      "conflict": "low"
+    },
+    "anti_dimensions": {
+      "risk": "very_high",
+      "time": "very_low",
+      "power": "very_low"
+    },
+    "psychology": {
+      "core_drive": "提前把伤害挡在门外——在别人还在讨论的时候，她已经在准备了。",
+      "core_fear": "无法阻止自己早就预见的事。",
+      "worldview": "灾难大多可以提前准备，问题是别人不肯听。",
+      "power_pattern": "靠信息和准备，藏在幕后：她不出面，她布置。",
+      "relationship_pattern": "以保护为名深度参与。她记得每个人的风险，也替每个人算过。",
+      "conflict_pattern": "不正面冲突，靠提前布置。",
+      "failure_pattern": "因为害怕，把控制做得过深，最后连亲近的人也被安排。"
+    },
+    "states": {
+      "dormant": "她常先想到最坏的情况，还没开始预防。",
+      "awakened": "用准备和布置真正保护了重要的人。",
+      "overawakened": "试图控制所有细节，只为了让预测不出错。",
+      "fallen": "以保护为名，让别人失去自己做决定的权利。"
+    },
+    "shadow": {
+      "trigger": "看到自己预警过的事真的发生。",
+      "defense": "加倍干预，收紧所有变量。",
+      "danger": "于是爱变成了监控，而他还以为那是准备。"
+    },
+    "visual": {
+      "symbol": "spindle",
+      "geometry": "fate_thread",
+      "motif": "mist_veil"
+    },
+    "titles": {
+      "prefixes": [
+        "预置",
+        "静候",
+        "织命"
+      ],
+      "nouns": [
+        "先知之母",
+        "织命者",
+        "沉默的守备"
+      ]
+    },
+    "tags": [
+      "foresight",
+      "caution",
+      "care",
+      "control"
+    ]
+  },
+  {
+    "id": "heimdall",
+    "name": {
+      "zh": "海姆达尔",
+      "en": "Heimdall"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "守门人",
+      "theme": "守住入口，不被任何东西骗过"
+    },
+    "symbols": [
+      "horn",
+      "watchtower",
+      "rainbow_bridge",
+      "sword"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.8,
+      "reason": 0.3,
+      "creation": -0.3,
+      "social": -0.5,
+      "morality": 0.6,
+      "desire": -0.6,
+      "conflict": 0.3,
+      "world": -0.5,
+      "identity": 0.9,
+      "time": 0.8,
+      "risk": -0.3,
+      "authority": 0.7,
+      "empathy": -0.2,
+      "sacrifice": 0.5,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "identity": "very_high",
+      "order": "very_high",
+      "time": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "identity": "very_low",
+      "order": "very_low"
+    },
+    "psychology": {
+      "core_drive": "守住入口，不让任何东西蒙混进来——包括好听的说法。",
+      "core_fear": "在关键的那一刻漏看了什么。",
+      "worldview": "世界需要有人一直醒着，其他人才能睡。",
+      "power_pattern": "靠警觉与不可收买：他不站队，他筛选谁能进来。",
+      "relationship_pattern": "距离感强：可靠但不亲近；他把关心表达成检查。",
+      "conflict_pattern": "提前拦截，不让事态发展到需要开战。",
+      "failure_pattern": "长期警戒，最后连自己人都一起怀疑。"
+    },
+    "states": {
+      "dormant": "他比别人更容易发现伪装，还没觉得自己在看门。",
+      "awakened": "成为真正值得托付的守卫。",
+      "overawakened": "对所有人保持警戒，连善意也审查。",
+      "fallen": "把怀疑当成职责，把所有人当成潜在威胁。"
+    },
+    "shadow": {
+      "trigger": "有人试图绕过他进入核心。",
+      "defense": "提高警戒等级，收紧所有权限。",
+      "danger": "于是职责变成了怀疑的借口。"
+    },
+    "visual": {
+      "symbol": "horn",
+      "geometry": "arch",
+      "motif": "bridge_in_dark"
+    },
+    "titles": {
+      "prefixes": [
+        "守门",
+        "长醒",
+        "截流"
+      ],
+      "nouns": [
+        "守望者",
+        "第一道墙",
+        "有声的哨兵"
+      ]
+    },
+    "tags": [
+      "vigilance",
+      "duty",
+      "boundary",
+      "discipline"
+    ]
+  },
+  {
+    "id": "baldr",
+    "name": {
+      "zh": "巴德尔",
+      "en": "Baldr"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "光明者",
+      "theme": "让美好的东西不受伤"
+    },
+    "symbols": [
+      "mistletoe",
+      "light",
+      "ring",
+      "flower"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": 0.6,
+      "reason": -0.1,
+      "creation": 0.1,
+      "social": 0.8,
+      "morality": 0.8,
+      "desire": 0.2,
+      "conflict": -0.8,
+      "world": -0.3,
+      "identity": 0.7,
+      "time": -0.2,
+      "risk": -0.6,
+      "authority": 0.3,
+      "empathy": 0.9,
+      "sacrifice": 0.3,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "empathy": "very_high",
+      "social": "very_high",
+      "conflict": "very_low",
+      "morality": "very_high"
+    },
+    "anti_dimensions": {
+      "conflict": "very_high",
+      "empathy": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让身边的人不必提防，包括他自己都不设防。",
+      "core_fear": "自己成为别人必须围着他操心的那个理由。",
+      "worldview": "善意挡不住恶意，但能让恶意付出更高的成本。",
+      "power_pattern": "靠被爱与信任：人们愿意为他多做一点，这就是他的力量。",
+      "relationship_pattern": "温暖、开放、少防御。他相信对方会珍惜这份坦诚，通常也确实如此，直到有一次不是。",
+      "conflict_pattern": "回避，宁可自己退一步，也不想让气氛变坏。",
+      "failure_pattern": "把善良当成护身符，把问题留给未来。"
+    },
+    "states": {
+      "dormant": "他习惯先相信别人是好意的，还没被辜负过。",
+      "awakened": "成为让身边人放松下来的那个人，并真的被珍惜。",
+      "overawakened": "为了不冲突，反复牺牲自己的立场，直到没人知道他要什么。",
+      "fallen": "用孩子的善良要求成年人的世界，然后反复被伤害。"
+    },
+    "shadow": {
+      "trigger": "发现自己被最不设防的人利用。",
+      "defense": "不肯承认，继续维持善意，直到某天崩塌。",
+      "danger": "把回避冲突当成道德，把代价留给将来。"
+    },
+    "visual": {
+      "symbol": "mistletoe",
+      "geometry": "circle",
+      "motif": "light_gone_out"
+    },
+    "titles": {
+      "prefixes": [
+        "不设防",
+        "光明",
+        "柔韧"
+      ],
+      "nouns": [
+        "受爱者",
+        "温和之人",
+        "光明之子"
+      ]
+    },
+    "tags": [
+      "goodness",
+      "trust",
+      "harmony",
+      "fragility"
+    ]
+  },
+  {
+    "id": "hel",
+    "name": {
+      "zh": "海拉",
+      "en": "Hel"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "半边之主",
+      "theme": "让被拒绝的部分拥有自己的王国"
+    },
+    "symbols": [
+      "half_face",
+      "fog",
+      "gate",
+      "bone"
+    ],
+    "vector": {
+      "power": 0.55,
+      "order": 0.5,
+      "reason": 0.25,
+      "creation": -0.35,
+      "social": -0.85,
+      "morality": -0.5,
+      "desire": -0.6,
+      "conflict": -0.3,
+      "world": -0.5,
+      "identity": 0.55,
+      "time": 0.4,
+      "risk": 0.05,
+      "authority": 0.35,
+      "empathy": -0.6,
+      "sacrifice": 0.05,
+      "transcendence": 0.65
+    },
+    "signature_dimensions": {
+      "social": "very_low",
+      "empathy": "low",
+      "transcendence": "high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "social": "very_high",
+      "empathy": "very_high"
+    },
+    "psychology": {
+      "core_drive": "在别人回避的地方建立自己的秩序——被拒绝的那一半也该有王座。",
+      "core_fear": "被怜悯，或被要求变得温暖来换取接纳。",
+      "worldview": "对一半的人来说，门是关着的——那就在另一边建立规矩。",
+      "power_pattern": "靠不退让与分配权：她决定谁进得来。",
+      "relationship_pattern": "极少，但一旦给出就是绝对的。她不要热闹，只要不背叛。",
+      "conflict_pattern": "冷处理：不吵，只是不再给你位置。",
+      "failure_pattern": "用冷酷保护自己不再期待任何东西。"
+    },
+    "states": {
+      "dormant": "她比别人更能接受不被喜欢。",
+      "awakened": "在别人回避的地方建立了真正属于自己的秩序。",
+      "overawakened": "把所有善意都理解成同情。",
+      "fallen": "以公平为名分配痛苦。"
+    },
+    "shadow": {
+      "trigger": "有人用怜悯的语气对待她。",
+      "defense": "立刻关闭通道，不再回应。",
+      "danger": "把拒绝当成唯一的尊严。"
+    },
+    "visual": {
+      "symbol": "half_face",
+      "geometry": "split",
+      "motif": "fog_gate"
+    },
+    "titles": {
+      "prefixes": [
+        "半边",
+        "雾门",
+        "冷面"
+      ],
+      "nouns": [
+        "分界之主",
+        "不问之人",
+        "另一边的王"
+      ]
+    },
+    "tags": [
+      "rejection",
+      "depth",
+      "autonomy",
+      "coldness"
+    ]
+  },
+  {
+    "id": "skadi",
+    "name": {
+      "zh": "斯卡蒂",
+      "en": "Skadi"
+    },
+    "pantheon": "norse",
+    "category": "deity",
+    "archetype": {
+      "core": "山猎者",
+      "theme": "独立地活着，不接受任何人的施舍"
+    },
+    "symbols": [
+      "skis",
+      "bow",
+      "snow",
+      "wolf"
+    ],
+    "vector": {
+      "power": 0.4,
+      "order": 0.3,
+      "reason": 0.2,
+      "creation": 0.1,
+      "social": -0.7,
+      "morality": 0.4,
+      "desire": -0.2,
+      "conflict": 0.6,
+      "world": -0.3,
+      "identity": 0.9,
+      "time": 0.5,
+      "risk": 0.6,
+      "authority": -0.4,
+      "empathy": -0.3,
+      "sacrifice": 0.5,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "identity": "very_high",
+      "social": "very_low",
+      "conflict": "high",
+      "empathy": "low"
+    },
+    "anti_dimensions": {
+      "social": "very_high",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "靠自己在雪线上活着，不欠谁，也不需要谁的照顾。",
+      "core_fear": "依赖任何人——那等于把命交出去。",
+      "worldview": "山里的规则很简单：你能不能自己走下来。",
+      "power_pattern": "靠自足：她不需要被给，她自己有。",
+      "relationship_pattern": "慢热、忠诚、不妥协。她的亲近是长期考察的结果，不是气氛的产物。",
+      "conflict_pattern": "直接挑战，不绕弯，也不担心关系是否受损。",
+      "failure_pattern": "无法接受和解，把冷硬当成尊严。"
+    },
+    "states": {
+      "dormant": "她习惯自己解决自己的事，还没把它变成原则。",
+      "awakened": "完全靠自己立起一块地方，而且站得很稳。",
+      "overawakened": "连善意的帮助都拒绝，开始把孤立当成高墙。",
+      "fallen": "用冷硬切断所有可能的联结，然后称之为自由。"
+    },
+    "shadow": {
+      "trigger": "被当成需要被安置、被安排的人。",
+      "defense": "拉开距离，用行动证明不需要任何人。",
+      "danger": "把孤独当成唯一的尊严。"
+    },
+    "visual": {
+      "symbol": "skis",
+      "geometry": "peak",
+      "motif": "snow_track"
+    },
+    "titles": {
+      "prefixes": [
+        "雪山",
+        "独立",
+        "猎寒"
+      ],
+      "nouns": [
+        "山猎者",
+        "自足者",
+        "不问之人"
+      ]
+    },
+    "tags": [
+      "independence",
+      "endurance",
+      "pride",
+      "solitude"
+    ]
+  },
+  {
+    "id": "fenrir",
+    "name": {
+      "zh": "芬里尔",
+      "en": "Fenrir"
+    },
+    "pantheon": "norse",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "挣脱者",
+      "theme": "不被任何链条定义"
+    },
+    "symbols": [
+      "chain",
+      "wolf",
+      "fetter",
+      "maw"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.6,
+      "reason": -0.4,
+      "creation": -0.3,
+      "social": -0.4,
+      "morality": -0.5,
+      "desire": 0.6,
+      "conflict": 0.9,
+      "world": -0.4,
+      "identity": 0.5,
+      "time": -0.4,
+      "risk": 0.8,
+      "authority": -1,
+      "empathy": -0.2,
+      "sacrifice": 0.1,
+      "transcendence": -0.2
+    },
+    "signature_dimensions": {
+      "authority": "very_low",
+      "conflict": "very_high",
+      "power": "very_high",
+      "risk": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "conflict": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他不接受任何链条——包括那些被说成是为他好的。",
+      "core_fear": "再次被欺骗，再次被绑上。",
+      "worldview": "约束你的人总有一天会被你挣脱，所以他们只会给你更多铁链。",
+      "power_pattern": "靠不可控的强度：他们怕你挣脱，于是给你更多束缚。",
+      "relationship_pattern": "被伤害过的极端警觉：他不再给第二次机会，也不解释为什么。",
+      "conflict_pattern": "挣脱与爆发，不做长期博弈。",
+      "failure_pattern": "用攻击回应所有靠近，包括真正的善意。"
+    },
+    "states": {
+      "dormant": "他隐约知道有一根链条，还没咬过它。",
+      "awakened": "挣脱了一根真的链条，并因此知道自己有多强。",
+      "overawakened": "把所有约束都当成必须咬断的东西。",
+      "fallen": "挣脱变成唯一的目的，自由不再指向任何地方。"
+    },
+    "shadow": {
+      "trigger": "被以安全为名加上新的限制。",
+      "defense": "立刻撕咬限制，不管它是不是善意。",
+      "danger": "把所有的保护都当成牢笼。"
+    },
+    "visual": {
+      "symbol": "chain",
+      "geometry": "broken_ring",
+      "motif": "severed_fetter"
+    },
+    "titles": {
+      "prefixes": [
+        "断链",
+        "未缚",
+        "獠牙"
+      ],
+      "nouns": [
+        "挣脱者",
+        "不可驯之物",
+        "裂链之狼"
+      ]
+    },
+    "tags": [
+      "rebellion",
+      "rage",
+      "freedom",
+      "distrust"
+    ]
+  }
+]

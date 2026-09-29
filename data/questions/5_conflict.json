@@ -1,0 +1,322 @@
+[
+  {
+    "id": "conflict-1",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "你必须做一个会伤害无辜者的选择，但它能救更多人。",
+    "options": [
+      {
+        "id": "a",
+        "text": "做。数字支持它。",
+        "weights": {
+          "morality": -0.9,
+          "reason": 0.6,
+          "empathy": -0.6,
+          "transcendence": -0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "不做。我不能成为做这件事的人。",
+        "weights": {
+          "morality": 0.9,
+          "identity": 0.6,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "做，但之后为此付出自己的代价。",
+        "weights": {
+          "sacrifice": 0.9,
+          "morality": -0.4,
+          "empathy": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "找人和我一起决定，把责任分开。",
+        "weights": {
+          "social": 0.6,
+          "power": -0.4,
+          "morality": -0.2,
+          "authority": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-2",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "对手比你强，而且规则明显偏向对方，连申诉的渠道都掌握在他那边。",
+    "options": [
+      {
+        "id": "a",
+        "text": "正面对抗，让所有人看到。",
+        "weights": {
+          "conflict": 0.9,
+          "risk": 0.7,
+          "power": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "绕开规则，从别的地方撬动。",
+        "weights": {
+          "conflict": -0.6,
+          "creation": 0.6,
+          "power": 0.5,
+          "order": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "等。等他自己犯错。",
+        "weights": {
+          "time": 0.8,
+          "conflict": -0.4,
+          "reason": 0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "加入他，从内部改变。",
+        "weights": {
+          "authority": 0.5,
+          "power": 0.5,
+          "social": 0.4,
+          "morality": -0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-3",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "你的原则和你想要保护的人发生了冲突。",
+    "options": [
+      {
+        "id": "a",
+        "text": "原则优先。人会难过，但规则不能破。",
+        "weights": {
+          "morality": 0.9,
+          "empathy": -0.7,
+          "order": 0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "人优先。原则可以事后修。",
+        "weights": {
+          "morality": -0.7,
+          "empathy": 0.9,
+          "sacrifice": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "两边都承担，代价揽到自己身上。",
+        "weights": {
+          "sacrifice": 0.9,
+          "morality": 0.4,
+          "power": -0.2
+        }
+      },
+      {
+        "id": "d",
+        "text": "重新定义规则，让两件事同时成立。",
+        "weights": {
+          "creation": 0.7,
+          "reason": 0.6,
+          "world": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-4",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "在一群你很熟悉的人中间，有人当着所有人的面羞辱你。",
+    "options": [
+      {
+        "id": "a",
+        "text": "当场回应，把输赢定下来。",
+        "weights": {
+          "conflict": 0.9,
+          "power": 0.6,
+          "desire": 0.3
+        }
+      },
+      {
+        "id": "b",
+        "text": "沉默，之后用结果回击。",
+        "weights": {
+          "conflict": -0.4,
+          "time": 0.7,
+          "power": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "笑着接住，让这次攻击失效。",
+        "weights": {
+          "identity": -0.4,
+          "creation": 0.5,
+          "empathy": 0.2,
+          "reason": -0.5
+        }
+      },
+      {
+        "id": "d",
+        "text": "记住它，等一个更合适的时刻。",
+        "weights": {
+          "time": 0.8,
+          "conflict": 0.3,
+          "power": 0.4,
+          "morality": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-5",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "你带的团队里有人把你私下说的话捅了出去，还顺带带走了两个核心的人。",
+    "options": [
+      {
+        "id": "a",
+        "text": "公开处理，让标准清晰。",
+        "weights": {
+          "order": 0.8,
+          "conflict": 0.6,
+          "authority": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "私下解决，不留痕迹。",
+        "weights": {
+          "conflict": -0.5,
+          "power": 0.5,
+          "social": 0.2,
+          "morality": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "先弄清动机，再决定。",
+        "weights": {
+          "empathy": 0.6,
+          "reason": 0.6,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "不追究，但从此不再给机会。",
+        "weights": {
+          "power": 0.4,
+          "social": -0.5,
+          "conflict": -0.3,
+          "identity": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-6",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "一个你明知有风险的目标，需要你投入很多年。",
+    "options": [
+      {
+        "id": "a",
+        "text": "值得。意义比安全重要。",
+        "weights": {
+          "sacrifice": 0.8,
+          "transcendence": 0.6,
+          "risk": 0.6,
+          "time": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "不值得。安全优先。",
+        "weights": {
+          "risk": -0.8,
+          "desire": -0.3,
+          "time": 0.3,
+          "transcendence": -0.5
+        }
+      },
+      {
+        "id": "c",
+        "text": "值得，但要先设计好退出的方式。",
+        "weights": {
+          "reason": 0.7,
+          "time": 0.6,
+          "order": 0.4,
+          "risk": -0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "看能不能换一条更快的路径。",
+        "weights": {
+          "time": -0.5,
+          "creation": 0.6,
+          "risk": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "conflict-7",
+    "act": "conflict",
+    "profile": "overall",
+    "text": "一次冲突结束、双方各自回家之后，你脑子里反复过的第一件事是什么？",
+    "options": [
+      {
+        "id": "a",
+        "text": "我有没有赢。",
+        "weights": {
+          "power": 0.8,
+          "conflict": 0.6,
+          "desire": 0.4,
+          "transcendence": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "事情有没有变好。",
+        "weights": {
+          "world": 0.6,
+          "morality": 0.5,
+          "empathy": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "我还是不是我自己。",
+        "weights": {
+          "identity": 0.8,
+          "transcendence": 0.4,
+          "morality": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "关系还在不在。",
+        "weights": {
+          "social": 0.8,
+          "empathy": 0.6,
+          "conflict": -0.5
+        }
+      }
+    ]
+  }
+]

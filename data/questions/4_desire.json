@@ -1,0 +1,322 @@
+[
+  {
+    "id": "desire-1",
+    "act": "desire",
+    "profile": "overall",
+    "text": "一个人对你产生了强烈的吸引力，而你已经有承诺。",
+    "options": [
+      {
+        "id": "a",
+        "text": "不再接触，把这念头掐掉。",
+        "weights": {
+          "desire": -0.8,
+          "morality": 0.7,
+          "order": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "允许自己想，但不行动。",
+        "weights": {
+          "desire": -0.2,
+          "morality": 0.3,
+          "identity": 0.2,
+          "transcendence": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "承认它，并处理原来的关系。",
+        "weights": {
+          "morality": -0.4,
+          "conflict": 0.5,
+          "desire": 0.4,
+          "identity": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "跟着感觉走，之后再说。",
+        "weights": {
+          "desire": 0.9,
+          "risk": 0.7,
+          "morality": -0.8,
+          "time": -0.9,
+          "sacrifice": -0.6
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-2",
+    "act": "desire",
+    "profile": "overall",
+    "text": "你可以拥有一种一直想要的生活，但代价由别人承担。",
+    "options": [
+      {
+        "id": "a",
+        "text": "不要。代价不是我能替别人付的。",
+        "weights": {
+          "morality": 0.8,
+          "sacrifice": 0.4,
+          "desire": -0.6
+        }
+      },
+      {
+        "id": "b",
+        "text": "要。世界本来就是这样运转的。",
+        "weights": {
+          "power": 0.8,
+          "empathy": -0.8,
+          "morality": -0.7
+        }
+      },
+      {
+        "id": "c",
+        "text": "要，但把别人的承担压到最低。",
+        "weights": {
+          "reason": 0.5,
+          "empathy": 0.3,
+          "desire": 0.4,
+          "morality": -0.2
+        }
+      },
+      {
+        "id": "d",
+        "text": "换成一种我自己承担得起的生活。",
+        "weights": {
+          "sacrifice": 0.6,
+          "world": 0.4,
+          "desire": -0.3,
+          "transcendence": 0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-3",
+    "act": "desire",
+    "profile": "overall",
+    "text": "朋友把自己的痛苦反复倒给你，而你已经很累。",
+    "options": [
+      {
+        "id": "a",
+        "text": "全部接住，直到他好起来。",
+        "weights": {
+          "empathy": 0.9,
+          "sacrifice": 0.8,
+          "power": -0.3
+        }
+      },
+      {
+        "id": "b",
+        "text": "说清自己的界限。",
+        "weights": {
+          "empathy": 0.2,
+          "power": 0.5,
+          "conflict": 0.3,
+          "morality": -0.2
+        }
+      },
+      {
+        "id": "c",
+        "text": "给方法，不给情绪。",
+        "weights": {
+          "empathy": -0.6,
+          "reason": 0.7,
+          "order": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "慢慢减少回应，让关系自然冷下来。",
+        "weights": {
+          "empathy": -0.5,
+          "social": -0.6,
+          "conflict": -0.6,
+          "desire": -0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-4",
+    "act": "desire",
+    "profile": "overall",
+    "text": "一件拖了三年、中途差点放弃的大事终于成了，所有人都来祝贺你。",
+    "options": [
+      {
+        "id": "a",
+        "text": "一个人待着，安静消化。",
+        "weights": {
+          "social": -0.8,
+          "desire": -0.3,
+          "transcendence": 0.5,
+          "identity": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "叫上所有人，庆祝到很晚。",
+        "weights": {
+          "social": 0.9,
+          "desire": 0.8,
+          "order": -0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "立刻开始下一个目标。",
+        "weights": {
+          "time": 0.9,
+          "desire": -0.6,
+          "power": 0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "复盘过程，看看运气占了多少。",
+        "weights": {
+          "reason": 0.7,
+          "order": 0.3,
+          "desire": -0.4
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-5",
+    "act": "desire",
+    "profile": "overall",
+    "text": "一段高强度的投入刚刚结束，接下来几天你可以完全自由地安排时间。",
+    "options": [
+      {
+        "id": "a",
+        "text": "必须彻底放纵一次才能回血。",
+        "weights": {
+          "desire": 0.9,
+          "order": -0.8,
+          "risk": 0.4,
+          "sacrifice": -0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "靠规律的生活恢复。",
+        "weights": {
+          "order": 0.8,
+          "desire": -0.6,
+          "time": 0.4
+        }
+      },
+      {
+        "id": "c",
+        "text": "换一种投入，不休息。",
+        "weights": {
+          "power": 0.6,
+          "time": 0.3,
+          "risk": 0.3,
+          "desire": -0.2
+        }
+      },
+      {
+        "id": "d",
+        "text": "不太清楚自己需要什么，随它去。",
+        "weights": {
+          "identity": -0.6,
+          "reason": -0.7,
+          "empathy": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-6",
+    "act": "desire",
+    "profile": "overall",
+    "text": "一件事结束后，你最在意别人怎么评价哪个部分？",
+    "options": [
+      {
+        "id": "a",
+        "text": "我做得对不对。",
+        "weights": {
+          "order": 0.6,
+          "morality": 0.5,
+          "reason": 0.4
+        }
+      },
+      {
+        "id": "b",
+        "text": "我够不够强。",
+        "weights": {
+          "power": 0.8,
+          "conflict": 0.3,
+          "authority": -0.2,
+          "transcendence": -0.6
+        }
+      },
+      {
+        "id": "c",
+        "text": "我有没有让别人好受一点。",
+        "weights": {
+          "empathy": 0.8,
+          "social": 0.6,
+          "morality": 0.3
+        }
+      },
+      {
+        "id": "d",
+        "text": "我有没有做出别人做不到的东西。",
+        "weights": {
+          "creation": 0.9,
+          "world": 0.5,
+          "identity": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "desire-7",
+    "act": "desire",
+    "profile": "overall",
+    "text": "一段关系进入稳定期之后，你和对方都不再表演。下面哪一种情况会让你最先开始想离开？",
+    "options": [
+      {
+        "id": "a",
+        "text": "被管得太细。",
+        "weights": {
+          "authority": -0.8,
+          "power": 0.6,
+          "identity": 0.5
+        }
+      },
+      {
+        "id": "b",
+        "text": "被晾在一边。",
+        "weights": {
+          "social": 0.7,
+          "empathy": 0.6,
+          "desire": 0.3
+        }
+      },
+      {
+        "id": "c",
+        "text": "被看得太透。",
+        "weights": {
+          "identity": -0.5,
+          "power": 0.4,
+          "social": -0.4
+        }
+      },
+      {
+        "id": "d",
+        "text": "被要求一直不变。",
+        "weights": {
+          "identity": -0.8,
+          "desire": 0.6,
+          "order": -0.7
+        }
+      }
+    ]
+  }
+]

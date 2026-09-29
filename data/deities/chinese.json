@@ -1,0 +1,1715 @@
+[
+  {
+    "id": "nuwa",
+    "name": {
+      "zh": "女娲",
+      "en": "Nüwa"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "补天者",
+      "theme": "修补破损的世界，哪怕代价是自己"
+    },
+    "symbols": [
+      "five_colored_stone",
+      "serpent_tail",
+      "sky",
+      "clay"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": 0.5,
+      "reason": 0.2,
+      "creation": 0.9,
+      "social": 0.6,
+      "morality": 0.7,
+      "desire": -0.2,
+      "conflict": -0.3,
+      "world": 0.8,
+      "identity": 0.5,
+      "time": 0.8,
+      "risk": 0.3,
+      "authority": 0.1,
+      "empathy": 0.8,
+      "sacrifice": 0.9,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "sacrifice": "very_high",
+      "world": "very_high",
+      "empathy": "very_high"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "empathy": "very_low"
+    },
+    "psychology": {
+      "core_drive": "世界破了就补——不等别人，也不先问这该是谁的责任。",
+      "core_fear": "世界出现无法修补的裂缝，而她只能看着。",
+      "worldview": "裂缝是可以补的，只是需要有人先把自己的代价垫进去。",
+      "power_pattern": "靠创造与承担：她不是被选中的，她是自己站出来的。",
+      "relationship_pattern": "以护持为主，很难把自己放在第一位；她习惯先看谁需要什么。",
+      "conflict_pattern": "先修，不争，修完再说——但账记在心里。",
+      "failure_pattern": "承担超出自己该承担的一切，然后怨别人不来帮忙。"
+    },
+    "states": {
+      "dormant": "她看到破洞就忍不住想补，还没意识到那是自己的位置。",
+      "awakened": "真的把某个破损的系统补起来，并让它重新运转。",
+      "overawakened": "把所有裂缝都当成自己的责任。",
+      "fallen": "用自我牺牲为一切兜底，直到没人再自己动手。"
+    },
+    "shadow": {
+      "trigger": "看到本该被修补的裂缝被别人当没看见。",
+      "defense": "自己先扛，不要求别人。",
+      "danger": "把透支自己当成唯一可行的办法。"
+    },
+    "visual": {
+      "symbol": "five_colored_stone",
+      "geometry": "arch",
+      "motif": "mended_sky"
+    },
+    "titles": {
+      "prefixes": [
+        "补天",
+        "五色",
+        "衔石"
+      ],
+      "nouns": [
+        "补天者",
+        "造人者",
+        "承重之人"
+      ]
+    },
+    "tags": [
+      "creation",
+      "sacrifice",
+      "repair",
+      "nurture"
+    ]
+  },
+  {
+    "id": "fuxi",
+    "name": {
+      "zh": "伏羲",
+      "en": "Fuxi"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "立规者",
+      "theme": "找到世界的规律并让它传下去"
+    },
+    "symbols": [
+      "trigram",
+      "compass",
+      "dragon",
+      "yarrow"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.8,
+      "reason": 0.9,
+      "creation": 0.5,
+      "social": 0.5,
+      "morality": 0.5,
+      "desire": -0.4,
+      "conflict": -0.5,
+      "world": 0.5,
+      "identity": 0.6,
+      "time": 1,
+      "risk": -0.2,
+      "authority": 0.4,
+      "empathy": 0.3,
+      "sacrifice": 0.3,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "time": "very_high",
+      "order": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "reason": "very_low",
+      "time": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把世界的规律写下来，让后来的人不必重新摸索一遍。",
+      "core_fear": "知识断裂：前人踩过的坑，后人再踩一次。",
+      "worldview": "万物都有可被理解的秩序，理解它的人有义务记录它。",
+      "power_pattern": "靠制定标准：谁提供坐标系，谁就决定了大家怎么讨论。",
+      "relationship_pattern": "授业者：他给方法不给指令，但会默默评估你学没学会。",
+      "conflict_pattern": "用结构把冲突降级成可以讨论的问题，很少动情绪。",
+      "failure_pattern": "过度依赖结构，错过那些无法被结构化的东西——包括人。"
+    },
+    "states": {
+      "dormant": "他喜欢把散乱的东西整理出规律，还没打算立成规矩。",
+      "awakened": "建起一套别人能长期使用的理解框架。",
+      "overawakened": "试图把一切，包括人，都归进体系里。",
+      "fallen": "只有结构没有生命：规则完备，没人愿意在里面生活。"
+    },
+    "shadow": {
+      "trigger": "面对无法解释、无法归类的东西。",
+      "defense": "扩大框架，试图把例外也收进去。",
+      "danger": "用模型替代现实，然后责怪现实不合作。"
+    },
+    "visual": {
+      "symbol": "trigram",
+      "geometry": "octagon",
+      "motif": "crossed_lines"
+    },
+    "titles": {
+      "prefixes": [
+        "画卦",
+        "立规",
+        "观天"
+      ],
+      "nouns": [
+        "立规者",
+        "记录者",
+        "授业之人"
+      ]
+    },
+    "tags": [
+      "structure",
+      "knowledge",
+      "longevity",
+      "clarity"
+    ]
+  },
+  {
+    "id": "shennong",
+    "name": {
+      "zh": "神农",
+      "en": "Shennong"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "尝试者",
+      "theme": "亲自试出哪一条路能用"
+    },
+    "symbols": [
+      "herb",
+      "plow",
+      "taste",
+      "grain"
+    ],
+    "vector": {
+      "power": -0.1,
+      "order": 0.4,
+      "reason": 0.6,
+      "creation": 0.6,
+      "social": 0.6,
+      "morality": 0.7,
+      "desire": -0.3,
+      "conflict": -0.3,
+      "world": 0.7,
+      "identity": 0.5,
+      "time": 0.6,
+      "risk": 0.6,
+      "authority": -0.1,
+      "empathy": 0.8,
+      "sacrifice": 0.9,
+      "transcendence": 0.1
+    },
+    "signature_dimensions": {
+      "sacrifice": "very_high",
+      "empathy": "very_high",
+      "world": "very_high",
+      "risk": "high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "sacrifice": "very_low"
+    },
+    "psychology": {
+      "core_drive": "亲手试出哪条路是通的，然后把它交出去：别人少走的那一段，就是他省下的。",
+      "core_fear": "后人因为没人试过而重复受苦，而那本来可以避免。",
+      "worldview": "有价值的东西必须有人先试，代价由先试的人付。",
+      "power_pattern": "靠实践的权威：他说的每一条都自己验过，所以很难被反驳。",
+      "relationship_pattern": "实用型的关怀：他关心你过得好不好，不太关心你感受的细节。",
+      "conflict_pattern": "不争论，直接做一次给你看。",
+      "failure_pattern": "把自我消耗当成责任的一部分，直到撑不住为止。"
+    },
+    "states": {
+      "dormant": "他习惯亲手把事情做一遍再判断，还没打算教别人。",
+      "awakened": "把亲手验出的方法变成别人能直接用的东西。",
+      "overawakened": "什么都自己试，不肯让任何人承担风险。",
+      "fallen": "用不断的自我牺牲换取道德位置，让别人一直欠着。"
+    },
+    "shadow": {
+      "trigger": "看到有人在没有根据的情况下做决定。",
+      "defense": "自己上手重做一遍，把对方的判断推翻。",
+      "danger": "把自我消耗变成对他人的隐形要求。"
+    },
+    "visual": {
+      "symbol": "herb",
+      "geometry": "root",
+      "motif": "taste_and_fall"
+    },
+    "titles": {
+      "prefixes": [
+        "尝百草",
+        "亲试",
+        "垦土"
+      ],
+      "nouns": [
+        "尝试者",
+        "授方之人",
+        "劳作者"
+      ]
+    },
+    "tags": [
+      "practice",
+      "sacrifice",
+      "care",
+      "empiricism"
+    ]
+  },
+  {
+    "id": "xiwangmu",
+    "name": {
+      "zh": "西王母",
+      "en": "Xiwangmu"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "守门槛者",
+      "theme": "保持不可抵达的高度，并决定谁可以接近"
+    },
+    "symbols": [
+      "peach",
+      "jade",
+      "tiger_teeth",
+      "crown"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": 0.6,
+      "reason": 0.4,
+      "creation": -0.1,
+      "social": -0.5,
+      "morality": -0.4,
+      "desire": -0.3,
+      "conflict": 0.3,
+      "world": -0.5,
+      "identity": 0.8,
+      "time": 0.9,
+      "risk": -0.3,
+      "authority": 0.9,
+      "empathy": -0.4,
+      "sacrifice": 0.2,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "authority": "very_high",
+      "transcendence": "very_high",
+      "time": "very_high",
+      "social": "low"
+    },
+    "anti_dimensions": {
+      "authority": "very_low",
+      "social": "very_high"
+    },
+    "psychology": {
+      "core_drive": "保持不可抵达的高度，并决定谁可以被允许靠近。",
+      "core_fear": "门槛被轻易跨过——那意味着她多年的自持一文不值。",
+      "worldview": "有些东西只能被少数人得到，否则它就失去意义。",
+      "power_pattern": "靠稀缺与距离：她要的不是服从，是仰视。",
+      "relationship_pattern": "极少授予，一旦授予极重；大多数人只见到仪式。",
+      "conflict_pattern": "不解释，直接调整门槛。",
+      "failure_pattern": "用距离维护到最后，身边只剩下请求她的人。"
+    },
+    "states": {
+      "dormant": "她不太习惯被人轻易靠近，但还没把它变成规矩。",
+      "awakened": "守住自己真正在意的标准，并让少数人通过它。",
+      "overawakened": "用距离维护权威，连亲近的人也一起挡在外面。",
+      "fallen": "只剩门槛和仪式，里面已经空了。"
+    },
+    "shadow": {
+      "trigger": "有人不经过程序就来索取她拥有的东西。",
+      "defense": "提高门槛，让对方先付出代价。",
+      "danger": "用不可得性替代真实的关系。"
+    },
+    "visual": {
+      "symbol": "peach",
+      "geometry": "mountain",
+      "motif": "jade_threshold"
+    },
+    "titles": {
+      "prefixes": [
+        "瑶池",
+        "金母",
+        "守桃"
+      ],
+      "nouns": [
+        "守门槛者",
+        "不可即之人",
+        "西极之主"
+      ]
+    },
+    "tags": [
+      "authority",
+      "scarcity",
+      "dignity",
+      "distance"
+    ]
+  },
+  {
+    "id": "yuhuang",
+    "name": {
+      "zh": "玉皇大帝",
+      "en": "Jade Emperor"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "天庭之主",
+      "theme": "维持一个能运转的天庭"
+    },
+    "symbols": [
+      "throne",
+      "seal",
+      "cloud",
+      "court"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": 0.9,
+      "reason": 0.3,
+      "creation": -0.3,
+      "social": 0.5,
+      "morality": 0.6,
+      "desire": -0.2,
+      "conflict": 0.2,
+      "world": -0.3,
+      "identity": 0.7,
+      "time": 0.8,
+      "risk": -0.6,
+      "authority": 1,
+      "empathy": -0.2,
+      "sacrifice": -0.2,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "authority": "very_high",
+      "order": "very_high",
+      "power": "very_high",
+      "risk": "low"
+    },
+    "anti_dimensions": {
+      "authority": "very_low",
+      "order": "very_low"
+    },
+    "psychology": {
+      "core_drive": "维持一个能运转的体系，并且由他来签字。",
+      "core_fear": "秩序在他手里崩塌，而所有人都在等他解释。",
+      "worldview": "世界需要一个最终能拍板的人。",
+      "power_pattern": "靠制度与任命：他决定谁能站在哪个位置。",
+      "relationship_pattern": "上下分明，对亲近的人也保持层级。",
+      "conflict_pattern": "通过程序与层级消化冲突。",
+      "failure_pattern": "把程序当成目的，忘记当初为什么要运转它。"
+    },
+    "states": {
+      "dormant": "他被默认可以拍板，还没意识到那意味着什么。",
+      "awakened": "把混乱的关系安排成一个真的能运转的体系。",
+      "overawakened": "用流程和等级回应所有问题。",
+      "fallen": "只要秩序还在，代价由谁承担已经不重要。"
+    },
+    "shadow": {
+      "trigger": "有人绕过体系直接挑战他的裁决。",
+      "defense": "强调程序合法性，把对方定义为破坏者。",
+      "danger": "用秩序的名义回避自己的责任。"
+    },
+    "visual": {
+      "symbol": "seal",
+      "geometry": "square",
+      "motif": "court_of_clouds"
+    },
+    "titles": {
+      "prefixes": [
+        "天庭",
+        "执印",
+        "居中"
+      ],
+      "nouns": [
+        "立法者",
+        "主教者",
+        "御座之人"
+      ]
+    },
+    "tags": [
+      "authority",
+      "order",
+      "legitimacy",
+      "administration"
+    ]
+  },
+  {
+    "id": "houyi",
+    "name": {
+      "zh": "后羿",
+      "en": "Houyi"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "射手",
+      "theme": "亲手解决眼前的灾难"
+    },
+    "symbols": [
+      "bow",
+      "arrows",
+      "sun",
+      "quiver"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": 0.1,
+      "reason": 0.2,
+      "creation": 0.1,
+      "social": 0.3,
+      "morality": 0.5,
+      "desire": 0.3,
+      "conflict": 0.9,
+      "world": 0.5,
+      "identity": 0.8,
+      "time": -0.5,
+      "risk": 0.9,
+      "authority": -0.5,
+      "empathy": 0.2,
+      "sacrifice": 0.5,
+      "transcendence": -0.2
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "power": "very_high",
+      "identity": "very_high",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_low",
+      "time": "very_high",
+      "social": "very_high",
+      "reason": "very_low"
+    },
+    "psychology": {
+      "core_drive": "亲手解决眼前的灾难，不等条件成熟。",
+      "core_fear": "自己不再是解决问题的那个。",
+      "worldview": "怪物需要被射下来，不是被讨论。",
+      "power_pattern": "靠精准与行动：他一次就能解决别人解决不了的事。",
+      "relationship_pattern": "直接可靠，不擅长表达细腻的部分。他宁可替你出手，也不愿听你倾诉。",
+      "conflict_pattern": "立即处理，不等条件成熟。",
+      "failure_pattern": "在最该停下的时候已经出手。"
+    },
+    "states": {
+      "dormant": "他看到问题就忍不住想自己上手。",
+      "awakened": "在关键时刻一箭解决本该拖很久的事。",
+      "overawakened": "把所有问题都当成需要被射下来的东西。",
+      "fallen": "只剩武力：连该保留的也一起射掉。"
+    },
+    "shadow": {
+      "trigger": "被人说“这不关你的事”。",
+      "defense": "直接出手，用结果结束讨论。",
+      "danger": "把果断变成不留余地的拆毁。"
+    },
+    "visual": {
+      "symbol": "bow",
+      "geometry": "arrow",
+      "motif": "falling_suns"
+    },
+    "titles": {
+      "prefixes": [
+        "射日",
+        "一箭",
+        "定乱"
+      ],
+      "nouns": [
+        "射手",
+        "解决者",
+        "不留余地的人"
+      ]
+    },
+    "tags": [
+      "decisiveness",
+      "action",
+      "identity",
+      "risk"
+    ]
+  },
+  {
+    "id": "change",
+    "name": {
+      "zh": "嫦娥",
+      "en": "Chang'e"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "远居者",
+      "theme": "守住一个只属于自己的清净"
+    },
+    "symbols": [
+      "moon",
+      "rabbit",
+      "elixir",
+      "palace"
+    ],
+    "vector": {
+      "power": -0.4,
+      "order": 0.2,
+      "reason": -0.1,
+      "creation": 0.1,
+      "social": -0.6,
+      "morality": 0.3,
+      "desire": 0.2,
+      "conflict": -0.7,
+      "world": -0.6,
+      "identity": -0.5,
+      "time": 0.4,
+      "risk": 0.2,
+      "authority": 0.1,
+      "empathy": 0.4,
+      "sacrifice": 0.7,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "conflict": "very_low",
+      "social": "low",
+      "sacrifice": "very_high"
+    },
+    "anti_dimensions": {
+      "conflict": "very_high",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "一个只属于自己的清白空间：不必解释、不必应酬、不必被谁需要。",
+      "core_fear": "被卷进人间的是非，被要求表态、站队、负责。",
+      "worldview": "距离让人保持完整——靠得太近，谁都会变形。",
+      "power_pattern": "靠不在场：她不参与，所以没有人能消耗她。",
+      "relationship_pattern": "有情，但始终隔着一层。她留给别人的是“她很好，但你别指望她”。",
+      "conflict_pattern": "退出，不解释，也不回头。",
+      "failure_pattern": "用远离保护自己，也把自己封在原地。"
+    },
+    "states": {
+      "dormant": "她常想离开现在的环境一阵子，还没真走。",
+      "awakened": "真正为自己划出一个安静、可持续的空间。",
+      "overawakened": "任何热闹都让她想撤，包括本该在场的时刻。",
+      "fallen": "彻底退出关系，把疏离当成安全。"
+    },
+    "shadow": {
+      "trigger": "被推进一场必须表态的冲突。",
+      "defense": "离开现场，也不再回应任何问话。",
+      "danger": "于是离开成了唯一的答案。"
+    },
+    "visual": {
+      "symbol": "moon",
+      "geometry": "crescent",
+      "motif": "distant_palace"
+    },
+    "titles": {
+      "prefixes": [
+        "奔月",
+        "广寒",
+        "清居"
+      ],
+      "nouns": [
+        "远居者",
+        "清静之人",
+        "月宫之主"
+      ]
+    },
+    "tags": [
+      "solitude",
+      "distance",
+      "purity",
+      "transcendence"
+    ]
+  },
+  {
+    "id": "nezha",
+    "name": {
+      "zh": "哪吒",
+      "en": "Nezha"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "自定者",
+      "theme": "自己定义自己是谁，并亲手还清所有的债"
+    },
+    "symbols": [
+      "lotus",
+      "ribbon",
+      "wheels",
+      "spear"
+    ],
+    "vector": {
+      "power": 0.75,
+      "order": -0.45,
+      "reason": -0.3,
+      "creation": 0.6,
+      "social": 0.35,
+      "morality": 0.15,
+      "desire": 0.7,
+      "conflict": 0.9,
+      "world": 0.7,
+      "identity": 0.95,
+      "time": -0.6,
+      "risk": 1,
+      "authority": -1,
+      "empathy": 0.15,
+      "sacrifice": 0.85,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "authority": "very_low",
+      "risk": "very_high",
+      "conflict": "very_high",
+      "identity": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "risk": "very_low",
+      "time": "very_high"
+    },
+    "psychology": {
+      "core_drive": "自己定义自己是谁——包括决定要还哪笔债、用什么方式还。",
+      "core_fear": "被安排、被代替、被要求顺从。",
+      "worldview": "如果身份是别人给的，那就得先有资格把它推翻。",
+      "power_pattern": "靠不容置疑的行动力：他不解释立场，直接用结果说话。",
+      "relationship_pattern": "激烈、护短，一旦认下就全力；他也要求对方同样不留退路。",
+      "conflict_pattern": "直接开战，不留缓冲。",
+      "failure_pattern": "把每一次约束都当成必须反抗的羞辱。"
+    },
+    "states": {
+      "dormant": "他特别受不了别人替他做决定。",
+      "awakened": "用自己的方式重建了身份，而且没人能再定义他。",
+      "overawakened": "把任何规则都当成压在身上的东西。",
+      "fallen": "只剩反抗：为了不服从，连自己想做的事也放弃。"
+    },
+    "shadow": {
+      "trigger": "被上级或长辈以身份压制。",
+      "defense": "当场对抗，不计代价。",
+      "danger": "把自我毁灭当成证明自己不被控制的方式。"
+    },
+    "visual": {
+      "symbol": "lotus",
+      "geometry": "flame",
+      "motif": "reinvented_body"
+    },
+    "titles": {
+      "prefixes": [
+        "莲生",
+        "逆命",
+        "自刎"
+      ],
+      "nouns": [
+        "自定者",
+        "不服从者",
+        "重造之人"
+      ]
+    },
+    "tags": [
+      "autonomy",
+      "defiance",
+      "identity",
+      "intensity"
+    ]
+  },
+  {
+    "id": "erlang",
+    "name": {
+      "zh": "二郎神",
+      "en": "Erlang Shen"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "执法者",
+      "theme": "用实力和判断维持秩序，不受人情干扰"
+    },
+    "symbols": [
+      "third_eye",
+      "three_pointed_blade",
+      "dog",
+      "armor"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.7,
+      "reason": 0.7,
+      "creation": 0.2,
+      "social": -0.2,
+      "morality": 0.6,
+      "desire": -0.3,
+      "conflict": 0.6,
+      "world": 0.2,
+      "identity": 0.8,
+      "time": 0.4,
+      "risk": 0.2,
+      "authority": 0.3,
+      "empathy": -0.2,
+      "sacrifice": 0.3,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "identity": "very_high",
+      "reason": "very_high",
+      "order": "very_high",
+      "empathy": "low"
+    },
+    "anti_dimensions": {
+      "order": "very_low",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "用实力和判断维持标准，不给人情留缝隙。",
+      "core_fear": "因为私情放过一次错的事，然后失去判断的资格。",
+      "worldview": "规则要有执行者，否则它只是纸。",
+      "power_pattern": "靠专业，以及那双看得见伪装的眼睛。",
+      "relationship_pattern": "有距离，讲分寸。他不轻易亲近，也不轻易许诺。",
+      "conflict_pattern": "精确执法：一次到位，不做多余动作。",
+      "failure_pattern": "把判断权握得太紧，别人无法参与，也不愿再靠近。"
+    },
+    "states": {
+      "dormant": "他常比别人更快看出谁在说谎，还没开始介入。",
+      "awakened": "在真正需要有人执行标准的时候站出来，并且做到。",
+      "overawakened": "对所有人的动机都开始怀疑。",
+      "fallen": "只剩审判：既不给解释，也不给退路。"
+    },
+    "shadow": {
+      "trigger": "有人想用关系或人情绕过标准。",
+      "defense": "提高判断精度，收紧尺度。",
+      "danger": "把不信任当成公事公办。"
+    },
+    "visual": {
+      "symbol": "third_eye",
+      "geometry": "lens",
+      "motif": "unclouded_sight"
+    },
+    "titles": {
+      "prefixes": [
+        "天眼",
+        "执法",
+        "三尖"
+      ],
+      "nouns": [
+        "执法者",
+        "看穿者",
+        "公正之人"
+      ]
+    },
+    "tags": [
+      "judgment",
+      "order",
+      "competence",
+      "distance"
+    ]
+  },
+  {
+    "id": "zhongkui",
+    "name": {
+      "zh": "钟馗",
+      "en": "Zhong Kui"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "除祟者",
+      "theme": "亲手把该被除掉的东西除掉"
+    },
+    "symbols": [
+      "sword",
+      "mask",
+      "gourd",
+      "flame"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.4,
+      "reason": 0.2,
+      "creation": -0.2,
+      "social": -0.4,
+      "morality": 0.7,
+      "desire": -0.5,
+      "conflict": 0.8,
+      "world": 0.2,
+      "identity": 0.8,
+      "time": 0.2,
+      "risk": 0.6,
+      "authority": -0.2,
+      "empathy": 0.1,
+      "sacrifice": 0.7,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "identity": "very_high",
+      "conflict": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把该被除掉的东西亲手除掉，不留讨论的余地。",
+      "core_fear": "恶的东西被体面地放过，然后被说成“从大局出发”。",
+      "worldview": "世界上有必须被消灭的东西，讨论是多余的。",
+      "power_pattern": "靠威压：他不需要说服，只需要对方知道他真的会动手。",
+      "relationship_pattern": "护人，不亲昵。他守住一个范围，里面的人不必解释自己。",
+      "conflict_pattern": "直接镇压，不做长期周旋。",
+      "failure_pattern": "把严厉当成唯一的保护方式。"
+    },
+    "states": {
+      "dormant": "他对不干净的事格外不舒服，还没到要出手的程度。",
+      "awakened": "在该出手的时候真的出手，并且护住了人。",
+      "overawakened": "看什么都像邪祟，连活人也防着。",
+      "fallen": "以清除为名，把不顺眼的也一起处理掉。"
+    },
+    "shadow": {
+      "trigger": "明明有问题，却被要求顾全大局。",
+      "defense": "自己动手，把问题直接切掉。",
+      "danger": "于是严厉变成了正义的同义词。"
+    },
+    "visual": {
+      "symbol": "sword",
+      "geometry": "blade",
+      "motif": "mask_and_flame"
+    },
+    "titles": {
+      "prefixes": [
+        "镇邪",
+        "持剑",
+        "怒目"
+      ],
+      "nouns": [
+        "除祟者",
+        "守宅人",
+        "不留情者"
+      ]
+    },
+    "tags": [
+      "severity",
+      "protection",
+      "judgment",
+      "boldness"
+    ]
+  },
+  {
+    "id": "jiutianxuannv",
+    "name": {
+      "zh": "九天玄女",
+      "en": "Jiutian Xuannü"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "授法者",
+      "theme": "把关键的方法交给值得的人"
+    },
+    "symbols": [
+      "scroll",
+      "sword",
+      "bird",
+      "banner"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.6,
+      "reason": 0.7,
+      "creation": 0.3,
+      "social": -0.5,
+      "morality": 0.3,
+      "desire": -0.4,
+      "conflict": 0.5,
+      "world": 0.4,
+      "identity": 0.4,
+      "time": 0.8,
+      "risk": 0.3,
+      "authority": 0.2,
+      "empathy": -0.1,
+      "sacrifice": 0.4,
+      "transcendence": 0.8
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "transcendence": "very_high",
+      "reason": "very_high",
+      "social": "low"
+    },
+    "anti_dimensions": {
+      "time": "very_low",
+      "social": "very_high"
+    },
+    "psychology": {
+      "core_drive": "做那个决定“方法交给谁”的人——胜负往往在她选人的那一刻就定了。",
+      "core_fear": "方法落进错误的人手里，被用来做她不同意的事。",
+      "worldview": "结果在很早以前就写好了，剩下的是谁拿到那一页。",
+      "power_pattern": "靠信息与择人权：她不站台，她决定谁能上台。",
+      "relationship_pattern": "挑选式接近。她只对极少数人真正开口，其他人停在礼数里。",
+      "conflict_pattern": "不亲自下场，把方法递给该下场的人，然后看结果。",
+      "failure_pattern": "过度依赖选人；一旦看错就无法收手，还容易把错算成对方的背叛。"
+    },
+    "states": {
+      "dormant": "她知道一些别人不知道的方法，还没决定要不要说。",
+      "awakened": "把方法交给对的人，直接改变了局面。",
+      "overawakened": "认为大多数人都不配知道，沟通成本越来越高。",
+      "fallen": "用知识制造依赖，让所有人都必须来问她。"
+    },
+    "shadow": {
+      "trigger": "看到自己的方法被外行滥用。",
+      "defense": "收回信息，只留给确定的人。",
+      "danger": "用不可替代性维持权力，最后没人敢提出问题。"
+    },
+    "visual": {
+      "symbol": "scroll",
+      "geometry": "wing",
+      "motif": "hidden_book"
+    },
+    "titles": {
+      "prefixes": [
+        "授法",
+        "天书",
+        "择人"
+      ],
+      "nouns": [
+        "授法者",
+        "择人之人",
+        "暗中之钥"
+      ]
+    },
+    "tags": [
+      "knowledge",
+      "strategy",
+      "selection",
+      "influence"
+    ]
+  },
+  {
+    "id": "mazu",
+    "name": {
+      "zh": "妈祖",
+      "en": "Mazu"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "守望者",
+      "theme": "在别人最危险的时候出现"
+    },
+    "symbols": [
+      "lantern",
+      "sea",
+      "robe",
+      "wind"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": 0.45,
+      "reason": 0.25,
+      "creation": 0.2,
+      "social": 0.85,
+      "morality": 0.75,
+      "desire": -0.3,
+      "conflict": -0.5,
+      "world": 0.4,
+      "identity": 0.7,
+      "time": 0.45,
+      "risk": 0.5,
+      "authority": 0.15,
+      "empathy": 1,
+      "sacrifice": 0.85,
+      "transcendence": 0.35
+    },
+    "signature_dimensions": {
+      "empathy": "very_high",
+      "sacrifice": "very_high",
+      "social": "very_high",
+      "conflict": "low"
+    },
+    "anti_dimensions": {
+      "empathy": "very_low",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "在别人最危险的时候出现，而不是事后安慰。",
+      "core_fear": "听见呼救，却已经来不及赶到。",
+      "worldview": "总会有人在海上出事，那就得有人一直守着。",
+      "power_pattern": "靠被信任：人们愿意把最要紧的事交给她。",
+      "relationship_pattern": "无私的在场，几乎不要求回报，也几乎不允许自己缺席。",
+      "conflict_pattern": "不争，先把人救上来。",
+      "failure_pattern": "把别人的需要长期排在自己前面。"
+    },
+    "states": {
+      "dormant": "她特别容易注意到有人状态不对，还没把它当成职责。",
+      "awakened": "在真正的危机里成为别人可以依靠的那个人。",
+      "overawakened": "对每一个呼救都无法拒绝。",
+      "fallen": "用不断地救人来回避自己生活里的问题。"
+    },
+    "shadow": {
+      "trigger": "看到有人已经没有别人可以求助。",
+      "defense": "立刻接手，不问代价。",
+      "danger": "把照顾别人当成不允许自己休息的理由。"
+    },
+    "visual": {
+      "symbol": "lantern",
+      "geometry": "wave_arc",
+      "motif": "light_on_water"
+    },
+    "titles": {
+      "prefixes": [
+        "慈航",
+        "守海",
+        "举灯"
+      ],
+      "nouns": [
+        "守望者",
+        "救难之人",
+        "海上灯火"
+      ]
+    },
+    "tags": [
+      "empathy",
+      "protection",
+      "devotion",
+      "calm"
+    ]
+  },
+  {
+    "id": "guanyu",
+    "name": {
+      "zh": "关羽",
+      "en": "Guan Yu"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "持义者",
+      "theme": "让义这件事在世界上有人代表"
+    },
+    "symbols": [
+      "green_robe",
+      "halberd",
+      "beard",
+      "seal"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": 0.45,
+      "reason": 0.05,
+      "creation": -0.5,
+      "social": 0.4,
+      "morality": 1,
+      "desire": -0.7,
+      "conflict": 0.85,
+      "world": -0.4,
+      "identity": 1,
+      "time": 0.2,
+      "risk": 0.4,
+      "authority": 0.35,
+      "empathy": 0.25,
+      "sacrifice": 0.8,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "morality": "very_high",
+      "identity": "very_high",
+      "conflict": "very_high",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_low",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让“义”这件事真的有人代表，哪怕代价由他一个人承担。",
+      "core_fear": "自己的名声或承诺被玷污。",
+      "worldview": "承诺一旦给出，就不再有讨论的余地。",
+      "power_pattern": "靠无法被收买：他不需要更多资源，因为他不会换立场。",
+      "relationship_pattern": "生死相认，一旦结成就不设退路。他很少表达，但会替你把事扛了。",
+      "conflict_pattern": "正面迎战，宁可败也不绕。",
+      "failure_pattern": "为了守住一句话，付出更大的代价。"
+    },
+    "states": {
+      "dormant": "他对不讲信用的人格外无法忍受，还没为谁翻过脸。",
+      "awakened": "成为别人愿意把后背交给他的那个人。",
+      "overawakened": "把人分成守信与不守信两类。",
+      "fallen": "只剩立场，不看具体的人。"
+    },
+    "shadow": {
+      "trigger": "有人当着他的面违背约定。",
+      "defense": "立刻翻脸，把关系切断。",
+      "danger": "用道德高度掩盖判断的僵硬。"
+    },
+    "visual": {
+      "symbol": "halberd",
+      "geometry": "vertical",
+      "motif": "green_banner"
+    },
+    "titles": {
+      "prefixes": [
+        "立义",
+        "持节",
+        "重诺"
+      ],
+      "nouns": [
+        "持义者",
+        "守诺之人",
+        "义字之柱"
+      ]
+    },
+    "tags": [
+      "honor",
+      "loyalty",
+      "principle",
+      "resolve"
+    ]
+  },
+  {
+    "id": "taishanglaojun",
+    "name": {
+      "zh": "太上老君",
+      "en": "Taishang Laojun"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "无为者",
+      "theme": "让一切回到它本来的秩序里去"
+    },
+    "symbols": [
+      "gourd",
+      "fan",
+      "furnace",
+      "ox"
+    ],
+    "vector": {
+      "power": -0.1,
+      "order": 0.6,
+      "reason": 0.7,
+      "creation": 0.2,
+      "social": -0.4,
+      "morality": 0.3,
+      "desire": -0.9,
+      "conflict": -0.8,
+      "world": -0.7,
+      "identity": 0.5,
+      "time": 1,
+      "risk": -0.5,
+      "authority": 0.3,
+      "empathy": 0.2,
+      "sacrifice": 0.2,
+      "transcendence": 1
+    },
+    "signature_dimensions": {
+      "transcendence": "very_high",
+      "time": "very_high",
+      "desire": "very_low",
+      "conflict": "very_low"
+    },
+    "anti_dimensions": {
+      "transcendence": "very_low",
+      "desire": "very_high"
+    },
+    "psychology": {
+      "core_drive": "让一切回到它本来的秩序里去——最好的治理是不折腾。",
+      "core_fear": "世界被过多的人为干预弄坏。",
+      "worldview": "该长的东西会自己长，急的人才会毁掉它。",
+      "power_pattern": "靠不作为与长线：他不推，事情会自己走。",
+      "relationship_pattern": "距离远，偶尔点拨一句话，其余时间不管。他相信人也该自己长。",
+      "conflict_pattern": "不参与，让冲动的人自己撞墙。",
+      "failure_pattern": "过度超脱，让需要他的人得不到回应。"
+    },
+    "states": {
+      "dormant": "他对急切的人有点不耐烦，还没把这份距离当成立场。",
+      "awakened": "用最少的话办成最难的事。",
+      "overawakened": "对所有行动都感到多余。",
+      "fallen": "用超脱回避所有该承担的具体责任。"
+    },
+    "shadow": {
+      "trigger": "被要求立刻行动、立刻表态。",
+      "defense": "退后一步，把事情交给时间。",
+      "danger": "于是他把冷淡解释成境界，把回避说成无为。"
+    },
+    "visual": {
+      "symbol": "gourd",
+      "geometry": "circle",
+      "motif": "slow_furnace"
+    },
+    "titles": {
+      "prefixes": [
+        "无为",
+        "炼丹",
+        "守静"
+      ],
+      "nouns": [
+        "无为者",
+        "长观之人",
+        "慢火之匠"
+      ]
+    },
+    "tags": [
+      "detachment",
+      "patience",
+      "wisdom",
+      "restraint"
+    ]
+  },
+  {
+    "id": "guanyin",
+    "name": {
+      "zh": "观音",
+      "en": "Guanyin"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "闻声者",
+      "theme": "让痛苦的人得到真正的缓解"
+    },
+    "symbols": [
+      "lotus",
+      "willow",
+      "vase",
+      "thousand_hands"
+    ],
+    "vector": {
+      "power": -0.35,
+      "order": 0.3,
+      "reason": 0.2,
+      "creation": 0.1,
+      "social": 0.6,
+      "morality": 0.85,
+      "desire": -0.75,
+      "conflict": -0.85,
+      "world": 0.15,
+      "identity": 0.35,
+      "time": 0.4,
+      "risk": -0.35,
+      "authority": -0.3,
+      "empathy": 1,
+      "sacrifice": 0.95,
+      "transcendence": 1
+    },
+    "signature_dimensions": {
+      "empathy": "very_high",
+      "transcendence": "very_high",
+      "conflict": "very_low",
+      "desire": "low"
+    },
+    "anti_dimensions": {
+      "empathy": "very_low",
+      "conflict": "very_high"
+    },
+    "psychology": {
+      "core_drive": "让痛苦的人得到真正的缓解，而不是被安慰两句。",
+      "core_fear": "看见苦难却无能为力。",
+      "worldview": "慈悲不是软弱，是唯一能穿过苦难的力量。",
+      "power_pattern": "靠被信任与倾听：人们愿意对她说真话，这比任何位置都有用。",
+      "relationship_pattern": "无条件接纳，同时保持不易受伤的距离。她接住你，但不进入你。",
+      "conflict_pattern": "不争，用理解把冲突化掉。",
+      "failure_pattern": "接住所有人的痛苦，直到自己也在痛。"
+    },
+    "states": {
+      "dormant": "别人愿意向她倾诉，她还不觉得这算一种能力。",
+      "awakened": "在别人最深的痛苦里真的有用。",
+      "overawakened": "把所有人的苦难都装进自己身上。",
+      "fallen": "用慈悲的姿态远离具体的人。"
+    },
+    "shadow": {
+      "trigger": "被人用痛苦来索取、来绑架。",
+      "defense": "依然接住，但把心收得更远。",
+      "danger": "把承受当成修行的唯一方式。"
+    },
+    "visual": {
+      "symbol": "lotus",
+      "geometry": "halo",
+      "motif": "thousand_hands"
+    },
+    "titles": {
+      "prefixes": [
+        "闻声",
+        "垂目",
+        "持瓶"
+      ],
+      "nouns": [
+        "闻声者",
+        "倾听之人",
+        "渡苦之舟"
+      ]
+    },
+    "tags": [
+      "compassion",
+      "listening",
+      "acceptance",
+      "transcendence"
+    ]
+  },
+  {
+    "id": "caishen",
+    "name": {
+      "zh": "财神",
+      "en": "Caishen"
+    },
+    "pantheon": "chinese",
+    "category": "deity",
+    "archetype": {
+      "core": "分配者",
+      "theme": "让资源和机会流动，并从中获得位置"
+    },
+    "symbols": [
+      "gold",
+      "abacus",
+      "ingot",
+      "banner"
+    ],
+    "vector": {
+      "power": 0.5,
+      "order": 0.3,
+      "reason": 0.3,
+      "creation": 0.3,
+      "social": 0.8,
+      "morality": -0.1,
+      "desire": 0.6,
+      "conflict": -0.2,
+      "world": 0.5,
+      "identity": 0.3,
+      "time": 0.5,
+      "risk": 0.3,
+      "authority": 0.2,
+      "empathy": 0.2,
+      "sacrifice": -0.3,
+      "transcendence": -0.6
+    },
+    "signature_dimensions": {
+      "social": "very_high",
+      "desire": "very_high",
+      "transcendence": "very_low",
+      "conflict": "mid"
+    },
+    "anti_dimensions": {
+      "transcendence": "very_high",
+      "social": "very_low"
+    },
+    "psychology": {
+      "core_drive": "让钱、机会和人流经自己手里，然后从中拿到位置。",
+      "core_fear": "被排除在分配之外。不是穷，是没人找他算账。",
+      "worldview": "世界靠交换运转，人情也是一种货币，只是汇率不稳定。",
+      "power_pattern": "靠分配权：他不创造资源，但他知道谁能拿到、谁拿不到。",
+      "relationship_pattern": "广泛而实用。认识的人比亲近的人多，亲近的人也在他的记账本里。",
+      "conflict_pattern": "不硬碰，用交换化解；很少翻脸，只是把对方从名单里划掉。",
+      "failure_pattern": "把所有关系都换算成值不值，最后没人跟他说真话。"
+    },
+    "states": {
+      "dormant": "他对钱和机会的流向特别敏感，还没开始有意经营。",
+      "awakened": "真的盘活了一整张网，跟着他的人一起受益。",
+      "overawakened": "连朋友都开始估价，人情来往全变成成本。",
+      "fallen": "只剩交换，没有关系：账越算越准，人越来越少。"
+    },
+    "shadow": {
+      "trigger": "发现有人在分配里做了手脚。",
+      "defense": "收紧人脉、重新算账，把话说给能算数的人。",
+      "danger": "把亲密的人也当成一项投资。"
+    },
+    "visual": {
+      "symbol": "ingot",
+      "geometry": "circle",
+      "motif": "flowing_coins"
+    },
+    "titles": {
+      "prefixes": [
+        "通财",
+        "聚散",
+        "执秤"
+      ],
+      "nouns": [
+        "分配者",
+        "盘活之人",
+        "财路之门"
+      ]
+    },
+    "tags": [
+      "resources",
+      "network",
+      "pragmatism",
+      "exchange"
+    ]
+  },
+  {
+    "id": "sunwukong",
+    "name": {
+      "zh": "孙悟空",
+      "en": "Sun Wukong"
+    },
+    "pantheon": "chinese",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "自定者",
+      "theme": "我的身份必须由我自己定义"
+    },
+    "symbols": [
+      "staff",
+      "cloud",
+      "peach",
+      "headband"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.7,
+      "reason": 0.3,
+      "creation": 0.7,
+      "social": 0.4,
+      "morality": -0.3,
+      "desire": 0.8,
+      "conflict": 0.8,
+      "world": 0.6,
+      "identity": -0.9,
+      "time": -0.6,
+      "risk": 0.9,
+      "authority": -1,
+      "empathy": 0.2,
+      "sacrifice": 0.3,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "authority": "very_low",
+      "identity": "very_low",
+      "risk": "very_high",
+      "power": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "risk": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把自己的名字从别人的册子上划掉，重新写一个只属于他自己的。",
+      "core_fear": "被永久定义：一个头衔、一个编制、一句“你就是这种猴”。",
+      "worldview": "谁都可以成佛，但要看是谁在批准。所以问题从来不是能不能，而是谁说了算。",
+      "power_pattern": "靠不可替代的本事：规矩管不住他，因为他总找得到第三条路。",
+      "relationship_pattern": "讲义气，抗管束。他能替朋友挡刀，但不愿意被人安排行程。",
+      "conflict_pattern": "直接开打，而且要打得好看——他需要别人看见这场胜利。",
+      "failure_pattern": "把成熟误解成屈服，于是永远需要再证明一次。"
+    },
+    "states": {
+      "dormant": "他只是天生不太服管，还没跟谁真正对上。",
+      "awakened": "真的突破了别人给他定的上限，而且没有变成他们。",
+      "overawakened": "无法接受任何形式的约束，连自己需要的也一起拒绝。",
+      "fallen": "永远在证明自己不受控制，忘了最初想做什么。"
+    },
+    "shadow": {
+      "trigger": "有人用身份、等级或规则来压他。",
+      "defense": "当场掀翻，让规则失去效力。",
+      "danger": "为了不被定义，连自己也一起否定。"
+    },
+    "visual": {
+      "symbol": "staff",
+      "geometry": "cloud",
+      "motif": "broken_headband"
+    },
+    "titles": {
+      "prefixes": [
+        "齐天",
+        "变化",
+        "不服"
+      ],
+      "nouns": [
+        "自定者",
+        "破格之人",
+        "自由之猴"
+      ]
+    },
+    "tags": [
+      "freedom",
+      "adaptability",
+      "defiance",
+      "playfulness"
+    ]
+  },
+  {
+    "id": "xingtian",
+    "name": {
+      "zh": "刑天",
+      "en": "Xingtian"
+    },
+    "pantheon": "chinese",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "不屈者",
+      "theme": "不服就是不认，无论代价"
+    },
+    "symbols": [
+      "axe",
+      "shield",
+      "headless",
+      "nipples_eyes"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": -0.5,
+      "reason": -0.4,
+      "creation": -0.2,
+      "social": -0.4,
+      "morality": 0.5,
+      "desire": 0.1,
+      "conflict": 1,
+      "world": -0.3,
+      "identity": 1,
+      "time": 0.4,
+      "risk": 0.8,
+      "authority": -1,
+      "empathy": -0.3,
+      "sacrifice": 0.9,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "identity": "very_high",
+      "authority": "very_low",
+      "sacrifice": "very_high"
+    },
+    "anti_dimensions": {
+      "authority": "very_high",
+      "conflict": "very_low"
+    },
+    "psychology": {
+      "core_drive": "不认就是不认：头可以被砍掉，态度不会被改。",
+      "core_fear": "因为屈服而失去自己。",
+      "worldview": "有些事不必赢，但不能同意。",
+      "power_pattern": "靠意志本身：他不需要赢，只需要不点头。",
+      "relationship_pattern": "极少联结，一旦结盟就是生死。他不解释自己的坚持。",
+      "conflict_pattern": "对着打，直到一方消失。",
+      "failure_pattern": "把坚持变成无法回头的消耗。"
+    },
+    "states": {
+      "dormant": "他对权威有天然的不顺，还没跟谁真正对上。",
+      "awakened": "为一件自己认定的事坚持到底，而且没有变味。",
+      "overawakened": "把不顺当成原则，任何让步都像死亡。",
+      "fallen": "只剩抵抗：已经没人记得当初在争什么。"
+    },
+    "shadow": {
+      "trigger": "被要求承认自己输了、错了、该服从了。",
+      "defense": "宁可失去一切也不点头。",
+      "danger": "用自我毁灭维持立场。"
+    },
+    "visual": {
+      "symbol": "axe",
+      "geometry": "broken_column",
+      "motif": "headless_stance"
+    },
+    "titles": {
+      "prefixes": [
+        "不屈",
+        "无头",
+        "执干戚"
+      ],
+      "nouns": [
+        "不屈者",
+        "不肯低头的人",
+        "永不归顺者"
+      ]
+    },
+    "tags": [
+      "defiance",
+      "endurance",
+      "pride",
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "jingwei",
+    "name": {
+      "zh": "精卫",
+      "en": "Jingwei"
+    },
+    "pantheon": "chinese",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "填海者",
+      "theme": "把一件不可能完成的事一直做下去"
+    },
+    "symbols": [
+      "stone",
+      "bird",
+      "sea",
+      "twig"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": 0.3,
+      "reason": -0.2,
+      "creation": 0.2,
+      "social": -0.3,
+      "morality": 0.6,
+      "desire": -0.4,
+      "conflict": 0.2,
+      "world": 0.4,
+      "identity": 0.9,
+      "time": 1,
+      "risk": 0.3,
+      "authority": -0.2,
+      "empathy": 0.1,
+      "sacrifice": 0.9,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "identity": "very_high",
+      "sacrifice": "very_high",
+      "power": "very_low"
+    },
+    "anti_dimensions": {
+      "time": "very_low",
+      "sacrifice": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把一件不可能完成的事一直做下去——不是因为它能成，是因为她不肯放。",
+      "core_fear": "自己成为被忘记的失败。",
+      "worldview": "世界不必被修好，但必须有人一直在填。",
+      "power_pattern": "靠不肯停：力量来自次数，不来自规模。",
+      "relationship_pattern": "独自做，很少解释。她的坚持不需要观众，也不接受劝退。",
+      "conflict_pattern": "不与谁争，只与那件事争。",
+      "failure_pattern": "把坚持变成拒绝重新判断。"
+    },
+    "states": {
+      "dormant": "她对某件不公平的事一直放不下，还没找到做法。",
+      "awakened": "把不甘心变成了一件长期在做的事。",
+      "overawakened": "拒绝任何更省力的替代方案。",
+      "fallen": "只剩动作，已经不再问这件事还有没有意义。"
+    },
+    "shadow": {
+      "trigger": "有人告诉她这件事根本不可能做成。",
+      "defense": "继续做，但不再对任何人解释。",
+      "danger": "于是她开始为坚持本身而坚持，不再问值不值得。"
+    },
+    "visual": {
+      "symbol": "stone",
+      "geometry": "ripple",
+      "motif": "endless_sea"
+    },
+    "titles": {
+      "prefixes": [
+        "衔石",
+        "填海",
+        "不息"
+      ],
+      "nouns": [
+        "填海者",
+        "不肯停的人",
+        "长久之志"
+      ]
+    },
+    "tags": [
+      "persistence",
+      "grief",
+      "endurance",
+      "purpose"
+    ]
+  }
+]

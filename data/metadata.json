@@ -1,0 +1,33 @@
+{
+  "name": { "zh": "万神殿 · 神格谱系", "en": "PANTHEON" },
+  "tagline": {
+    "zh": "你的灵魂不是一种人格。它是一座万神殿。",
+    "en": "Which gods live inside you?"
+  },
+  "versions": {
+    "test": "0.1.0",
+    "scoring": "0.1.0",
+    "deityDatabase": "0.1.0",
+    "result": "0.1.0"
+  },
+  "profiles": ["overall", "shadow", "hidden"],
+  "categories": ["deity", "mythic_archetype"],
+  "relationshipTypes": [
+    "affinity",
+    "complement",
+    "tension",
+    "mirror",
+    "conflict",
+    "suppression"
+  ],
+  "signatureLevels": ["very_low", "low", "mid", "high", "very_high"],
+  "acts": [
+    { "id": "order", "numeral": "Ⅰ", "zh": "秩序", "en": "Order", "line": "规则由谁定，边界画在哪里" },
+    { "id": "will", "numeral": "Ⅱ", "zh": "意志", "en": "Will", "line": "你要什么，愿意为它做到哪一步" },
+    { "id": "boundary", "numeral": "Ⅲ", "zh": "边界", "en": "Boundary", "line": "哪里是你的底线，哪里是你的出口" },
+    { "id": "desire", "numeral": "Ⅳ", "zh": "欲望", "en": "Desire", "line": "你想要什么，又愿意承认多少" },
+    { "id": "conflict", "numeral": "Ⅴ", "zh": "冲突", "en": "Conflict", "line": "有东西挡在前面时，你怎么处理" },
+    { "id": "abyss", "numeral": "Ⅵ", "zh": "深渊", "en": "Abyss", "line": "被逼到墙角时，你会变成谁" },
+    { "id": "divinity", "numeral": "Ⅶ", "zh": "神性", "en": "Divinity", "line": "如果没有任何限制，你想成为什么" }
+  ]
+}

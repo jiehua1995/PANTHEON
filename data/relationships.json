@@ -1,0 +1,14 @@
+{
+  "prometheus": {
+    "athena": { "type": "complement", "strength": 0.8, "note": "同一目标的两种实现：启明与谋略。" },
+    "zeus": { "type": "tension", "strength": 1.0, "note": "他反抗的是权力本身，还是不是自己掌权的权力？" }
+  },
+  "athena": {
+    "prometheus": { "type": "complement", "strength": 0.8, "note": "结构接住火种。" },
+    "zeus": { "type": "affinity", "strength": 0.5, "note": "同一秩序的理智面与权力面。" }
+  },
+  "zeus": {
+    "prometheus": { "type": "tension", "strength": 1.0, "note": "秩序的中心与秩序的拆解者。" },
+    "athena": { "type": "affinity", "strength": 0.5, "note": "他需要她的判断，也警惕她的判断。" }
+  }
+}
