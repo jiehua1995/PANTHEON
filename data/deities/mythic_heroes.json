@@ -1,0 +1,722 @@
+[
+  {
+    "id": "achilles",
+    "name": {
+      "zh": "阿喀琉斯",
+      "en": "Achilles"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "愤怒者",
+      "theme": "要当着所有人的面，被承认是最好的"
+    },
+    "symbols": [
+      "spear",
+      "shield",
+      "heel",
+      "tent"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": -0.5,
+      "reason": -0.5,
+      "creation": 0,
+      "social": 0.5,
+      "morality": 0.1,
+      "desire": 0.8,
+      "conflict": 0.9,
+      "world": 0.2,
+      "identity": 0.7,
+      "time": -0.6,
+      "risk": 0.9,
+      "authority": -0.4,
+      "empathy": 0.4,
+      "sacrifice": 0.2,
+      "transcendence": 0.2
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "conflict": "very_high",
+      "time": "very_low",
+      "risk": "very_high"
+    },
+    "anti_dimensions": {
+      "power": "very_low",
+      "conflict": "very_low"
+    },
+    "psychology": {
+      "core_drive": "被承认是最好的那个，而且要当着所有人的面被承认。",
+      "core_fear": "自己的那份被拿走，而周围人觉得无所谓。",
+      "worldview": "荣誉比活着重要，但荣誉必须有人看见。",
+      "power_pattern": "靠压倒性的个人能力和情绪强度，一个人的状态能决定整场局面。",
+      "relationship_pattern": "感情极深，也因此极容易因为失去而偏离正轨。",
+      "conflict_pattern": "正面碾压，情绪上来时不分对象。",
+      "failure_pattern": "一次当众的轻慢，就能让他退出整件事。"
+    },
+    "states": {
+      "dormant": "他只是比别人更在意“凭什么不是我”。",
+      "awakened": "把怒气变成了决定性的那一击。",
+      "overawakened": "为了证明自己，把所有关系都推向对立的边缘。",
+      "fallen": "报复吞噬了目标：他毁掉的东西里，包括他本来要保护的。"
+    },
+    "shadow": {
+      "trigger": "被当众轻视，或者应得的位置被人拿走。",
+      "defense": "立刻退出、拒绝参与，让所有人感受缺了他会怎样。",
+      "danger": "最亲的人被他用来回击最恨的人。"
+    },
+    "visual": {
+      "symbol": "spear",
+      "geometry": "blade",
+      "motif": "wounded_heel"
+    },
+    "titles": {
+      "prefixes": [
+        "无双",
+        "怒海",
+        "短命"
+      ],
+      "nouns": [
+        "愤怒者",
+        "战场之王",
+        "不肯退的人"
+      ]
+    },
+    "tags": [
+      "honor",
+      "rage",
+      "mortality",
+      "intensity"
+    ]
+  },
+  {
+    "id": "cassandra",
+    "name": {
+      "zh": "卡珊德拉",
+      "en": "Cassandra"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "说真话的人",
+      "theme": "看见真相，即使没人相信"
+    },
+    "symbols": [
+      "torch",
+      "veil",
+      "snake",
+      "scroll"
+    ],
+    "vector": {
+      "power": -0.3,
+      "order": 0.3,
+      "reason": 0.8,
+      "creation": -0.2,
+      "social": -0.5,
+      "morality": 0.6,
+      "desire": -0.3,
+      "conflict": 0.4,
+      "world": 0.2,
+      "identity": 0.9,
+      "time": 0.8,
+      "risk": 0.5,
+      "authority": -0.6,
+      "empathy": 0.4,
+      "sacrifice": 0.7,
+      "transcendence": 0.6
+    },
+    "signature_dimensions": {
+      "reason": "very_high",
+      "identity": "very_high",
+      "social": "low",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "reason": "very_low",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "把看见的东西说出来，哪怕说完没人信、也没人感谢。",
+      "core_fear": "明明看见了，却什么都改变不了。",
+      "worldview": "真相不会因为没人相信而改变，但说它的人会付出代价。",
+      "power_pattern": "靠准确与坚持，只是这份力量经常兑换不成影响。",
+      "relationship_pattern": "孤独：她说的话总让在场的人不舒服，而她不肯换一种说法。",
+      "conflict_pattern": "直接说出判断，不加修饰。",
+      "failure_pattern": "用正确的预言把所有人推远，最后没人愿意听她说完。"
+    },
+    "states": {
+      "dormant": "她只是常比别人更早看出问题，还不太敢说。",
+      "awakened": "在一次关键事上说对了，并且被记住。",
+      "overawakened": "开始享受“我早说过”的位置，说话越来越不顾场合。",
+      "fallen": "准确变成了优越感：她要证明自己对，而不是让事情变好。"
+    },
+    "shadow": {
+      "trigger": "她的判断被无视，然后事情果然出了错。",
+      "defense": "把预测说得更重、更绝对，逼对方承认。",
+      "danger": "她只在乎被证明是对的，不在乎人还愿不愿意听。"
+    },
+    "visual": {
+      "symbol": "torch",
+      "geometry": "lens",
+      "motif": "unheard_warning"
+    },
+    "titles": {
+      "prefixes": [
+        "先知",
+        "无人信",
+        "不祥"
+      ],
+      "nouns": [
+        "说真话的人",
+        "早期预警",
+        "不被听的人"
+      ]
+    },
+    "tags": [
+      "insight",
+      "isolation",
+      "truth",
+      "cost"
+    ]
+  },
+  {
+    "id": "medea",
+    "name": {
+      "zh": "美狄亚",
+      "en": "Medea"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "索偿者",
+      "theme": "我的付出必须被承认，否则就烧掉整件事"
+    },
+    "symbols": [
+      "dagger",
+      "chariot",
+      "fleece",
+      "herbs"
+    ],
+    "vector": {
+      "power": 0.6,
+      "order": -0.3,
+      "reason": 0.6,
+      "creation": 0.2,
+      "social": -0.2,
+      "morality": -0.7,
+      "desire": 0.6,
+      "conflict": 0.7,
+      "world": -0.2,
+      "identity": 0.4,
+      "time": -0.2,
+      "risk": 0.8,
+      "authority": -0.6,
+      "empathy": 0.2,
+      "sacrifice": 0.8,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "morality": "very_low",
+      "sacrifice": "very_high",
+      "risk": "very_high",
+      "authority": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_high",
+      "sacrifice": "very_low"
+    },
+    "psychology": {
+      "core_drive": "她为一个人毁掉过一切，因此要求那份付出被承认。",
+      "core_fear": "被当成工具，用完即弃。",
+      "worldview": "我可以为你放弃一切，也可以让你付出同等的代价。",
+      "power_pattern": "靠知识、极端手段，以及把代价一次性付清的决心。",
+      "relationship_pattern": "全给或全毁。她没有中间状态，也不接受对方有中间状态。",
+      "conflict_pattern": "用最彻底的方式报复，不再解释。",
+      "failure_pattern": "把爱与毁灭绑在一起，最后两样都不剩。"
+    },
+    "states": {
+      "dormant": "她只是比别人更在意“我为你做了什么”。",
+      "awakened": "把被辜负的经历变成了真正的力量与位置。",
+      "overawakened": "任何疏忽都被读成背叛的前兆。",
+      "fallen": "毁灭被当成结算，无辜者也一起被算进账里。"
+    },
+    "shadow": {
+      "trigger": "她的付出被淡化，或者对方开始把她当成资源。",
+      "defense": "立刻收回一切，并且让对方付出代价。",
+      "danger": "毁灭被当成结算，无辜者也一起算进账里。"
+    },
+    "visual": {
+      "symbol": "dagger",
+      "geometry": "cut",
+      "motif": "paid_in_full"
+    },
+    "titles": {
+      "prefixes": [
+        "索偿",
+        "烈焰",
+        "决绝"
+      ],
+      "nouns": [
+        "索偿者",
+        "全给全毁的人",
+        "不留退路者"
+      ]
+    },
+    "tags": [
+      "betrayal",
+      "extremity",
+      "devotion",
+      "revenge"
+    ]
+  },
+  {
+    "id": "orpheus",
+    "name": {
+      "zh": "俄耳甫斯",
+      "en": "Orpheus"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "以艺换命者",
+      "theme": "用美和技艺去换不可能的东西"
+    },
+    "symbols": [
+      "lyre",
+      "river",
+      "shadow",
+      "rose"
+    ],
+    "vector": {
+      "power": -0.2,
+      "order": 0.1,
+      "reason": 0.1,
+      "creation": 0.9,
+      "social": 0.5,
+      "morality": 0.4,
+      "desire": 0.5,
+      "conflict": -0.6,
+      "world": -0.2,
+      "identity": -0.3,
+      "time": 0.3,
+      "risk": 0.4,
+      "authority": -0.4,
+      "empathy": 0.8,
+      "sacrifice": 0.7,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "transcendence": "very_high",
+      "conflict": "very_low",
+      "empathy": "very_high"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他要用技艺去换回失去的东西，并且真的相信能换回来。",
+      "core_fear": "在最后一步回头，把已经到手的东西全部毁掉。",
+      "worldview": "音乐能让石头移动；几乎能把死人带回人间，但只是几乎。",
+      "power_pattern": "靠感染力，不靠权力：他说话的时候别人会安静下来。",
+      "relationship_pattern": "情感依恋极深，一旦失去就再没有别的议题。",
+      "conflict_pattern": "不争，用艺术把局面软化。",
+      "failure_pattern": "一次怀疑毁掉全部努力，而且没有第二次机会。"
+    },
+    "states": {
+      "dormant": "他只是特别容易被音乐和故事打动。",
+      "awakened": "用一件作品换来了别人愿意为他破例。",
+      "overawakened": "只肯面对能被美化的部分，现实的部分一律不看。",
+      "fallen": "失去被反复演奏成一种身份，伤感替代了行动。"
+    },
+    "shadow": {
+      "trigger": "被人要求相信一个自己无法验证的承诺。",
+      "defense": "转身确认，只想亲眼看见证据。",
+      "danger": "怀疑亲手毁掉了正在成形的可能。"
+    },
+    "visual": {
+      "symbol": "lyre",
+      "geometry": "wave",
+      "motif": "looking_back"
+    },
+    "titles": {
+      "prefixes": [
+        "低唱",
+        "回望",
+        "引石"
+      ],
+      "nouns": [
+        "以艺换命者",
+        "不肯放手的人",
+        "回头的人"
+      ]
+    },
+    "tags": [
+      "art",
+      "love",
+      "loss",
+      "faith"
+    ]
+  },
+  {
+    "id": "heracles",
+    "name": {
+      "zh": "赫拉克勒斯",
+      "en": "Heracles"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "苦役者",
+      "theme": "用一件接一件的苦役偿还自己"
+    },
+    "symbols": [
+      "club",
+      "lion_skin",
+      "bow",
+      "chain"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": -0.1,
+      "reason": -0.4,
+      "creation": 0.1,
+      "social": 0.4,
+      "morality": 0.5,
+      "desire": 0.5,
+      "conflict": 0.8,
+      "world": -0.1,
+      "identity": 0.6,
+      "time": 0.2,
+      "risk": 0.7,
+      "authority": -0.3,
+      "empathy": 0.3,
+      "sacrifice": 0.9,
+      "transcendence": 0.1
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "sacrifice": "very_high",
+      "conflict": "very_high",
+      "reason": "low"
+    },
+    "anti_dimensions": {
+      "power": "very_low",
+      "sacrifice": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他要用一件接一件的苦役证明自己配得上活着。",
+      "core_fear": "自己失控时造成的伤害再次发生。",
+      "worldview": "有些债只能用身体还，讲道理没有用。",
+      "power_pattern": "靠体力与耐力：他不谈方法，他直接把它扛过去。",
+      "relationship_pattern": "愿意为朋友做任何事，但情绪上来的时候会伤到最亲近的人。",
+      "conflict_pattern": "用力量解决，然后自己承担后果。",
+      "failure_pattern": "用行动填满痛苦，从来不处理它。"
+    },
+    "states": {
+      "dormant": "他只是有用不完的力气，还没找到该往哪里用。",
+      "awakened": "把力量用于偿还与守护，并且真的完成了难到不可能的清单。",
+      "overawakened": "不断给自己加码，停下来就觉得自己一文不值。",
+      "fallen": "破坏欲吞掉了目的：该保护的人和该清除的东西被放在同一句话里。"
+    },
+    "shadow": {
+      "trigger": "情绪失控之后看见自己造成的后果。",
+      "defense": "接下更重的任务，用劳累压住愧疚。",
+      "danger": "赎罪成了推迟面对的方式。"
+    },
+    "visual": {
+      "symbol": "club",
+      "geometry": "column",
+      "motif": "long_labour"
+    },
+    "titles": {
+      "prefixes": [
+        "力尽",
+        "赎罪",
+        "不歇"
+      ],
+      "nouns": [
+        "苦役者",
+        "扛过去的人",
+        "自己还债的人"
+      ]
+    },
+    "tags": [
+      "endurance",
+      "guilt",
+      "strength",
+      "atonement"
+    ]
+  },
+  {
+    "id": "enkidu",
+    "name": {
+      "zh": "恩奇都",
+      "en": "Enkidu"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "未被驯化者",
+      "theme": "保留住自己身上还没被文明改掉的那部分"
+    },
+    "symbols": [
+      "clay",
+      "gazelle",
+      "chain",
+      "forest"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": -0.6,
+      "reason": -0.2,
+      "creation": -0.1,
+      "social": -0.3,
+      "morality": 0.2,
+      "desire": 0.6,
+      "conflict": 0.8,
+      "world": -0.4,
+      "identity": 0.5,
+      "time": -0.4,
+      "risk": 0.8,
+      "authority": -0.7,
+      "empathy": 0.4,
+      "sacrifice": 0.6,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "order": "very_low",
+      "authority": "very_low",
+      "conflict": "very_high",
+      "power": "very_high"
+    },
+    "anti_dimensions": {
+      "order": "very_high",
+      "authority": "very_high"
+    },
+    "psychology": {
+      "core_drive": "保住自己身上还没被规矩改掉的那一部分。",
+      "core_fear": "被城市和制度慢慢改成另一个人。",
+      "worldview": "文明是一场交换，价格是野性；大多数人没看清账单。",
+      "power_pattern": "靠原始力量和不受规则束缚，他不按流程走，直接拆开。",
+      "relationship_pattern": "只与极少数人结生死之交，其余一律封闭。",
+      "conflict_pattern": "直接对抗，不接受任何程序性的拖延。",
+      "failure_pattern": "被驯化之后变得虚弱、犹疑，然后在关键处退让。"
+    },
+    "states": {
+      "dormant": "他只是不太适应城市的规则，还说不出为什么。",
+      "awakened": "用尚未被驯化的力量，替朋友拆开了挡路的东西。",
+      "overawakened": "把所有规矩都当成驯化，连必要的约束一起反抗。",
+      "fallen": "用破坏证明自己还没被改造，代价由照顾他的人承担。"
+    },
+    "shadow": {
+      "trigger": "被人用“成熟一点”要求交出自己的一部分。",
+      "defense": "断绝来往，退回自己熟悉的地方。",
+      "danger": "所有善意都被读成驯化的一部分。"
+    },
+    "visual": {
+      "symbol": "clay",
+      "geometry": "knot",
+      "motif": "wild_remains"
+    },
+    "titles": {
+      "prefixes": [
+        "未驯",
+        "泥生",
+        "逆行"
+      ],
+      "nouns": [
+        "未被驯化者",
+        "拆规则的人",
+        "最后的野性"
+      ]
+    },
+    "tags": [
+      "wildness",
+      "friendship",
+      "civilization",
+      "integrity"
+    ]
+  },
+  {
+    "id": "icarus",
+    "name": {
+      "zh": "伊卡洛斯",
+      "en": "Icarus"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "越界者",
+      "theme": "飞到没人到过的高度，哪怕代价是掉下来"
+    },
+    "symbols": [
+      "wings",
+      "wax",
+      "sun",
+      "sea"
+    ],
+    "vector": {
+      "power": 0.3,
+      "order": -0.7,
+      "reason": -0.4,
+      "creation": 0.7,
+      "social": 0.2,
+      "morality": -0.2,
+      "desire": 0.9,
+      "conflict": -0.3,
+      "world": 0.5,
+      "identity": -0.2,
+      "time": -0.8,
+      "risk": 1.0,
+      "authority": -0.7,
+      "empathy": -0.2,
+      "sacrifice": 0.1,
+      "transcendence": 0.5
+    },
+    "signature_dimensions": {
+      "risk": "very_high",
+      "desire": "very_high",
+      "order": "very_low",
+      "time": "very_low"
+    },
+    "anti_dimensions": {
+      "risk": "very_low",
+      "order": "very_high"
+    },
+    "psychology": {
+      "core_drive": "飞到没人到过的高度，哪怕只维持很短的一会儿。",
+      "core_fear": "一辈子待在安全的地面上，什么都没试过。",
+      "worldview": "界限是写给别人的，警告是写给胆小的。",
+      "power_pattern": "靠新技术和新玩法：他总比规则早半步。",
+      "relationship_pattern": "亲近的人替他担心，而他嫌他们啰嗦。",
+      "conflict_pattern": "不正面冲突，直接飞走，让争论留在原地。",
+      "failure_pattern": "在状态最好的那一刻忘记警告，然后失去全部高度。"
+    },
+    "states": {
+      "dormant": "他只是比别人更想试试“不能做的事”。",
+      "awakened": "用新方法飞了起来，并且真的看见了别人没见过的东西。",
+      "overawakened": "不断加高、加速，警告声全都听不见。",
+      "fallen": "坠落成了下一次起飞的入场券，教训一点没记住。"
+    },
+    "shadow": {
+      "trigger": "有人用经验告诉他“这不行”。",
+      "defense": "飞得更高一点，用结果让警告闭嘴。",
+      "danger": "他把自己当成实验材料，而且不告诉任何人。"
+    },
+    "visual": {
+      "symbol": "wings",
+      "geometry": "rise",
+      "motif": "melting_wax"
+    },
+    "titles": {
+      "prefixes": [
+        "向光",
+        "高飞",
+        "不悔"
+      ],
+      "nouns": [
+        "越界者",
+        "飞太高的人",
+        "警告之外的人"
+      ]
+    },
+    "tags": [
+      "risk",
+      "ambition",
+      "youth",
+      "overreach"
+    ]
+  },
+  {
+    "id": "penelope",
+    "name": {
+      "zh": "珀涅罗珀",
+      "en": "Penelope"
+    },
+    "pantheon": "mythic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "守着等待的人",
+      "theme": "用拖延和秩序，守住一个还没回来的答案"
+    },
+    "symbols": [
+      "loom",
+      "thread",
+      "night",
+      "bow"
+    ],
+    "vector": {
+      "power": 0.2,
+      "order": 0.8,
+      "reason": 0.8,
+      "creation": 0.4,
+      "social": 0.3,
+      "morality": 0.7,
+      "desire": -0.3,
+      "conflict": -0.4,
+      "world": -0.2,
+      "identity": 0.8,
+      "time": 1.0,
+      "risk": -0.3,
+      "authority": 0.5,
+      "empathy": 0.4,
+      "sacrifice": 0.7,
+      "transcendence": 0.3
+    },
+    "signature_dimensions": {
+      "time": "very_high",
+      "reason": "very_high",
+      "order": "very_high",
+      "risk": "low"
+    },
+    "anti_dimensions": {
+      "time": "very_low",
+      "reason": "very_low"
+    },
+    "psychology": {
+      "core_drive": "守住一个还没有答案的局面，直到答案自己出现。",
+      "core_fear": "在对方回来之前，自己先放弃了。",
+      "worldview": "时间站在有耐心的人这一边，前提是这段时间不能被浪费。",
+      "power_pattern": "靠秩序与制度性拖延：她每天重做一遍，把决定推给明天。",
+      "relationship_pattern": "长情但不示弱，她用行动等待，不用语言索取。",
+      "conflict_pattern": "不正面拒绝，用规则和流程把压力化解掉。",
+      "failure_pattern": "把等待变成终点，忘了自己也可以先走。"
+    },
+    "states": {
+      "dormant": "她只是习惯把决定往后放一放。",
+      "awakened": "用长期布置真的守住了一件事，并等到结果。",
+      "overawakened": "对所有事都使用拖延战术，连想要的也不敢要。",
+      "fallen": "停滞被说成忠诚，等待成了终点。"
+    },
+    "shadow": {
+      "trigger": "有人逼她立刻给出一个最终答复。",
+      "defense": "提出一个需要更长时间才能完成的正当理由。",
+      "danger": "秩序和体面成了掩护，真实意愿一直藏着。"
+    },
+    "visual": {
+      "symbol": "loom",
+      "geometry": "woven_grid",
+      "motif": "unfinished_weave"
+    },
+    "titles": {
+      "prefixes": [
+        "守候",
+        "织夜",
+        "不急"
+      ],
+      "nouns": [
+        "守着等待的人",
+        "长线之人",
+        "不先放弃的人"
+      ]
+    },
+    "tags": [
+      "patience",
+      "loyalty",
+      "strategy",
+      "endurance"
+    ]
+  }
+]

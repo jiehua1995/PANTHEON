@@ -1,13 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import { pantheonData, computeResult } from '../data'
-import { store, clearHistory, resetProgress, commitResult } from '../store'
+import { store, clearHistory, resetProgress, commitResult, setScope } from '../store'
 import { parseExport } from '../answer-io'
 import { navigate } from '../router'
 
 defineEmits<{ start: [] }>()
 
 const importError = ref('')
+
+const scopeGroups = computed(() =>
+  pantheonData.metadata.pantheons.map((group) => ({
+    id: group.id,
+    zh: group.zh,
+    count: pantheonData.deities.filter((d) => group.members.includes(d.pantheon)).length,
+  })),
+)
 
 async function importAnswers(event: Event): Promise<void> {
   const file = (event.target as HTMLInputElement).files?.[0]
@@ -19,7 +27,7 @@ async function importAnswers(event: Event): Promise<void> {
   }
   importError.value = ''
   store.answers = parsed.answers
-  commitResult(computeResult(parsed.answers))
+  commitResult(computeResult(parsed.answers, store.scopeId || null))
   navigate('result')
 }
 
@@ -55,6 +63,42 @@ function resume(): void {
         导入一份答案
         <input type="file" accept="application/json" class="hidden" @change="importAnswers" />
       </label>
+    </div>
+
+    <!-- 先选神系：范围越小，结果越聚焦 -->
+    <div class="space-y-3 border-t pt-7 hairline">
+      <p class="text-[0.75rem] tracking-[0.25em] muted">测算范围</p>
+      <div class="flex flex-wrap gap-2.5">
+        <button
+          class="rounded-full px-4 py-2 text-[0.92rem] transition"
+          :style="{
+            border: `1px solid ${store.scopeId === '' ? 'var(--accent)' : 'var(--line)'}`,
+            color: store.scopeId === '' ? 'var(--accent)' : 'var(--text-soft)',
+            background: store.scopeId === '' ? 'color-mix(in srgb, var(--accent) 8%, transparent)' : 'var(--surface)',
+          }"
+          :aria-pressed="store.scopeId === ''"
+          @click="setScope('')"
+        >
+          全部万神殿 · {{ pantheonData.deities.length }}
+        </button>
+        <button
+          v-for="group in scopeGroups"
+          :key="group.id"
+          class="rounded-full px-4 py-2 text-[0.92rem] transition disabled:opacity-40"
+          :style="{
+            border: `1px solid ${store.scopeId === group.id ? 'var(--accent)' : 'var(--line)'}`,
+            color: store.scopeId === group.id ? 'var(--accent)' : 'var(--text-soft)',
+            background: store.scopeId === group.id ? 'color-mix(in srgb, var(--accent) 8%, transparent)' : 'var(--surface)',
+          }"
+          :aria-pressed="store.scopeId === group.id"
+          @click="setScope(group.id)"
+        >
+          {{ group.zh }} · {{ group.count }}
+        </button>
+      </div>
+      <p class="text-[0.82rem] muted">
+        限定一个神系时，只会在那个体系里找主神格；选「全部万神殿」则跨体系比较（74 个原型一起算）。
+      </p>
     </div>
     <p v-if="importError" class="accent text-[0.85rem]">{{ importError }}</p>
 

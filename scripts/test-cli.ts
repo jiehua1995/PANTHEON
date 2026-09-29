@@ -54,6 +54,13 @@ async function main(): Promise<void> {
   const resume = args.includes('--resume')
 
   const data = loadData()
+  const pantheonId = value('--pantheon')
+  const group = pantheonId ? data.metadata.pantheons.find((p) => p.id === pantheonId) : null
+  if (pantheonId && !group) {
+    console.error(`未知神系：${pantheonId}（可选：${data.metadata.pantheons.map((p) => p.id).join(', ')}）`)
+    process.exit(1)
+  }
+  const scope = group ? { id: group.id, zh: group.zh, members: group.members } : null
   const actOrder = data.metadata.acts.map((act) => act.id)
   const questions = [...data.questions].sort((a, b) => actOrder.indexOf(a.act) - actOrder.indexOf(b.act))
 
@@ -77,6 +84,7 @@ async function main(): Promise<void> {
   }
 
   console.log('万神殿 · 神格谱系（命令行版）')
+  if (scope) console.log(`测算范围：${scope.zh}\n`)
   console.log('输入选项编号（1-4）后回车。b=上一题，q=保存并退出。')
   console.log('你的答案只保存在本机 samples/ 目录，不会上传。\n')
 
@@ -133,7 +141,7 @@ async function main(): Promise<void> {
 
   rl.close()
 
-  const result = generatePantheonResult(answers, data)
+  const result = generatePantheonResult(answers, data, scope)
   const stamp = new Date().toISOString().slice(0, 16).replace(/[:T]/g, '-')
   const slug = label.replace(/[^\p{L}\p{N}_-]+/gu, '_')
   const file = join(OUT_DIR, `${slug}-${stamp}.json`)
@@ -147,6 +155,7 @@ async function main(): Promise<void> {
         answers,
         title: result.title,
         primary: result.primary.deityId,
+        scope: scope?.id ?? null,
         label,
         source: 'cli',
       },
@@ -157,7 +166,7 @@ async function main(): Promise<void> {
   if (existsSync(PROGRESS)) unlinkSync(PROGRESS)
 
   console.log(`\n${'='.repeat(60)}`)
-  console.log(formatReport(result, data, `${label}（cli）`))
+  console.log(formatReport(result, data, `${label}（cli${scope ? ` · ${scope.zh}` : ''}）`))
   console.log(`\n答案已写入 ${file}`)
   console.log('再测一个人：npm run test-cli；汇总：npm run analyze-answers -- samples/')
 }

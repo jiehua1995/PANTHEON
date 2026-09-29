@@ -25,15 +25,32 @@ const RELATION_BONUS: Record<RelationshipType, number> = {
 }
 const UNRELATED_BONUS = 0.3
 
-export function generatePantheonResult(answers: Answer[], data: PantheonData): PantheonResult {
-  const { scoring } = data
-  const { vectors } = buildVectors(answers, data)
-  const scored = scoreDeities(vectors, data)
+export interface ResultScope {
+  id: string
+  zh: string
+  members: string[]
+}
+
+/**
+ * `scope` 限定候选神系：用户先选「希腊 / 北欧 / 中国 …」，算法只在那个神系里找神格。
+ * 实现上就是把 deity 列表换成一个子集，下游（评分、构成、内战、称号）全部不用改。
+ */
+export function generatePantheonResult(
+  answers: Answer[],
+  data: PantheonData,
+  scope: ResultScope | null = null,
+): PantheonResult {
+  const scoped: PantheonData = scope
+    ? { ...data, deities: data.deities.filter((deity) => scope.members.includes(deity.pantheon)) }
+    : data
+  const { scoring } = scoped
+  const { vectors } = buildVectors(answers, scoped)
+  const scored = scoreDeities(vectors, scoped)
   const primary = scored[0]
 
-  const secondary = pickSecondary(primary, scored, vectors.overall, data)
-  const shadow = pickShadow(primary, secondary, scored, data)
-  const hidden = pickHidden(primary, secondary, shadow, scored, data)
+  const secondary = pickSecondary(primary, scored, vectors.overall, scoped)
+  const shadow = pickShadow(primary, secondary, scored, scoped)
+  const hidden = pickHidden(primary, secondary, shadow, scored, scoped)
 
   const compositionScore = (s: ScoredDeity) =>
     scoring.composition.base * s.cosOverall +
@@ -75,8 +92,13 @@ export function generatePantheonResult(answers: Answer[], data: PantheonData): P
   )
 
   return {
+    scope: scope ? { id: scope.id, zh: scope.zh } : null,
     versions: data.metadata.versions,
-    hash: seedOf([JSON.stringify(answers), ...Object.values(data.metadata.versions)]),
+    hash: seedOf([
+      JSON.stringify(answers),
+      scope?.id ?? 'all',
+      ...Object.values(data.metadata.versions),
+    ]),
     vectors,
     primary: strip(primary, 'overall', primary.cosOverall),
     secondary: strip(secondary, 'overall', secondary.cosOverall),
@@ -99,7 +121,7 @@ export function generatePantheonResult(answers: Answer[], data: PantheonData): P
       trailing,
       scored,
       primary.deityId,
-      data,
+      scoped,
     ),
     awakening: awakeningOf(primary, scored, shadow, vectors, data),
     title,

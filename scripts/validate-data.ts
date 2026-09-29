@@ -49,6 +49,37 @@ export function validateData(
     if (!isText(act?.line)) warn('act.line', `act "${act?.id ?? '?'}"`, '这一幕没有描述句')
   }
 
+  // 神系分组：每个 pantheon 必须归入恰好一个可展示分组，且分组要够大（
+  // 用户选定范围后只在组内挑四个角色 + 构成 Top 6，太小会导致结果单调）
+  const groups = metadata.pantheons ?? []
+  const groupIds = new Set<string>()
+  for (const group of groups) {
+    const where = `pantheon "${group?.id ?? '?'}"`
+    if (!isText(group?.id) || !isText(group?.zh)) warn('pantheon.meta', where, '缺少 id / zh')
+    if (groupIds.has(group?.id)) warn('pantheon.meta', where, `重复的分组 id`)
+    groupIds.add(group?.id)
+    if (!Array.isArray(group?.members) || group.members.length === 0) {
+      warn('pantheon.meta', where, '没有 members')
+    }
+  }
+  const pantheonCounts = new Map<string, number>()
+  for (const deity of data.deities) {
+    pantheonCounts.set(deity.pantheon, (pantheonCounts.get(deity.pantheon) ?? 0) + 1)
+    const owners = groups.filter((group) => group.members?.includes(deity.pantheon))
+    if (owners.length === 0) {
+      warn('pantheon.unmapped', `deity "${deity.id}"`, `pantheon "${deity.pantheon}" 没有被任何分组包含`)
+    }
+    if (owners.length > 1) {
+      warn('pantheon.unmapped', `deity "${deity.id}"`, `pantheon "${deity.pantheon}" 同时属于多个分组`)
+    }
+  }
+  for (const group of groups) {
+    const size = (group.members ?? []).reduce((sum, member) => sum + (pantheonCounts.get(member) ?? 0), 0)
+    if (size < 8) {
+      warn('pantheon.size', `pantheon "${group.id}"`, `只有 ${size} 个神格，范围模式会显得单调（建议 ≥ 8）`)
+    }
+  }
+
   // ---- dimensions ---------------------------------------------------------
   const dims = new Map<string, DimensionDefinition>()
   for (const [i, d] of data.dimensions.entries()) {

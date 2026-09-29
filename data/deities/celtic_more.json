@@ -1,0 +1,362 @@
+[
+  {
+    "id": "arawn",
+    "name": {
+      "zh": "阿劳恩",
+      "en": "Arawn"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "立约人",
+      "theme": "说好的事，哪怕代价不利也要完成"
+    },
+    "symbols": [
+      "hounds",
+      "cauldron",
+      "mist",
+      "crown"
+    ],
+    "vector": {
+      "power": 0.7,
+      "order": 0.35,
+      "reason": 0.5,
+      "creation": -0.3,
+      "social": 0.2,
+      "morality": 0.8,
+      "desire": -0.4,
+      "conflict": 0.3,
+      "world": -0.3,
+      "identity": 0.5,
+      "time": 0.7,
+      "risk": -0.3,
+      "authority": 0.5,
+      "empathy": -0.1,
+      "sacrifice": 0.4,
+      "transcendence": 0.7
+    },
+    "signature_dimensions": {
+      "morality": "very_high",
+      "power": "very_high",
+      "transcendence": "very_high",
+      "risk": "low"
+    },
+    "anti_dimensions": {
+      "morality": "very_low",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他要别人守约——哪怕是和敌人做过的交易，也必须一字不差地执行完。",
+      "core_fear": "被当成可以随意反悔的人。",
+      "worldview": "承诺比立场重要：说好的事，哪怕结果对自己不利，也照样完成。",
+      "power_pattern": "靠规则与交换取得影响，他从不威胁，只是要求对等。",
+      "relationship_pattern": "少而深。界线内的一切由他担保，界线外的人他连名字都不一定记得。",
+      "conflict_pattern": "正面接手冲突，然后按事先说好的方式解决它。",
+      "failure_pattern": "把契约看得比人重要，最后没人敢再和他做交易。"
+    },
+    "states": {
+      "dormant": "他比周围人更在意“说好的事”，还没把它变成规矩。",
+      "awakened": "用一次彻底守约，换来了别人一辈子的信任。",
+      "overawakened": "对方任何轻微的违约都会被记进账里，然后一直被提起。",
+      "fallen": "用条文惩罚人，把关系变成一份份合同。"
+    },
+    "shadow": {
+      "trigger": "有人违约，却把它说成小事。",
+      "defense": "立刻中止合作，并收回之前给出去的一切。",
+      "danger": "所有人都被当成潜在的违约方，先设防再谈交情。"
+    },
+    "visual": {
+      "symbol": "hounds",
+      "geometry": "ring",
+      "motif": "kept_promise"
+    },
+    "titles": {
+      "prefixes": [
+        "守约",
+        "冥国",
+        "不易"
+      ],
+      "nouns": [
+        "守诺者",
+        "两界之主",
+        "立约人"
+      ]
+    },
+    "tags": [
+      "honor",
+      "exchange",
+      "boundary",
+      "depth"
+    ]
+  },
+  {
+    "id": "medb",
+    "name": {
+      "zh": "梅芙",
+      "en": "Medb"
+    },
+    "pantheon": "celtic",
+    "category": "deity",
+    "archetype": {
+      "core": "争夺者",
+      "theme": "要最好的那一份，而且要公认是最好的"
+    },
+    "symbols": [
+      "crown",
+      "chariot",
+      "bull",
+      "spear"
+    ],
+    "vector": {
+      "power": 0.8,
+      "order": -0.1,
+      "reason": 0.2,
+      "creation": 0.1,
+      "social": 0.5,
+      "morality": -0.3,
+      "desire": 0.8,
+      "conflict": 0.8,
+      "world": 0.3,
+      "identity": 0.5,
+      "time": -0.3,
+      "risk": 0.7,
+      "authority": 0.3,
+      "empathy": -0.2,
+      "sacrifice": 0.1,
+      "transcendence": -0.2
+    },
+    "signature_dimensions": {
+      "power": "very_high",
+      "desire": "very_high",
+      "conflict": "very_high",
+      "time": "low"
+    },
+    "anti_dimensions": {
+      "power": "very_low",
+      "desire": "very_low"
+    },
+    "psychology": {
+      "core_drive": "最好的那一份必须是她的，而且要所有人承认那是最好的一份。",
+      "core_fear": "被别人比下去，尤其是被同类、同龄、同性的人比下去。",
+      "worldview": "世界是一张排名表，感情和道理都要为名次让路。",
+      "power_pattern": "靠竞争与动员：她能把自己的私怨变成一整场战争。",
+      "relationship_pattern": "热烈但占有。她需要对方不断证明自己配得上她的选择。",
+      "conflict_pattern": "正面开战，目标写得清清楚楚。",
+      "failure_pattern": "为了赢一次比较，把长期的东西全部赔进去。"
+    },
+    "states": {
+      "dormant": "她只是受不了自己排在第二，还没为此动过手。",
+      "awakened": "把好胜变成资源：真的调动起一整套人马去争她想要的东西。",
+      "overawakened": "每段关系都变成一场比较，连朋友也要分出高低。",
+      "fallen": "只剩争夺，赢了之后也不知道要拿那份东西做什么。"
+    },
+    "shadow": {
+      "trigger": "有人当着她的面拿到她更想要的那一份。",
+      "defense": "立刻加码，把事情升级到对方接不住的程度。",
+      "danger": "身边人全变成对手，连同盟也按战力排队。"
+    },
+    "visual": {
+      "symbol": "bull",
+      "geometry": "crown",
+      "motif": "raised_stakes"
+    },
+    "titles": {
+      "prefixes": [
+        "争位",
+        "执鞭",
+        "不让"
+      ],
+      "nouns": [
+        "争夺者",
+        "动员之人",
+        "不甘第二的人"
+      ]
+    },
+    "tags": [
+      "ambition",
+      "rivalry",
+      "appetite",
+      "power"
+    ]
+  },
+  {
+    "id": "cu_chulainn",
+    "name": {
+      "zh": "库丘林",
+      "en": "Cú Chulainn"
+    },
+    "pantheon": "celtic",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "唯一者",
+      "theme": "要成为被写进传说里的那个人"
+    },
+    "symbols": [
+      "spear",
+      "hounds",
+      "rift",
+      "feathers"
+    ],
+    "vector": {
+      "power": 0.9,
+      "order": 0,
+      "reason": -0.3,
+      "creation": 0.2,
+      "social": 0.3,
+      "morality": 0.2,
+      "desire": 0.6,
+      "conflict": 1.0,
+      "world": 0.2,
+      "identity": 0.9,
+      "time": -0.8,
+      "risk": 0.9,
+      "authority": -0.3,
+      "empathy": 0.2,
+      "sacrifice": 0.8,
+      "transcendence": 0.4
+    },
+    "signature_dimensions": {
+      "conflict": "very_high",
+      "power": "very_high",
+      "identity": "very_high",
+      "time": "very_low"
+    },
+    "anti_dimensions": {
+      "conflict": "very_low",
+      "identity": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他要成为被写进传说里的那个人，哪怕代价是只活很短的时间。",
+      "core_fear": "平凡地活到最后，却一个字都没被记下来。",
+      "worldview": "名声是唯一能带走的东西，其余都会烂在原地。",
+      "power_pattern": "靠不可复制的技艺，以及不计后果的投入。",
+      "relationship_pattern": "有真正忠诚的对象，但他会把所有关系都卷进自己的战斗。",
+      "conflict_pattern": "一对一，正面，越快越好。",
+      "failure_pattern": "为了不辱没身份，接受一场注定要输的战斗。"
+    },
+    "states": {
+      "dormant": "他只是比同龄人更受不了被小看。",
+      "awakened": "在关键战场上打出了只有他能打出的那一击。",
+      "overawakened": "任何小事都要用命去证明，观众越多越收不住。",
+      "fallen": "只剩名声的壳：为了被记住而伤害本来要保护的人。"
+    },
+    "shadow": {
+      "trigger": "被人当众质疑他的本事或胆量。",
+      "defense": "当场把赌注加到最高，逼所有人看结果。",
+      "danger": "命变成了证明自己的筹码，而且不许别人拦。"
+    },
+    "visual": {
+      "symbol": "rift",
+      "geometry": "spike",
+      "motif": "single_feat"
+    },
+    "titles": {
+      "prefixes": [
+        "无双",
+        "短命",
+        "血誓"
+      ],
+      "nouns": [
+        "唯一者",
+        "传说之人",
+        "不留退路的人"
+      ]
+    },
+    "tags": [
+      "glory",
+      "fury",
+      "mortality",
+      "courage"
+    ]
+  },
+  {
+    "id": "taliesin",
+    "name": {
+      "zh": "塔列辛",
+      "en": "Taliesin"
+    },
+    "pantheon": "european",
+    "category": "mythic_archetype",
+    "archetype": {
+      "core": "见证者",
+      "theme": "把发生过的事唱出来，让人记住"
+    },
+    "symbols": [
+      "harp",
+      "cauldron",
+      "salmon",
+      "star"
+    ],
+    "vector": {
+      "power": -0.3,
+      "order": -0.2,
+      "reason": 0.3,
+      "creation": 0.8,
+      "social": 0.6,
+      "morality": 0.1,
+      "desire": 0.4,
+      "conflict": -0.7,
+      "world": -0.2,
+      "identity": -0.7,
+      "time": 0.6,
+      "risk": 0.4,
+      "authority": -0.5,
+      "empathy": 0.7,
+      "sacrifice": -0.1,
+      "transcendence": 0.9
+    },
+    "signature_dimensions": {
+      "creation": "very_high",
+      "transcendence": "very_high",
+      "conflict": "very_low",
+      "identity": "low"
+    },
+    "anti_dimensions": {
+      "creation": "very_low",
+      "transcendence": "very_low"
+    },
+    "psychology": {
+      "core_drive": "他要见证，然后把见证过的一切唱出来，让它们不被抹掉。",
+      "core_fear": "被要求只讲一个版本的故事。",
+      "worldview": "世界由故事组成：谁被记得，谁就还活着。",
+      "power_pattern": "靠语言和记忆，他能让别人相信自己的那个版本。",
+      "relationship_pattern": "温和却不可约束，他会在任何一个需要他的场合出现，然后离开。",
+      "conflict_pattern": "用故事把它化解，很少正面碰撞。",
+      "failure_pattern": "沉溺于讲述，一件实际的事也没做成。"
+    },
+    "states": {
+      "dormant": "他只是记得比谁都多，还没想过要唱出来。",
+      "awakened": "用一段讲述把一群人重新连在一起。",
+      "overawakened": "开始用故事替代事实，为了好听而改动细节。",
+      "fallen": "只剩表演：他要的是掌声，而不是被记住的人。"
+    },
+    "shadow": {
+      "trigger": "有人要求他删掉故事里不合时宜的那一段。",
+      "defense": "换个版本讲，但一个字都不删。",
+      "danger": "真相的完整性，被他放在听众的感受之上。"
+    },
+    "visual": {
+      "symbol": "harp",
+      "geometry": "spiral",
+      "motif": "remembered_song"
+    },
+    "titles": {
+      "prefixes": [
+        "吟诵",
+        "多形",
+        "长记"
+      ],
+      "nouns": [
+        "见证者",
+        "记忆之人",
+        "不停唱的人"
+      ]
+    },
+    "tags": [
+      "storytelling",
+      "memory",
+      "transformation",
+      "art"
+    ]
+  }
+]

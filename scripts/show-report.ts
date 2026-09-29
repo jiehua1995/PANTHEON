@@ -52,6 +52,13 @@ function main(): void {
   }
   const data = loadData()
   const answersFile = value('--answers')
+  const pantheonId = value('--pantheon')
+  const group = pantheonId ? data.metadata.pantheons.find((p) => p.id === pantheonId) : null
+  if (pantheonId && !group) {
+    console.error(`未知神系：${pantheonId}（可选：${data.metadata.pantheons.map((p) => p.id).join(', ')}）`)
+    process.exit(1)
+  }
+  const scope = group ? { id: group.id, zh: group.zh, members: group.members } : null
   let answers: Answer[]
   let label: string
 
@@ -69,7 +76,7 @@ function main(): void {
     label = `${deityId} 的典型答题（噪声 ${value('--noise') ?? 0.5}）`
   }
 
-  const result = generatePantheonResult(answers, data)
+  const result = generatePantheonResult(answers, data, scope)
   console.log(`\n${formatReport(result, data, label)}\n`)
 }
 

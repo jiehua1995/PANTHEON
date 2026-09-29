@@ -16,7 +16,7 @@ import ShareCard from './ShareCard.vue'
 
 defineEmits<{ restart: [] }>()
 
-const result = computed(() => store.result ?? computeResult(store.answers))
+const result = computed(() => store.result ?? computeResult(store.answers, store.scopeId || null))
 const sections = computed(() => buildReport(result.value, pantheonData))
 const sectionOf = (id: string) => sections.value.find((s) => s.id === id)
 
@@ -189,6 +189,10 @@ const paragraphCards = ['primary', 'secondary', 'shadow', 'hidden', 'power-cost'
         <p class="text-[1.5rem]" :style="{ color: color('primary') }">{{ primary.name.zh }}</p>
         <p class="text-[0.95rem] muted">{{ primary.archetype.core }} · {{ primary.archetype.theme }}</p>
       </div>
+      <p class="mt-4 text-[0.85rem] muted">
+        测算范围：{{ result.scope ? result.scope.zh : '全部万神殿' }}
+        <span v-if="result.scope"> · 只在{{ result.scope.zh }}体系内比较</span>
+      </p>
       <div class="mt-5 flex flex-wrap gap-2.5 text-[0.92rem]">
         <span
           v-for="role in roles"

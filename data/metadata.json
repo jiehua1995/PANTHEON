@@ -12,6 +12,15 @@
   },
   "profiles": ["overall", "shadow", "hidden"],
   "categories": ["deity", "mythic_archetype"],
+  "pantheons": [
+    { "id": "greek", "zh": "希腊 · 罗马", "en": "Greek & Roman", "members": ["greek"] },
+    { "id": "norse", "zh": "北欧", "en": "Norse", "members": ["norse"] },
+    { "id": "celtic", "zh": "凯尔特与欧洲传奇", "en": "Celtic & European", "members": ["celtic", "european"] },
+    { "id": "chinese", "zh": "中国", "en": "Chinese", "members": ["chinese"] },
+    { "id": "japanese", "zh": "日本", "en": "Japanese", "members": ["japanese"] },
+    { "id": "egyptian", "zh": "埃及", "en": "Egyptian", "members": ["egyptian"] },
+    { "id": "mythic", "zh": "神话原型 · 其他", "en": "Mythic archetypes", "members": ["mesopotamian", "mythic"] }
+  ],
   "relationshipTypes": [
     "affinity",
     "complement",

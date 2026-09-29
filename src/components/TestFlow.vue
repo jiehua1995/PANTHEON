@@ -42,7 +42,7 @@ function choose(optionId: string): void {
 }
 
 function finish(): void {
-  const result = computeResult(store.answers)
+  const result = computeResult(store.answers, store.scopeId || null)
   commitResult(result)
   store.reading = true
   emit('done')
@@ -87,6 +87,9 @@ onBeforeUnmount(() => removeEventListener('keydown', onKey))
 </script>
 
 <template>
+  <p v-if="store.scopeId" class="mb-4 text-center text-[0.82rem] muted">
+    测试范围：{{ pantheonData.metadata.pantheons.find((p) => p.id === store.scopeId)?.zh }}
+  </p>
   <!-- 幕间：给自己一个停顿，而不是直接跳进下一题 -->
   <section
     v-if="phase === 'act' && pendingAct"

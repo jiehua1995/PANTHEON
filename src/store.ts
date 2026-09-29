@@ -3,6 +3,7 @@ import type { Answer, PantheonResult } from './schema/types'
 
 const PROGRESS_KEY = 'pantheon.progress.v1'
 const HISTORY_KEY = 'pantheon.history.v1'
+const SCOPE_KEY = 'pantheon.scope.v1'
 
 export interface HistoryEntry {
   at: number
@@ -15,6 +16,8 @@ export const store = reactive({
   result: null as PantheonResult | null,
   history: [] as HistoryEntry[],
   reading: false,
+  /** 用户选的神系范围（metadata.pantheons 的 id）；空字符串 = 全部 */
+  scopeId: '' as string,
 })
 
 function read<T>(key: string, fallback: T): T {
@@ -31,6 +34,12 @@ export function initStore(): void {
   store.answers = progress.answers
   store.index = Math.min(progress.index, progress.answers.length)
   store.history = read<HistoryEntry[]>(HISTORY_KEY, [])
+  store.scopeId = read<string>(SCOPE_KEY, '')
+}
+
+export function setScope(scopeId: string): void {
+  store.scopeId = scopeId
+  localStorage.setItem(SCOPE_KEY, JSON.stringify(scopeId))
 }
 
 export function saveProgress(): void {

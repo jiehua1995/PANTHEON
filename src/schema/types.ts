@@ -126,6 +126,7 @@ export interface Metadata {
   }
   profiles: ProfileId[]
   categories: Deity['category'][]
+  pantheons: { id: string; zh: string; en: string; members: string[] }[]
   relationshipTypes: RelationshipType[]
   signatureLevels: SignatureLevel[]
   acts: { id: ActId; numeral: string; zh: string; en: string; line: string }[]
@@ -248,6 +249,8 @@ export type AwakeningState = 'dormant' | 'awakened' | 'overawakened' | 'fallen'
 
 export interface PantheonResult {
   versions: Metadata['versions']
+  /** 用户选择的神系范围；null = 全部万神殿 */
+  scope: { id: string; zh: string } | null
   hash: number
   vectors: ProfileVectors
   primary: DeityMatch
