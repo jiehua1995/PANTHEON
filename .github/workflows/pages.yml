@@ -29,6 +29,9 @@ jobs:
       # 静态站点直接构建到 site/，由下面的 artifact 上传
       - run: npm run build
       - uses: actions/configure-pages@v5
+        with:
+          # 首次运行时自动把仓库的 Pages 源切换为 GitHub Actions，省掉手工设置
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
